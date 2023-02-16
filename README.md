@@ -1,6 +1,6 @@
 
 <p align="left">
-  <img src="Logos/humanIT.004.png" width="400" title="hover text">
+  <img src="Logos/humanIT.005.png" width="300" title="hover text">
 </p>
 # 
 
