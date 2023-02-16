@@ -19,7 +19,7 @@ Our mission is to empower businesses to achieve their goals through technology. 
 
 
 ## Our Corporate Image
-In this section we present the logo and corporate images of our consulting compamy HumanIT.
+In this section we present the logo and corporate image of our consulting compamy HumanIT.
 
 <p align="center">
   <img src="Logos/humanIT.002.png" width="800" title="hover text">
