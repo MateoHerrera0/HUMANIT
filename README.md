@@ -1,5 +1,5 @@
 
-<p align="center">
+<p align="left">
   <img src="Logos/humanIT.004.png" width="400" title="hover text">
 </p>
 # 
