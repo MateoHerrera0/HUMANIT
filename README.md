@@ -2,7 +2,7 @@
 <p align="left">
   <img src="Logos/humanIT.005.png" width="300" title="hover text">
 </p>
-# 
+_________________________________________________________________________________________________________________________________________________________________________
 
 ## Our Vision
 At HumanIT consulting company, our vision is to be a trusted partner for businesses seeking to navigate the ever-evolving technological landscape. We strive to help organizations leverage technology to improve their efficiency, productivity, and profitability. Our goal is to become the go-to source for software solutions that deliver tangible and succesfull outcomes. We focus on building long-term relationships with our clients by understanding their unique challenges, and providing customized software solutions that meet their specific needs. We are committed to staying at the forefront of the latest trends and technologies in the software industry, so that we can provide our clients with the most innovative and effective solutions possible. 
