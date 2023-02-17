@@ -16,7 +16,7 @@ Our mission is to empower businesses to achieve their goals through technology. 
 
 ## Our Values
 <p align="justify"> 
-At Human-IT.
+At Human-IT we care about people, we look for our clients' and consultants' best interest through teamwork, consistency, transparency and effective communication. We value respect, diversity and inclusivity as we believe those are the key components for the foundation of innovative solutions. We strive to be a trusted partner by guaranteeing transparency, efficiency, open communication and commitment.
 </p>
 
 ## Our Corporate Image
