@@ -20,15 +20,18 @@ At Human-IT we care about people, we look for our clients' and consultants' best
 </p>
 
 ## Know our Team!
-<li> 
-Project Manager
-</li>
-<li> 
-Developers:
-  <li> 
-  Security Team:
+<ul> 
+  <li> Project Manager: </li>
+  <li> Developing Teams:
+    <ul>
+      <li> Security Team: 
+        <ul>
+          <li> Mateo Herrera Lavalle </li>
+        </ul>
+      </li>
+    </ul>
   </li>
-</li>
+</ul>
 
 ## Our Corporate Image
 In this section we present the logo and corporate image of our consulting compamy HumanIT.
