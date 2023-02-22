@@ -54,6 +54,7 @@ At Human-IT we care about people, we look for our clients' and consultants' best
         <ul>
           <li> Karla Mondragón </li>
           <li> Regina Rodriguez </li>
+          <li> Salvador Milanés
         </ul>
       </li>
     </ul>
