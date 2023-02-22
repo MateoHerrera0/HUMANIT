@@ -50,6 +50,12 @@ At Human-IT we care about people, we look for our clients' and consultants' best
           <li> Mateo Herrera </li>
         </ul>
       </li>
+      <li> Testing and Validation Team: 
+        <ul>
+          <li> Karla Mondragón </li>
+          <li> Regina Rodriguez </li>
+        </ul>
+      </li>
     </ul>
   </li>
 </ul>
