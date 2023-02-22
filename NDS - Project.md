@@ -9,8 +9,8 @@
 <h1 align="center"> Digitization of the Acquisition of a Motor Vehicle </h1>
 
 ## Description and Scope of the Project 
-<p align="justify"> 
-The complete digitalization of the acquisition process of new and pre-owned vehicles through a web application
+<p align="center"> 
+The complete digitalization of the acquisition process of new and pre-owned vehicles through a web application.
 </p>
   
 ## Our Vision
