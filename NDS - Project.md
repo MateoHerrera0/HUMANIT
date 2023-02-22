@@ -13,17 +13,17 @@
 The complete digitalization of the acquisition process of new vehicles through a web application.
 </p>
   
-## Our Vision
+## Project Vision
 <p align="justify"> 
 Our vision is to radically transform the automobile market sector. With this project we are aiming to set a new standard for the car-buying experience by combining cutting-edge technology and industry knowledge to offer a completely digital and stress-free procedure for purchasing cars. Buyers will have access to all of the information and resources they need to make informed selections and feel secure in their purchase thanks to our platform. We aim to create a trusted community of buyers and sellers where transactions can be completed fully online, removing the problems and inconveniences associated with traditional car purchases.
 </p>
   
-## Our Mission
+## Project Mission
 <p align="justify"> 
 Our mission is to make the process of purchasing a car easier and more convenient by making it entirely digital. We work hard to establish a trustworthy, open, and transparent platform that enables customers to make wise choices based on solid information and professional advice. By making it simple and convenient for users to browse inventory, contrast pricing, and execute transactions fully online, we aim to drastically simplify the current tedious and extensive car-buying process. We are dedicated to giving customers easy access to top-notch new cars through approved agencies and car selling entities in our platform.
 </p>
 
-## Our Values
+## Values
 <p align="justify"> 
 Throughout the implementation and release of this platform we are dedicated to sustaining a set of values that direct our objective to make purchasing used and second-hand cars a fully digital and hassle-free experience for our customers. These values consist of the following:
 </p>
