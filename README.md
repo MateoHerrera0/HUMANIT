@@ -21,12 +21,26 @@ At Human-IT we care about people, we look for our clients' and consultants' best
 
 ## Know our Team!
 <ul> 
-  <li> Project Manager: </li>
+  <li> Project Manager: Karla Mondragón </li>
   <li> Developing Teams:
     <ul>
       <li> Security Team: 
         <ul>
           <li> Mateo Herrera Lavalle </li>
+          <li> Andreína Sanánez </li>
+        </ul>
+      </li>
+      <li> Frontend Designer: Regina Rodríguez </li>
+      <li> Frontend Development Team: 
+        <ul>
+          <li> Regina Rodríguez </li>
+          <li> Karla Mondragón </li>
+        </ul>
+      </li>
+      <li> Backend Team: 
+        <ul>
+          <li> Andreína Sanánez </li>
+          <li> Salvador Milanés </li>
         </ul>
       </li>
     </ul>
