@@ -43,7 +43,7 @@ Throughout the implementation and release of this platform we are dedicated to s
   <li> <b>Improve User Experience:</b> By the end of June 2023, with the release of the platform we seek to cut the time it takes a user to finish a car purchase on the platform in half by speeding the checkout process and improving the user interface. </li> <br>
   <li> <b>Improve Customer Service:</b> By mid April of 2023, install a chatbot that can offer 24/7 help and cut response times to customer enquiries in half. This will enhance customer service on the platform. </li> <br>
   <li> <b>Increase Payment Options:</b> By the end of May 2023, seek new payment gateways and accept more payment types to expand the number of payment alternatives available to clients on the platform. </li> <br>
-  <li> <b>Increase Search Engine Ranking:</b> By the end of May 2023, use search engine optimization (SEO) best practices to raise the platform's search engine ranking for important industry-specific keywords. </li> <br>
+  <li> <b>Increase Search Engine Ranking:</b> By the end of May 2023, use search engine optimization best practices to raise the platform's search engine ranking for important industry-specific keywords. </li> <br>
   <li> <b>Enhance Platform Security:</b> To prevent data breaches and ensure consumer privacy, enhance platform security by adding authentication and authorization verification and boosting data encryption by the end of April 2023. </li> <br>
   <li> <b>Deploy Predictive Analytics:</b> Use predictive analytics by the end of June 2023 to evaluate customer data and deliver individualized automobile suggestions, leading to an increase in customer satisfaction and repeat purchases. </li> <br>
 </ol>
