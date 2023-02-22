@@ -49,45 +49,41 @@ Throughout the implementation and release of this platform we are dedicated to s
 </ol>
 
 ## Know our Team!
-<ul> 
-  <li> Project Manager: Karla Mondragón </li>
-  <li> Developing Teams:
-    <ul>
-      <li> Security Team: 
-        <ul>
-          <li> Mateo Herrera Lavalle </li>
-          <li> Andreína Sanánez </li>
-        </ul>
-      </li>
-      <li> Frontend Designer: Regina Rodríguez </li>
-      <li> Frontend Development Team: 
-        <ul>
-          <li> Regina Rodríguez </li>
-          <li> Karla Mondragón </li>
-          <li> Salvador Milanés </li>
-        </ul>
-      </li>
-      <li> Backend Team: 
-        <ul>
-          <li> Andreína Sanánez </li>
-          <li> Salvador Milanés </li>
-        </ul>
-      </li>
-      <li> Database Design and Development Team: 
-        <ul>
-          <li> Karla Mondragón </li>
-          <li> Regina Rodriguez </li>
-          <li> Mateo Herrera </li>
-        </ul>
-      </li>
-      <li> Testing and Validation Team: 
-        <ul>
-          <li> Karla Mondragón </li>
-          <li> Regina Rodriguez </li>
-          <li> Mateo herrera </li>
-          <li> Salvador Milanés </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
+
+<div align="center">
+    <img src="https://rotulosmatesanz.com/wp-content/uploads/2017/09/2000px-Google_G_Logo.svg_.png" alt="Logo" width="80" height="80">
+    <h3 align="center">Karla Valeria Mondragón Rosas</h3>
+    <p align="center"><i>Project Manager & Database Developer & Tester</i></p>
+</div>
+
+<br>
+
+<div align="center">
+    <img src="https://rotulosmatesanz.com/wp-content/uploads/2017/09/2000px-Google_G_Logo.svg_.png" alt="Logo" width="80" height="80">
+    <h3 align="center">Mateo Herrera Lavalle</h3>
+    <p align="center"><i>Security Consultant & Database Developer & Tester</i></p>
+</div>
+
+<br>
+
+<div align="center">
+    <img src="https://rotulosmatesanz.com/wp-content/uploads/2017/09/2000px-Google_G_Logo.svg_.png" alt="Logo" width="80" height="80">
+    <h3 align="center">Andreina Isabel Sananez Rico</h3>
+    <p align="center"><i>Security Consultant & Backend Developer</i></p>
+</div>
+
+<br>
+
+<div align="center">
+    <img src="https://rotulosmatesanz.com/wp-content/uploads/2017/09/2000px-Google_G_Logo.svg_.png" alt="Logo" width="80" height="80">
+    <h3 align="center">Regina Rodríguez Sánchez & Tester</h3>
+    <p align="center"><i>Ui/Ux Designer & Front-End Developer & Tester</i></p>
+</div>
+
+<br>
+
+<div align="center">
+    <img src="https://rotulosmatesanz.com/wp-content/uploads/2017/09/2000px-Google_G_Logo.svg_.png" alt="Logo" width="80" height="80">
+    <h3 align="center">Salvador Federico Milanés Braniff</h3>
+    <p align="center"><i>Back/Front-End Developer & Tester</i></p>
+</div>
