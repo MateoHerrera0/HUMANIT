@@ -6,7 +6,7 @@
 </p>
 <hr/>
 
-<h1> Digitization of the Acquisition of a Motor Vehicle
+<h1 align="center"> Digitization of the Acquisition of a Motor Vehicle
 
 ## Description and Scope of the Project 
 <p align="justify"> 
