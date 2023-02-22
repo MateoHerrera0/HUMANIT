@@ -10,7 +10,7 @@
 
 ## Description and Scope of the Project 
 <p align="center"> 
-The complete digitalization of the acquisition process of new and pre-owned vehicles through a web application.
+The complete digitalization of the acquisition process of new vehicles through a web application.
 </p>
   
 ## Our Vision
