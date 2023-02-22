@@ -1,8 +1,8 @@
 <p align="left">
-  <img src="Logos/humanIT.005.png" width="300">
+  <img src="Logos/humanIT.005.png" width="300" title="hover text">
 </p>
 <p align="right">
-  <img src="Logos/NDS.svg" width="300">
+  <img src="Logos/NDS.svg" width="300" title="hover text">
 </p>
 <hr/>
 
