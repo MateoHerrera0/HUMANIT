@@ -47,3 +47,47 @@ Throughout the implementation and release of this platform we are dedicated to s
   <li> <b>Enhance Platform Security:</b> To prevent data breaches and ensure consumer privacy, enhance platform security by adding authentication and authorization verification and boosting data encryption by the end of April 2023. </li> <br>
   <li> <b>Deploy Predictive Analytics:</b> Use predictive analytics by the end of June 2023 to evaluate customer data and deliver individualized automobile suggestions, leading to an increase in customer satisfaction and repeat purchases. </li> <br>
 </ol>
+
+## Know our Team!
+<ul> 
+  <li> Project Manager: Karla Mondragón </li>
+  <li> Developing Teams:
+    <ul>
+      <li> Security Team: 
+        <ul>
+          <li> Mateo Herrera Lavalle </li>
+          <li> Andreína Sanánez </li>
+        </ul>
+      </li>
+      <li> Frontend Designer: Regina Rodríguez </li>
+      <li> Frontend Development Team: 
+        <ul>
+          <li> Regina Rodríguez </li>
+          <li> Karla Mondragón </li>
+          <li> Salvador Milanés </li>
+        </ul>
+      </li>
+      <li> Backend Team: 
+        <ul>
+          <li> Andreína Sanánez </li>
+          <li> Salvador Milanés </li>
+        </ul>
+      </li>
+      <li> Database Design and Development Team: 
+        <ul>
+          <li> Karla Mondragón </li>
+          <li> Regina Rodriguez </li>
+          <li> Mateo Herrera </li>
+        </ul>
+      </li>
+      <li> Testing and Validation Team: 
+        <ul>
+          <li> Karla Mondragón </li>
+          <li> Regina Rodriguez </li>
+          <li> Mateo herrera </li>
+          <li> Salvador Milanés </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
