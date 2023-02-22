@@ -21,7 +21,13 @@ At Human-IT we care about people, we look for our clients' and consultants' best
 
 ## Know our Team!
 <li> 
-hola
+Project Manager
+</li>
+<li> 
+Developers:
+  <li> 
+  Security Team:
+  </li>
 </li>
 
 ## Our Corporate Image
