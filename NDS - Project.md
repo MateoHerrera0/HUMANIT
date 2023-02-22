@@ -12,5 +12,9 @@ The complete digitalization of the acquisition process of new and pre-owned vehi
 
 ## Objectives
 <ol>
-  <li> hola </hola>
+  <li> objetivo SMART 1 </hola>
+  <li> objetivo SMART 2 </hola>
+  <li> objetivo SMART 3 </hola>
+  <li> objetivo SMART 4 </hola>
+  <li> objetivo SMART 5 </hola>
 </ol>
