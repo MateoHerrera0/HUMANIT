@@ -5,7 +5,7 @@
 
 # Digitization of the Acquisition of a Motor Vehicle
 
-## Objetive
+## Project Objective 
 <p align="justify"> 
 The complete digitalization of the acquisition process of new and pre-owned vehicles through a web application
 </p>
