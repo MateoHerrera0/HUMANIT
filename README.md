@@ -43,6 +43,13 @@ At Human-IT we care about people, we look for our clients' and consultants' best
           <li> Salvador Milanés </li>
         </ul>
       </li>
+      <li> Database Design and Development Team: 
+        <ul>
+          <li> Karla Mondragón </li>
+          <li> Regina Rodriguez </li>
+          <li> Mateo Herrera </li>
+        </ul>
+      </li>
     </ul>
   </li>
 </ul>
