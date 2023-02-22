@@ -35,6 +35,7 @@ At Human-IT we care about people, we look for our clients' and consultants' best
         <ul>
           <li> Regina Rodríguez </li>
           <li> Karla Mondragón </li>
+          <li> Salvador Milanés </li>
         </ul>
       </li>
       <li> Backend Team: 
@@ -55,6 +56,7 @@ At Human-IT we care about people, we look for our clients' and consultants' best
           <li> Karla Mondragón </li>
           <li> Regina Rodriguez </li>
           <li> Mateo herrera </li>
+          <li> Salvador Milanés </li>
         </ul>
       </li>
     </ul>
