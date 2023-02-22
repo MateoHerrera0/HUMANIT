@@ -6,11 +6,9 @@
 </p>
 <hr/>
 
-# Digitization of the Acquisition of a Motor Vehicle
+<h1> Digitization of the Acquisition of a Motor Vehicle
 
-<p align="center"> 
-  ## Description and Scope of the Project 
-</p>
+## Description and Scope of the Project 
 <p align="justify"> 
 The complete digitalization of the acquisition process of new and pre-owned vehicles through a web application
 </p>
