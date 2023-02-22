@@ -22,39 +22,10 @@ At Human-IT we care about people, we look for our clients' and consultants' best
 ## Know our Team!
 <ul> 
   <li> Karla Mondragón </li>
-          <li> Mateo Herrera Lavalle </li>
-          <li> Andreína Sanánez </li>
-      <li> Frontend Designer: Regina Rodríguez </li>
-      <li> Frontend Development Team: 
-        <ul>
-          <li> Regina Rodríguez </li>
-          <li> Karla Mondragón </li>
-          <li> Salvador Milanés </li>
-        </ul>
-      </li>
-      <li> Backend Team: 
-        <ul>
-          <li> Andreína Sanánez </li>
-          <li> Salvador Milanés </li>
-        </ul>
-      </li>
-      <li> Database Design and Development Team: 
-        <ul>
-          <li> Karla Mondragón </li>
-          <li> Regina Rodriguez </li>
-          <li> Mateo Herrera </li>
-        </ul>
-      </li>
-      <li> Testing and Validation Team: 
-        <ul>
-          <li> Karla Mondragón </li>
-          <li> Regina Rodriguez </li>
-          <li> Mateo herrera </li>
-          <li> Salvador Milanés </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
+  <li> Mateo Herrera Lavalle </li>
+  <li> Andreína Sanánez </li>
+  <li> Regina Rodríguez </li>
+  <li> Salvador Milanés </li>
 </ul>
 
 ## Our Corporate Image
