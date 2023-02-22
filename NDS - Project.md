@@ -23,6 +23,20 @@ Our organization has a vision to radically transform the automobile market secto
 Our mission is to make the process of purchasing a used car easier and more convenient by making it entirely digital. We work hard to establish a trustworthy, open, and transparent platform that enables customers to make wise choices based on solid information and professional advice. By making it simple and convenient for users to browse inventory, contrast pricing, and execute transactions fully online, we aim to drastically simplify the current tedious and extensive car-buying process. We are dedicated to giving customers easy access to top-notch new and used cars that through the approved agencies and car selling entities in our platform. To ensure a smooth buying experience for our customers, we strive to provide great customer service and convenient financial choices.
 </p>
 
+## Our Values
+<p align="justify"> 
+Throughout the implementation and release of this platform we are dedicated to sustaining a set of values that direct our objective to make purchasing used and second-hand cars a fully digital and hassle-free experience for our customers. These values consist of the following:
+</p>
+
+* <b>Transparency:</b> We believe in communicating with our customers in an open and honest manner regarding the automobiles we sell and the services we offer. We are dedicated to delivering honest and dependable information to assist our consumers in making sound decisions.
+
+* <b>Trust:</b> We strive to earn our clients' trust by supplying high-quality vehicles whose third party vendors have been properly vetted and approved for registration on our platform. We are devoted to offering great customer service and creating a flawless shopping experience for our consumers.
+
+* <b>Accountability:</b> We believe in taking responsibility of our work and being accountable for our actions. We hold ourselves and our team members to high standards of quality and seek to improve our processes on a constant basis.
+
+* <b>Integrity:</b> We believe in being honest and ethical in all of our interactions with customers, partners, and team members. We are devoted to preserving ethical standards and retaining our stakeholders' trust.
+
+* <b>Adaptability:</b> In the face of changing circumstances, we believe in being adaptive and flexible. We are dedicated to remaining current with industry trends and leveraging new technology in order to develop our platform and better serve our customers.
 
 ## SMART Objectives
 <ol>
