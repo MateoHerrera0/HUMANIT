@@ -21,7 +21,7 @@ At Human-IT we care about people, we look for our clients' and consultants' best
 
 ## Know our Team!
 <li> 
-<ol> hola
+hola
 </li>
 
 ## Our Corporate Image
