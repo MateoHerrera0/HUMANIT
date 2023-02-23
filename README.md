@@ -19,17 +19,13 @@ Our mission is to empower businesses to achieve their goals through technology. 
 At Human-IT we care about people, we look for our clients' and consultants' best interest through teamwork, consistency, transparency and effective communication. We value respect, diversity and inclusivity as we believe those are the key components for the foundation of innovative solutions. We strive to be a trusted partner by guaranteeing transparency, efficiency, open communication and commitment.
 </p>
 
-## Know our Team!
-<ul> 
-  <li> Karla Mondragón </li>
-  <li> Mateo Herrera Lavalle </li>
-  <li> Andreína Sanánez </li>
-  <li> Regina Rodríguez </li>
-  <li> Salvador Milanés </li>
-</ul>
-
 ## Our Corporate Image
 In this section we present the logo and corporate image of our consulting compamy HumanIT.
+
+
+<p align="center">
+  <img src="Logos/humanIT.002.png" width="800" title="hover text">
+</p>
 
 <p align="center">
   <img src="Logos/NDS.svg" width="300" title="hover text">
@@ -116,8 +112,3 @@ Throughout the implementation and release of this platform we are dedicated to s
     <h3 align="center">Salvador Federico Milanés Braniff</h3>
     <p align="center"><i>Back/Front-End Developer & Tester</i></p>
 </div>
-
-
-<p align="center">
-  <img src="Logos/humanIT.002.png" width="800" title="hover text">
-</p>
