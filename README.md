@@ -27,11 +27,12 @@ In this section we present the logo and corporate image of our consulting compam
   <img src="Logos/humanIT.002.png" width="800" title="hover text">
 </p>
 
+<h1 align="center"> Digitization of the Acquisition of a Motor Vehicle </h1>
+
 <p align="center">
   <img src="Logos/NDS.svg" width="300" title="hover text">
 </p>
 
-<h1 align="center"> Digitization of the Acquisition of a Motor Vehicle </h1>
 
 ## Description and Scope of the Project 
 <p align="center"> 
