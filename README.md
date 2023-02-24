@@ -22,11 +22,13 @@ At Human-IT we care about people, we look for our clients' and consultants' best
 ## Our Corporate Image
 In this section we present the logo and corporate image of our consulting compamy HumanIT.
 
-
 <p align="center">
   <img src="Logos/humanIT.002.png" width="800" title="hover text">
 </p>
 
+<p>
+</p>
+ 
 <h1 align="center"> Digitization of the Acquisition of a Motor Vehicle </h1>
 
 <p align="center">
