@@ -26,27 +26,27 @@ Requirements Specification
 <h1 align="center"> Software Requirements Specification
 
 # Índice
-1. Introducción
+1. [Introducción](#1-introducción)
         
-    1.1. Propósito
+    1.1. [Propósito](#11-propósito)
 
-    1.2. Enfoque y Alcance
+    1.2. [Enfoque y Alcance](#12-enfoque-y-alcances)
 
-    1.3. Objetivos SMART
+    1.3. [Objetivos SMART](#13-objetivos-smart)
 
-2. Requerimientos
+2. [Requerimientos](#2-requerimientos)
 
-    2.1. Requerimientos Funcionales
+    2.1. [Requerimientos Funcionales](#21-requerimientos-funcionales)
 
-    2.2. Requerimientos No Funcionales
+    2.2. [Requerimientos No Funcionales](#22-requerimientos-no-funcionales)
 
-    2.3. Restricciones
+    2.3. [Restricciones](#23-restricciones)
 
-3. Architecture 
+3. [Arquitectura](#3-arquitectura) 
 
-    3.1. Architecure Diagram
+    3.1. [Diagrama de Arquitectura](#31-diagrama-de-arquitectura)
     
-    3.2. Technological Stack
+    3.2. [Technological Stack](#32-stack-tecnológico)
 
 # 1. Introducción 
 <p align="justify"> El objetivo de este documento es recopilar, analizar y brindar una visión profunda de la aplicación web para NDS Cognitive Labs, definiendo el problema y la solución en detalle. El documento también concentra las capacidades requeridas por todos los stakeholders y sus necesidades definiendo las características del producto.
@@ -86,6 +86,6 @@ Requirements Specification
 ## 2.2. Requerimientos No Funcionales
 ## 2.3. Restricciones
 
-# 3. Architecture 
-## 3.1. Architecure Diagram
-## 3.2. Technological Stack
+# 3. Arquitectura
+## 3.1. Diagrama de Arquitectura
+## 3.2. Stack Tecnológico
