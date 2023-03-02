@@ -25,6 +25,29 @@ Requirements Specification
 
 <h1 align="center"> Software Requirements Specification
 
+# Índice
+1. Introducción
+        
+    1.1. Propósito
+
+    1.2. Enfoque y Alcance
+
+    1.3. Objetivos SMART
+
+2. Requerimientos
+
+    2.1. Requerimientos Funcionales
+
+    2.2. Requerimientos No Funcionales
+
+    2.3. Restricciones
+
+3. Architecture 
+
+    3.1. Architecure Diagram
+    
+    3.2. Technological Stack
+
 # 1. Introducción 
 <p align="justify"> El objetivo de este documento es recopilar, analizar y brindar una visión profunda de la aplicación web para NDS Cognitive Labs, definiendo el problema y la solución en detalle. El documento también concentra las capacidades requeridas por todos los stakeholders y sus necesidades definiendo las características del producto.
 
@@ -57,3 +80,12 @@ Requirements Specification
 4. _Aumentar el posicionamiento en los motores de búsqueda:_ para fines de mayo de 2023, se utilizarán mejores prácticas de optimización de motores de búsqueda para aumentar el ranking de la plataforma.
 5. _Mejorar la seguridad de la plataforma:_ para evitar violaciones de datos y garantizar la privacidad del consumidor, se agregara autenticación y la verificación de autorización y se incluirá el cifrado de datos para fines de abril de 2023. 
 6. _Implemente análisis predictivos:_ uso de análisis predictivo para fines de junio de 2023 con el objetivo de estudiar los datos de los clientes y ofrecer sugerencias de automóviles individuales, lo que lleva a un aumento en la satisfacción del cliente.
+
+# 2. Requerimientos 
+## 2.1. Requerimientos Funcionales
+## 2.2. Requerimientos No Funcionales
+## 2.3. Restricciones
+
+# 3. Architecture 
+## 3.1. Architecure Diagram
+## 3.2. Technological Stack
