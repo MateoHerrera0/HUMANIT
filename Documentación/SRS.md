@@ -89,3 +89,110 @@ Requirements Specification
 # 3. Arquitectura
 ## 3.1. Diagrama de Arquitectura
 ## 3.2. Stack Tecnológico
+1. Software Development IDE
+
+_Visual Studio Code:_
+* Gratuito - Open Source.
+* Los programadores cuentan con conocimiento y experiencia previa.
+* Compatible con diversos OS.
+* Gran compatibilidad con extensiones/plugins de herramientas externas.
+* Intuitivo de utilizar.
+
+2. Database
+
+_MySQL Community Edition (Almacenamiento de Cuentas):_
+* Gratuito - GPL Licence.
+* Los programadores cuentan con conocimiento y experiencia previa.
+* Compatible con diversos OS - compatible con Windows. 
+* Cuenta con capas de seguridad.
+* Estructura relacional -  bueno para almacenar relaciones como aquellas en los diferentes tipos de cuentas definidas para la plataforma.
+* Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
+
+_MongoDB (Almacenamiento de catálogo e información de la compra):_
+* Gratuito.
+* Los programadores cuentan con conocimiento y experiencia previa.
+* Compatible con diversos OS - compatible con Windows. 
+* Fácil instalación e implementación. 
+* Altamente flexible y escalable.
+* Tolera grandes volúmenes de datos.
+* Estructura no relacional - bueno para manejar muchas read-write operations como lo son búsquedas, filtrado e información referente a la compra del auto.
+* Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
+
+3. Dev. Environments
+
+_NodeJS (Application Layer):_
+* Gratuito - Open Source.
+* Los programadores cuentan con conocimiento y experiencia previa.
+* Compatibilidad cross-platform - gran compatibilidad con React.
+* Facilita el desarrollo del backend en JavaScript.
+* Particularmente rápido y escalable al estar construido sobre Chrome V8 Engine.
+* Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
+
+4. Frameworks
+
+_Express:_
+* Gratuito - Open Source.
+* Framework derivado de NodeJS y por ende compatible.
+* Los programadores cuentan con conocimiento y experiencia previa.
+* Provee un conjunto de herramientas que facilitan la creación del backend/API con NodeJS.
+* Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
+
+5. Front-end Development Libraries
+
+_React (JavaScript):_
+* Gratuito - Open Source
+* Los programadores cuentan con conocimiento y experiencia previa.
+* Permite programación por componentes haciendo fácil reutilización y mantenimiento de código para la implementación de la funcionalidad y renderizado del front-end.
+* Utiliza virtual DOM lo cual aumenta su rendimiento al permitir que cierta información se maneje y esté disponible “client-side”.
+* Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
+
+6. Cascading Style Libraries
+
+_Bootstrap:_
+* Gratuito.
+* Los programadores cuentan con conocimiento y experiencia previa.
+* Opera en base a un “Grid System” con elementos pre-desarrollados que ahorran tiempo y esfuerzo al momento de realizar el estilo.
+* A comparación de otras opciones que dan más libertad, con Bootstrap es sumamente rápido el desarrollo del UI.
+* Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
+
+7. Cloud Service
+
+_AWS - Academy Trial:_
+* Se cuenta con 100 USD de crédito por cada integrante (2,000 USD).
+* Los programadores cuentan con conocimiento y experiencia previa.
+* Altamente escalable y confiable.
+* Ofrece un amplio rango de herramientas y servicios.
+* Proporciona un alto nivel de seguridad necesaria para la documentación legal y otra información confidencial manejada en la compra de un auto.
+
+8. Payment Gateway Integration
+
+_Stripe:_
+* Comisión de 2.9% + 30 centavos por cada transacción.
+* API fácil y rápida de utilizar/integrar con otra plataforma.
+* Soporta una amplia variedad de monedas y métodos de pago.
+* Proporciona un sistema seguro de pago.
+* Cuenta con servicio al cliente 24/7 ya sea vía teléfono, email o live chat.
+* Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
+
+9. Source Control
+
+_GitHub:_
+* Gratuito.
+* Todos los programadores han utilizado y conocen extensamente la herramienta.
+* Permite repositorios ilimitados - lo cual da versatilidad a la organización que se tome para la realización del proyecto.
+* Permite administrar de forma sencilla y organizada controlar la colaboración, actualizaciones y cambios que se realicen al proyecto por parte de todos los miembros del equipo.
+* Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
+
+10. Browsers
+* Firefox
+* Chrome
+* Safari
+* Edge
+
+11. Operating Systems
+* Windows 
+
+
+
+
+
