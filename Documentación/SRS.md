@@ -82,9 +82,19 @@ Requirements Specification
 6. _Implemente análisis predictivos:_ uso de análisis predictivo para fines de junio de 2023 con el objetivo de estudiar los datos de los clientes y ofrecer sugerencias de automóviles individuales, lo que lleva a un aumento en la satisfacción del cliente.
 
 # 2. Requerimientos 
-## 2.1. Requerimientos Funcionales
-## 2.2. Requerimientos No Funcionales
-## 2.3. Restricciones
+## 2.1. WBS
+| WBS - Proyecto NDS                                                                                                         |
+| -------------------------------------------------------------------------------------------------------------------------- |
+| Project Definition                                                                                                         | Project Development | Validation | Deployment |
+| 1\. Scope<br>1.1. Requirement Definition<br>1.1.1. Functional<br>1.1.2. Non-Functional<br>1.2. System Map<br>1.3. Epics    | All | 1\. Project Initialization<br>1.1. Set up working env<br>1.2. Install Dependencies<br>1.3. Configure Source Control<br><br><br> | <br>K & S<br>K & S<br>K & S<br><br><br> | 1\. Beta Testing<br>1.1. Unit Test<br>1.2. Integral Test<br>1.3. White Box Testing<br>1.4. Black Box Testing<br>1.5. General Pentesting Round | <br>K & R & S<br>K & R & S<br>K & R & S & M<br>K & R<br>K & M<br> | 1\. Feedback | All |
+| 2\. Design<br>2.1. Tech Stack Definition<br>2.2. Architecture Diagram<br>2.3. User Stories<br>2.4. Process Diagram<br><br> | <br><br><br><br><br><br><br>All<br> | 2\. Backend<br>2.1. Payment Implementation<br>2.2. Design data structures<br>2.3. API Creation<br>2.3.1. End-points design<br>2.3.2. Database Connection<br>2.4. Hooks for account creation<br>2.5. Hooks for data visualisation<br>2.6. Roles implementation<br>2.6.1. Hierarchy Implementation<br>2.6.2. Access Restriction<br>2.6.3. Principle of Least Privilege and filtering<br>2.7. Front-end Connection<br><br><br><br> | <br>A & S & K<br>A & S<br>A & S & M<br><br><br>A & S<br>A & S<br>A & S & K & M<br><br><br><br><br><br>A & S & K & R<br><br><br><br> |  |  | 2\. Debugging | All |
+| 3\. Documentation<br>3.1. Budgeting<br>3.2. SRS<br><br><br>                                                                | <br>All<br>K<br><br><br> | 3\. Frontend<br>3.1. Wireframe design<br>3.2. App Mock-up<br>3.3. React Implementation<br>3.4. Views for roles<br>3.5. Local Asset Sourcing | <br>R<br>R & K<br>M& K & S & R<br>R & K & S<br>R & K |  |  | 3\. Cloud Deployment | M & S |
+|                                                                                                                            |  | 4\. Database<br>4.1. Database Design<br>4.1.1. Class Diagram<br>4.1.2. Entity-Relation Diagram<br>4.2. Database Programming<br>4.3. Database Implementation | <br>K & R<br>K & R & M<br>K & R & M |  |  | 4\. Product Deployment | R & S |
+|                                                                                                                            |  | 5\. Security<br>5.1. Web Traffic Encryption<br>5.2. User Credentials Encryption<br>5.3. Implementation of JWS Tokens<br>5.4. Implementation of Google OAuth<br>5.5. Endpoint authorization and authentication<br>5.6. Database data encryption<br>5.7. Data Integrity Protection<br>5.8. Permision Restriction in Database<br>5.9. Database Backup Implementation<br><br><br><br><br><br> | <br>A & M<br>A & M<br><br>A & M<br><br>A & M<br><br>A & M<br><br>A & M<br><br>A & M<br>A & M<br><br>K & A & M<br><br><br><br><br><br> |  |  |  |  |
+
+## 2.2. Requerimientos Funcionales
+## 2.3. Requerimientos No Funcionales
+## 2.4. Restricciones
 
 # 3. Arquitectura
 ## 3.1. Diagrama de Arquitectura
