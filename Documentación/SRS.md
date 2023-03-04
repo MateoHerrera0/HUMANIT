@@ -84,7 +84,7 @@ Requirements Specification
 # 2. Requerimientos 
 ## 2.1. WBS
 1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/WBS%20-%20V1.pdf
-<img src="WBS - V1.jpg" width="300" title="hover text">
+<img src="WBS - V1.jpg" width="500" title="hover text">
 
 ## 2.2. Requerimientos Funcionales
 ## 2.3. Requerimientos No Funcionales
