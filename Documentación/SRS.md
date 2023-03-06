@@ -196,6 +196,13 @@ _GitHub:_
 11. Operating Systems
 * Windows 
 
+  
+### Diagrama del Tech Stack
+A continuacin se encuentra la visualización gráfica del Tech Stack de la solución
+Link al diagrama: https://www.figma.com/file/yLADWuGigqfuYnZxik1LG7/Tech-Stack-Diagram-(Copy)?node-id=0%3A1&t=aLeCQBq4z7graTVD-1
+<p align="center">
+  <img src="TechStackChart.png" width="600" title="hover text">
+</p>
 
 
 
