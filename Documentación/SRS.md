@@ -89,12 +89,18 @@ Requirements Specification
 | BD o DB    | Base de Datos o Database|   
 | AWS        | Amazon Web Services, colección de servicios de computación en la nube pública que en conjunto forman una plataforma de computación en la nube, ofrecidas a través de Internet por Amazon.com|  
 
-# 2. Requerimientos 
-## 2.1. WBS
+## 1.5. WBS
 1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/WBS%20-%20V1.pdf
 <img src="WBS - V1.jpg" width="500" title="hover text">
 
-## 2.2. Requerimientos Funcionales
+# 2. Descripción General
+## 2.1. Clases de Usuarios y Características
+## 2.2. Entorno Operativo
+## 2.3. Restricciones
+## 2.4. Suposiciones y Dependencias
+
+# 3. Características del Sistema
+## 3.1. Requerimientos Funcionales
 ### _**Homepage**_
 1. La plataforma le permite al usuario ingresar a una página de inicio para que pueda seleccionar su siguiente acción.
 2. La plataforma le permite al usuario realizar una búsqueda: <br>
@@ -129,8 +135,7 @@ _La aplicación brinda una vista en la cuenta de administrador donde puede visua
 ### _**Admins**_
 ### _**Seguridad**_
 
-## 2.3. Requerimientos No Funcionales
-## 2.4. Restricciones
+## 3.2. Requerimientos No Funcionales
 
 # 3. Arquitectura
 ## 3.1. Diagrama de Arquitectura
