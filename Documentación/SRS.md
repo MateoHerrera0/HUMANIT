@@ -91,8 +91,87 @@ Requirements Specification
 
 # 2. Requerimientos 
 ## 2.1. WBS
-1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/WBS%20-%20V1.pdf
-<img src="WBS - V1.jpg" width="500" title="hover text">
+1. Versión 1: 
+<table cellspacing="0" cellpadding="0">
+        <thead>
+            <tr>
+                <th colspan="2">Project Definition</th>
+                <th class="s2" dir="ltr" colspan="2">Project Development</th>
+                <th class="s3" dir="ltr" colspan="2">Validation</th>
+                <th class="s4" dir="ltr" colspan="2">Deployment</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1. Scope<br> 1.1. Requirement Definition<br> 1.1.1. Functional<br> 1.1.2.
+                    Non-Functional<br> 1.2. System Map<br> 1.3. Epics</td>
+                <td>All</td>
+                <td>1. Project Initialization <br> 1.1. Set up working env<br> 1.2. Install
+                    Dependencies<br> 1.3. Configure Source Control<br><br><br></td>
+                <td class="s7" dir="ltr"><br>K &amp; S<br>K &amp; S<br>K &amp; S<br><br><br></td>
+                <td>1. Beta Testing<br> 1.1. Unit Test<br> 1.2. Integral Test<br> 1.3. White Box
+                    Testing<br> 1.4. Black Box Testing<br> 1.5. General Pentesting Round</td>
+                <td><br>K &amp; R &amp; S<br>K &amp; R &amp; S<br>K &amp; R &amp; S &amp; M<br>K
+                    &amp; R<br>K &amp; M<br></td>
+                <td>1. Feedback</td>
+                <td>All</td>
+            </tr>
+            <tr>
+                <td class="s5" dir="ltr">2. Design<br> 2.1. Tech Stack Definition<br> 2.2. Architecture Diagram<br> 2.3.
+                    User Stories<br> 2.4. Process Diagram<br><br></td>
+                <td class="s6" dir="ltr"><br><br><br><br><br><br><br>All<br></td>
+                <td class="s11" dir="ltr">2. Backend<br> 2.1. Payment Implementation<br> 2.2. Design data structures<br>
+                    2.3. API Creation<br> 2.3.1. End-points design<br> 2.3.2. Database Connection<br> 2.4. Hooks for
+                    account creation <br> 2.5. Hooks for data visualisation<br> 2.6. Roles implementation <br> 2.6.1.
+                    Hierarchy Implementation<br> 2.6.2. Access Restriction <br> 2.6.3. Principle of Least Privilege and
+                    filtering<br> 2.7. Front-end Connection<br><br><br><br></td>
+                <td class="s7" dir="ltr"><br>A &amp; S &amp; K<br>A &amp; S<br>A &amp; S &amp; M<br><br><br>A &amp;
+                    S<br>A &amp; S<br>A &amp; S &amp; K &amp; M<br><br><br><br><br><br>A &amp; S &amp; K &amp;
+                    R<br><br><br><br></td>
+                <td></td>
+                <td class="s12"></td>
+                <td class="s10" dir="ltr">2. Debugging</td>
+                <td class="s10" dir="ltr">All</td>
+            </tr>
+            <tr style="height: 20px">
+                <td class="s5" dir="ltr">3. Documentation<br> 3.1. Budgeting<br> 3.2. SRS<br><br><br></td>
+                <td class="s6" dir="ltr"><br>All<br>K<br><br><br></td>
+                <td class="s7" dir="ltr">3. Frontend<br> 3.1. Wireframe design<br> 3.2. App Mock-up<br> 3.3. React
+                    Implementation<br> 3.4. Views for roles<br> 3.5. Local Asset Sourcing </td>
+                <td class="s7" dir="ltr"><br>R<br>R &amp; K<br>M&amp; K &amp; S &amp; R<br>R &amp; K &amp; S<br>R &amp;
+                    K</td>
+                <td></td>
+                <td class="s12"></td>
+                <td class="s10" dir="ltr">3. Cloud Deployment</td>
+                <td class="s10" dir="ltr">M &amp; S</td>
+            </tr>
+            <tr style="height: 20px">
+                <td class="s13"></td>
+                <td class="s7" dir="ltr">4. Database<br> 4.1. Database Design<br> 4.1.1. Class Diagram<br> 4.1.2.
+                    Entity-Relation Diagram<br> 4.2. Database Programming<br> 4.3. Database Implementation</td>
+                <td class="s7" dir="ltr"><br>K &amp; R<br>K &amp; R &amp; M<br>K &amp; R &amp; M</td>
+                <td></td>
+                <td class="s12"></td>
+                <td class="s10" dir="ltr">4. Product Deployment</td>
+                <td class="s10" dir="ltr">R &amp; S</td>
+            </tr>
+            <tr style="height: 20px">
+                <td class="s13"></td>
+                <td class="s11" dir="ltr">5. Security <br> 5.1. Web Traffic Encryption <br> 5.2. User Credentials
+                    Encryption<br> 5.3. Implementation of JWS Tokens<br> 5.4. Implementation of Google OAuth<br> 5.5.
+                    Endpoint authorization and authentication<br> 5.6. Database data encryption<br> 5.7. Data Integrity
+                    Protection<br> 5.8. Permision Restriction in Database<br> 5.9. Database Backup
+                    Implementation<br><br><br><br><br><br></td>
+                <td class="s7" dir="ltr"><br>A &amp; M<br>A &amp; M<br><br>A &amp; M<br><br>A &amp; M<br><br>A &amp;
+                    M<br><br>A &amp; M<br><br>A &amp; M<br>A &amp; M<br><br>K &amp; A &amp; M<br><br><br><br><br><br>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
 
 ## 2.2. Requerimientos Funcionales
 ## 2.3. Requerimientos No Funcionales
