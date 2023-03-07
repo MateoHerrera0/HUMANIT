@@ -135,17 +135,17 @@ _La aplicación brinda una vista en la cuenta de administrador donde puede visua
 ### _**Admins**_
 ### _**Seguridad**_
 
-## 2.3. Requerimientos No Funcionales
-## 2.4. Restricciones
-## 2.5. Diagrama de Procesos
+## 3.2. Requerimientos No Funcionales
+
+## 3.3. Diagrama de Procesos
 Versión 1: https://lucid.app/lucidchart/f537bb12-606e-4b78-aa77-da29f215a0ba/edit?viewport_loc=49%2C-44%2C5353%2C2575%2C3B0CRSot8otI&invitationId=inv_fc08b46c-fb27-4142-98ad-536a40099759
   
 <div align="center">
     <img src="flowChart.png" width="1000" title="hover text">
 </div> 
 
-# 3. Arquitectura
-## 3.1. Diagrama de Arquitectura
+# 4. Arquitectura
+## 4.1. Diagrama de Arquitectura
 1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/Architecture%20Diagram.drawio.png
 <div align="center">
     <img src="Architecture Diagram.drawio.png" width="500" title="hover text">
@@ -172,7 +172,7 @@ Componentes:
 17. IAM: Servicios de autorización y autenticación configurables dentro de AWS.
   
   
-## 3.2. Stack Tecnológico
+## 4.2. Stack Tecnológico
 1. Software Development IDE
 
 _Visual Studio Code:_
