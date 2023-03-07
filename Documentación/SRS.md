@@ -93,7 +93,9 @@ Requirements Specification
 # 3. Arquitectura
 ## 3.1. Diagrama de Arquitectura
 1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/Architecture%20Diagram.drawio.png
-<img src="Architecture Diagram.drawio.png" width="500" title="hover text">
+<div align="center">
+    <img src="Architecture Diagram.drawio.png" width="500" title="hover text">
+</div> 
   
 Componentes:
 
