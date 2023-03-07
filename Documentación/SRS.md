@@ -131,6 +131,10 @@ _La aplicación brinda una vista en la cuenta de administrador donde puede visua
 
 ## 2.3. Requerimientos No Funcionales
 ## 2.4. Restricciones
+## 2.5. Diagrama de Procesos
+<div align="center">
+    <img src="Architecture Diagram.drawio.png" width="500" title="hover text">
+</div> 
 
 # 3. Arquitectura
 ## 3.1. Diagrama de Arquitectura
