@@ -121,11 +121,10 @@ Requirements Specification
 * Puede acceder a la información de los grupos, agencias, ventas, catálogos y vehículos, al igual que a la información del comportamiento de la plataforma. 
 * Tiene una cuenta y un perfil.
 
-## 2.2. Entorno Operativo
-## 2.3. Restricciones
-1. Solamente se aceptan grupos automotrices y agencias como participantes en la plataforma, no individuos. 
-2. Uso de Cloud requerido, SaaS. 
+## 2.2. Ambiente de Desarrollo
+La aplicación se desarrolló en los sistemas operativos de Windows 11 y MacOS Big Sur. 
 
+<<<<<<< Updated upstream
 ## 2.4. Suposiciones y Dependencias
 -------------------------------------------------------------
 # 3. Características del Sistema
@@ -184,6 +183,9 @@ Versión 1: https://lucid.app/lucidchart/f537bb12-606e-4b78-aa77-da29f215a0ba/ed
 
 # 4. Arquitectura
 ## 4.1. Diagrama de Arquitectura
+=======
+### 2.2.1. Diagrama de Arquitectura
+>>>>>>> Stashed changes
 1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/Architecture%20Diagram.drawio.png
 <div align="center">
     <img src="Architecture Diagram.drawio.png" width="500" title="hover text">
@@ -208,9 +210,8 @@ Componentes:
 15. S3 Bucket for ECD & DB backup: Bucket para almacenamiento de copias de seguridad de instancias EC2 y bases de datos.
 16. CloudWatch: Servicio de monitor cloud de AWS.
 17. IAM: Servicios de autorización y autenticación configurables dentro de AWS.
-  
-  
-## 4.2. Stack Tecnológico
+
+### 2.2.2. Stack Tecnológico 
 1. Software Development IDE
 
 _Visual Studio Code:_
@@ -311,17 +312,64 @@ _GitHub:_
 * Safari
 * Edge
 
-11. Operating Systems
-* Windows 
-
-  
-### Diagrama del Tech Stack
+### 2.2.3. Diagrama del Tech Stack
 A continuación se encuentra la visualización gráfica del Tech Stack de la solución. <br>
 Link al diagrama: https://www.figma.com/file/yLADWuGigqfuYnZxik1LG7/Tech-Stack-Diagram-(Copy)?node-id=0%3A1&t=aLeCQBq4z7graTVD-1
 <p align="center">
   <img src="TechStackChart.png" width="600" title="hover text">
 </p>
 
+## 2.3. Restricciones
+1. Solamente se aceptan grupos automotrices y agencias como participantes en la plataforma, no individuos. 
+2. Uso de Cloud requerido, SaaS. 
+
+## 2.4. Suposiciones y Dependencias
+-------------------------------------------------------------
+# 3. Características del Sistema
+## 3.1. Requerimientos Funcionales
+### _**Homepage**_
+1. La plataforma le permite al usuario ingresar a una página de inicio para que pueda seleccionar su siguiente acción.
+2. La plataforma le permite al usuario realizar una búsqueda: <br>
+M - Búsqueda con filtros dentro del catálogo <br>
+S - Búsqueda tipo Wizard <br>
+C - Búsqueda con lenguaje natural 
+
+### _**Catálogo de Autos**_
+3. **Creación del Catálogo** <br>
+3.1. Registrar un Carro <br>
+La plataforma le permite a un administrador con permisos correctos registrar un auto y sus características. <br>
+_La aplicación me brinda la opción de registrar un nuevo automóvil directamente._ <br>
+_La aplicación guarda la nueva información que estoy ingresando en el catálogo._ <br>
+3.2. Asignar Metadatos <br>
+Guardar tiempo, fecha y usuario que lo subió. <br>
+_La aplicación guarda la información del usuario que crea un elemento en el catálogo._ <br>
+4. **Edición del Catálogo** <br>
+4.1. Modificar un Auto <br>
+La plataforma le permite al usuario con los permisos correctos modificar información de un auto existente. <br>
+_La aplicación brinda una vista en la cuenta de administrador donde puede visualizar los autos de su catalogo y modificar los datos que lo describen._ <br> 
+_La aplicación debe de actualizar la base de datos correspondiente a la eliminación._ <br>
+_La aplicación debe de mostrar el catalogo actualizado._ <br>
+4.2. Eliminar un Auto <br>
+La plataforma le permite a un usuario con permisos correctos eliminar un auto del catálogo. <br>
+_La aplicación brinda una vista en la cuenta de administrador donde puede visualizar los autos de su catalogo y eliminarlo._ <br>
+2. La aplicación debe de actualizar la base de datos correspondiente a la eliminación.
+3. La aplicación debe de mostrar el catalogo actualizado.
+5. **Recuperación de Catálogo**
+### _**Venta de Autos**_
+### _**Cuentas**_
+### _**Servicio al Cliente**_
+### _**Admins**_
+### _**Seguridad**_
+
+## 3.2. Requerimientos No Funcionales
+
+## 3.3. Diagrama de Procesos
+Versión 1: https://lucid.app/lucidchart/f537bb12-606e-4b78-aa77-da29f215a0ba/edit?viewport_loc=49%2C-44%2C5353%2C2575%2C3B0CRSot8otI&invitationId=inv_fc08b46c-fb27-4142-98ad-536a40099759
+  
+<div align="center">
+    <img src="flowChart.png" width="1000" title="hover text">
+</div> 
+  
 
 
 
