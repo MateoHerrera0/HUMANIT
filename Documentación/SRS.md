@@ -124,7 +124,6 @@ Requirements Specification
 ## 2.2. Ambiente de Desarrollo
 La aplicación se desarrolló en los sistemas operativos de Windows 11 y MacOS Big Sur. 
 
-<<<<<<< Updated upstream
 ## 2.4. Suposiciones y Dependencias
 -------------------------------------------------------------
 # 3. Características del Sistema
@@ -183,9 +182,7 @@ Versión 1: https://lucid.app/lucidchart/f537bb12-606e-4b78-aa77-da29f215a0ba/ed
 
 # 4. Arquitectura
 ## 4.1. Diagrama de Arquitectura
-=======
 ### 2.2.1. Diagrama de Arquitectura
->>>>>>> Stashed changes
 1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/Architecture%20Diagram.drawio.png
 <div align="center">
     <img src="Architecture Diagram.drawio.png" width="500" title="hover text">
