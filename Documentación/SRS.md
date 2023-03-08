@@ -172,6 +172,15 @@ Versión 1: https://lucid.app/lucidchart/f537bb12-606e-4b78-aa77-da29f215a0ba/ed
 <div align="center">
     <img src="flowChart.png" width="1000" title="hover text">
 </div> 
+<div align="center">
+    <img src="flowChart2.png" width="1000" title="hover text">
+</div> 
+<div align="center">
+    <img src="flowChart3.png" width="1000" title="hover text">
+</div> 
+<div align="center">
+    <img src="flowChart4.png" width="1000" title="hover text">
+</div> 
 
 # 4. Arquitectura
 ## 4.1. Diagrama de Arquitectura
