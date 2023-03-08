@@ -42,7 +42,7 @@ Requirements Specification
 
     2.1. [Clases de Usuarios y Características](#21-clases-de-usuarios-y-características)
 
-    2.2. [Ambiente de Desarrllo](#22-ambiente-de-desarrollo)
+    2.2. [Ambiente de Desarrollo](#22-ambiente-de-desarrollo)
 
     2.2.1. [Diagrama de Arquitectura](#221-diagrama-de-arquitectura)
 
@@ -324,6 +324,14 @@ Versión 1: https://lucid.app/lucidchart/f537bb12-606e-4b78-aa77-da29f215a0ba/ed
 <div align="center">
     <img src="flowChart.png" width="1000" title="hover text">
 </div> 
+
+# 4. Modelo de Datos
+## 4.1. Diagramas de Casos de Uso
+## 4.2. Diagrama Entidad-Relación 
+
+# 5. Interfaces
+## 5.1. Diagrama de Procesos 
+## 5.2. Wireframe 
   
 
 
