@@ -14,7 +14,7 @@ Requirements Specification
 | -------------   |:-------------:| :----------- |
 | 26/02/2023      | 0.1           | Creation of document SRS|                          
 | 01/03/2023      | 0.2           | Doc in Markdown|      
-|                 |               |              |      
+| 07/03/2023      | 0.3           |              |      
 
 <h2 align="center"> Authors
 <h3 align="center"> Andreína Sanánez
@@ -120,10 +120,14 @@ Requirements Specification
 * Usuario con mayor número de privilegios, su acceso y permisos son gestionados por NDS y los desarrolladores. Es el responsable de gestionar a los usuarios grupo automotriz. 
 * Puede acceder a la información de los grupos, agencias, ventas, catálogos y vehículos, al igual que a la información del comportamiento de la plataforma. 
 * Tiene una cuenta y un perfil.
+
 ## 2.2. Entorno Operativo
 ## 2.3. Restricciones
-## 2.4. Suposiciones y Dependencias
+1. Solamente se aceptan grupos automotrices y agencias como participantes en la plataforma, no individuos. 
+2. Uso de Cloud requerido, SaaS. 
 
+## 2.4. Suposiciones y Dependencias
+-------------------------------------------------------------
 # 3. Características del Sistema
 ## 3.1. Requerimientos Funcionales
 ### _**Homepage**_
