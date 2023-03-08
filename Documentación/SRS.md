@@ -124,64 +124,6 @@ Requirements Specification
 ## 2.2. Ambiente de Desarrollo
 La aplicación se desarrolló en los sistemas operativos de Windows 11 y MacOS Big Sur. 
 
-## 2.4. Suposiciones y Dependencias
--------------------------------------------------------------
-# 3. Características del Sistema
-## 3.1. Requerimientos Funcionales
-### _**Homepage**_
-1. La plataforma le permite al usuario ingresar a una página de inicio para que pueda seleccionar su siguiente acción.
-2. La plataforma le permite al usuario realizar una búsqueda: <br>
-M - Búsqueda con filtros dentro del catálogo <br>
-S - Búsqueda tipo Wizard <br>
-C - Búsqueda con lenguaje natural 
-
-### _**Catálogo de Autos**_
-3. **Creación del Catálogo** <br>
-3.1. Registrar un Carro <br>
-La plataforma le permite a un administrador con permisos correctos registrar un auto y sus características. <br>
-_La aplicación me brinda la opción de registrar un nuevo automóvil directamente._ <br>
-_La aplicación guarda la nueva información que estoy ingresando en el catálogo._ <br>
-3.2. Asignar Metadatos <br>
-Guardar tiempo, fecha y usuario que lo subió. <br>
-_La aplicación guarda la información del usuario que crea un elemento en el catálogo._ <br>
-4. **Edición del Catálogo** <br>
-4.1. Modificar un Auto <br>
-La plataforma le permite al usuario con los permisos correctos modificar información de un auto existente. <br>
-_La aplicación brinda una vista en la cuenta de administrador donde puede visualizar los autos de su catalogo y modificar los datos que lo describen._ <br> 
-_La aplicación debe de actualizar la base de datos correspondiente a la eliminación._ <br>
-_La aplicación debe de mostrar el catalogo actualizado._ <br>
-4.2. Eliminar un Auto <br>
-La plataforma le permite a un usuario con permisos correctos eliminar un auto del catálogo. <br>
-_La aplicación brinda una vista en la cuenta de administrador donde puede visualizar los autos de su catalogo y eliminarlo._ <br>
-2. La aplicación debe de actualizar la base de datos correspondiente a la eliminación.
-3. La aplicación debe de mostrar el catalogo actualizado.
-5. **Recuperación de Catálogo**
-### _**Venta de Autos**_
-### _**Cuentas**_
-### _**Servicio al Cliente**_
-### _**Admins**_
-### _**Seguridad**_
-
-## 3.2. Requerimientos No Funcionales
-
-## 3.3. Diagrama de Procesos
-Versión 1: https://lucid.app/lucidchart/f537bb12-606e-4b78-aa77-da29f215a0ba/edit?viewport_loc=49%2C-44%2C5353%2C2575%2C3B0CRSot8otI&invitationId=inv_fc08b46c-fb27-4142-98ad-536a40099759
-  
-<div align="center">
-    <img src="flowChart.png" width="1000" title="hover text">
-</div> 
-<div align="center">
-    <img src="flowChart2.png" width="1000" title="hover text">
-</div> 
-<div align="center">
-    <img src="flowChart3.png" width="1000" title="hover text">
-</div> 
-<div align="center">
-    <img src="flowChart4.png" width="1000" title="hover text">
-</div> 
-
-# 4. Arquitectura
-## 4.1. Diagrama de Arquitectura
 ### 2.2.1. Diagrama de Arquitectura
 1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/Architecture%20Diagram.drawio.png
 <div align="center">
