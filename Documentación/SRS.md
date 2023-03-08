@@ -286,15 +286,16 @@ Link al diagrama: https://www.figma.com/file/yLADWuGigqfuYnZxik1LG7/Tech-Stack-D
 
 ## 3.2. Requerimientos No Funcionales
 
-## 3.3. Diagrama de Procesos
+## 3.3. Diagramas de Casos de Uso
+
+# 4. Modelo de Datos
+## 4.1. Diagrama de Procesos
 Versión 1: https://lucid.app/lucidchart/f537bb12-606e-4b78-aa77-da29f215a0ba/edit?viewport_loc=49%2C-44%2C5353%2C2575%2C3B0CRSot8otI&invitationId=inv_fc08b46c-fb27-4142-98ad-536a40099759
   
 <div align="center">
     <img src="flowChart.png" width="1000" title="hover text">
 </div> 
 
-# 4. Modelo de Datos
-## 4.1. Diagramas de Casos de Uso
 ## 4.2. Diagrama Entidad-Relación 
 
 # 5. Interfaces
