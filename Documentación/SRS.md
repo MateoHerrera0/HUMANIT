@@ -103,6 +103,7 @@ Requirements Specification
 | API        | Application Programming Interface, conjunto de definiciones y protocolos que se usa para diseñar e integrar el software de las aplicaciones|      
 | BD o DB    | Base de Datos o Database|   
 | AWS        | Amazon Web Services, colección de servicios de computación en la nube pública que en conjunto forman una plataforma de computación en la nube, ofrecidas a través de Internet por Amazon.com|  
+| Stack Tecnológico | Ecosistema tecnológico, conjunto de lineamientos, servicios y softwares que componen un aplicación |
 
 ## 1.5. WBS
 1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/WBS%20-%20V1.pdf
@@ -282,39 +283,6 @@ Link al diagrama: https://www.figma.com/file/yLADWuGigqfuYnZxik1LG7/Tech-Stack-D
 
 # 3. Características del Sistema
 ## 3.1. Requerimientos Funcionales
-### _**Homepage**_
-1. La plataforma le permite al usuario ingresar a una página de inicio para que pueda seleccionar su siguiente acción.
-2. La plataforma le permite al usuario realizar una búsqueda: <br>
-M - Búsqueda con filtros dentro del catálogo <br>
-S - Búsqueda tipo Wizard <br>
-C - Búsqueda con lenguaje natural 
-
-### _**Catálogo de Autos**_
-3. **Creación del Catálogo** <br>
-3.1. Registrar un Carro <br>
-La plataforma le permite a un administrador con permisos correctos registrar un auto y sus características. <br>
-_La aplicación me brinda la opción de registrar un nuevo automóvil directamente._ <br>
-_La aplicación guarda la nueva información que estoy ingresando en el catálogo._ <br>
-3.2. Asignar Metadatos <br>
-Guardar tiempo, fecha y usuario que lo subió. <br>
-_La aplicación guarda la información del usuario que crea un elemento en el catálogo._ <br>
-4. **Edición del Catálogo** <br>
-4.1. Modificar un Auto <br>
-La plataforma le permite al usuario con los permisos correctos modificar información de un auto existente. <br>
-_La aplicación brinda una vista en la cuenta de administrador donde puede visualizar los autos de su catalogo y modificar los datos que lo describen._ <br> 
-_La aplicación debe de actualizar la base de datos correspondiente a la eliminación._ <br>
-_La aplicación debe de mostrar el catalogo actualizado._ <br>
-4.2. Eliminar un Auto <br>
-La plataforma le permite a un usuario con permisos correctos eliminar un auto del catálogo. <br>
-_La aplicación brinda una vista en la cuenta de administrador donde puede visualizar los autos de su catalogo y eliminarlo._ <br>
-2. La aplicación debe de actualizar la base de datos correspondiente a la eliminación.
-3. La aplicación debe de mostrar el catalogo actualizado.
-5. **Recuperación de Catálogo**
-### _**Venta de Autos**_
-### _**Cuentas**_
-### _**Servicio al Cliente**_
-### _**Admins**_
-### _**Seguridad**_
 
 ## 3.2. Requerimientos No Funcionales
 
