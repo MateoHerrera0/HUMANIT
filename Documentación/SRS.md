@@ -8,13 +8,13 @@
 <h2 align="center"> Software 
 Requirements Specification
 
-<h2 align="center"> Versión 2.0
+<h2 align="center"> Versión 0.3
 
-| Date            | Version       | Description  |  
-| -------------   |:-------------:| :----------- |
-| 26/02/2023      | 0.1           | Creation of document SRS|                          
-| 01/03/2023      | 0.2           | Doc in Markdown|      
-| 07/03/2023      | 0.3           |              |      
+| Date           | Version       | Description  |  
+| -------------  |:-------------:| :----------- |
+| 26/02/2023     | 0.1           | Creación del Doc SRS|                          
+| 01/03/2023     | 0.2           | Doc en Markdown|      
+| 07/03/2023     | 0.3           | Avance Significativo|      
 
 <h2 align="center"> Authors
 <h3 align="center"> Andreína Sanánez
@@ -34,19 +34,34 @@ Requirements Specification
 
     1.3. [Objetivos SMART](#13-objetivos-smart)
 
-2. [Requerimientos](#2-requerimientos)
+    1.4. [Definiciones, Acrónimos y Abreviaciones](#14-definiciones-acrónimos-y-abreviaciones)
 
-    2.1. [Requerimientos Funcionales](#21-requerimientos-funcionales)
+    1.5. [WBS](#15-wbs)
 
-    2.2. [Requerimientos No Funcionales](#22-requerimientos-no-funcionales)
+2. [Descripción General](#2-descripción-general)
+
+    2.1. [Clases de Usuarios y Características](#21-clases-de-usuarios-y-características)
+
+    2.2. [Ambiente de Desarrllo](#22-ambiente-de-desarrollo)
+
+    2.2.1. [Diagrama de Arquitectura](#221-diagrama-de-arquitectura)
+
+    2.2.2. [Stack Tecnológico](#222-stack-tecnológico)
+
+    2.2.3. [Diagrama del Tech Stack](#223-diagrama-del-tech-stack)
 
     2.3. [Restricciones](#23-restricciones)
 
-3. [Arquitectura](#3-arquitectura) 
+    2.4. [Suposiciones y Dependencias](#24-suposiciones-y-dependencias)
 
-    3.1. [Diagrama de Arquitectura](#31-diagrama-de-arquitectura)
-    
-    3.2. [Technological Stack](#32-stack-tecnológico)
+3. [Características del Sistema](#3-características-del-sistema)
+
+    3.1. [Requerimientos Funcionales](#31-requerimientos-funcionales)
+
+    3.2. [Requerimientos No Funcionales](#32-requerimientos-no-funcionales)
+
+    3.3. [Diagrama de Procesos](#33-diagrama-de-procesos)
+
 
 # 1. Introducción 
 <p align="justify"> El objetivo de este documento es recopilar, analizar y brindar una visión profunda de la aplicación web para NDS Cognitive Labs, definiendo el problema y la solución en detalle. El documento también concentra las capacidades requeridas por todos los stakeholders y sus necesidades definiendo las características del producto.
@@ -261,9 +276,10 @@ Link al diagrama: https://www.figma.com/file/yLADWuGigqfuYnZxik1LG7/Tech-Stack-D
 ## 2.3. Restricciones
 1. Solamente se aceptan grupos automotrices y agencias como participantes en la plataforma, no individuos. 
 2. Uso de Cloud requerido, SaaS. 
+3. HumanIT Consulting no proveera mantenimiento a la aplicación.
 
 ## 2.4. Suposiciones y Dependencias
--------------------------------------------------------------
+
 # 3. Características del Sistema
 ## 3.1. Requerimientos Funcionales
 ### _**Homepage**_
