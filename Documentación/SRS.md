@@ -8,13 +8,13 @@
 <h2 align="center"> Software 
 Requirements Specification
 
-<h2 align="center"> Versión 2.0
+<h2 align="center"> Versión 0.3
 
-| Date            | Version       | Description  |  
-| -------------   |:-------------:| :----------- |
-| 26/02/2023      | 0.1           | Creation of document SRS|                          
-| 01/03/2023      | 0.2           | Doc in Markdown|      
-|                 |               |              |      
+| Date           | Version       | Description  |  
+| -------------  |:-------------:| :----------- |
+| 26/02/2023     | 0.1           | Creación del Doc SRS|                          
+| 01/03/2023     | 0.2           | Doc en Markdown|      
+| 07/03/2023     | 0.3           | Avance Significativo|      
 
 <h2 align="center"> Authors
 <h3 align="center"> Andreína Sanánez
@@ -34,19 +34,34 @@ Requirements Specification
 
     1.3. [Objetivos SMART](#13-objetivos-smart)
 
-2. [Requerimientos](#2-requerimientos)
+    1.4. [Definiciones, Acrónimos y Abreviaciones](#14-definiciones-acrónimos-y-abreviaciones)
 
-    2.1. [Requerimientos Funcionales](#21-requerimientos-funcionales)
+    1.5. [WBS](#15-wbs)
 
-    2.2. [Requerimientos No Funcionales](#22-requerimientos-no-funcionales)
+2. [Descripción General](#2-descripción-general)
+
+    2.1. [Clases de Usuarios y Características](#21-clases-de-usuarios-y-características)
+
+    2.2. [Ambiente de Desarrollo](#22-ambiente-de-desarrollo)
+
+    2.2.1. [Diagrama de Arquitectura](#221-diagrama-de-arquitectura)
+
+    2.2.2. [Stack Tecnológico](#222-stack-tecnológico)
+
+    2.2.3. [Diagrama del Tech Stack](#223-diagrama-del-tech-stack)
 
     2.3. [Restricciones](#23-restricciones)
 
-3. [Arquitectura](#3-arquitectura) 
+    2.4. [Suposiciones y Dependencias](#24-suposiciones-y-dependencias)
 
-    3.1. [Diagrama de Arquitectura](#31-diagrama-de-arquitectura)
-    
-    3.2. [Technological Stack](#32-stack-tecnológico)
+3. [Características del Sistema](#3-características-del-sistema)
+
+    3.1. [Requerimientos Funcionales](#31-requerimientos-funcionales)
+
+    3.2. [Requerimientos No Funcionales](#32-requerimientos-no-funcionales)
+
+    3.3. [Diagrama de Procesos](#33-diagrama-de-procesos)
+
 
 # 1. Introducción 
 <p align="justify"> El objetivo de este documento es recopilar, analizar y brindar una visión profunda de la aplicación web para NDS Cognitive Labs, definiendo el problema y la solución en detalle. El documento también concentra las capacidades requeridas por todos los stakeholders y sus necesidades definiendo las características del producto.
@@ -88,6 +103,7 @@ Requirements Specification
 | API        | Application Programming Interface, conjunto de definiciones y protocolos que se usa para diseñar e integrar el software de las aplicaciones|      
 | BD o DB    | Base de Datos o Database|   
 | AWS        | Amazon Web Services, colección de servicios de computación en la nube pública que en conjunto forman una plataforma de computación en la nube, ofrecidas a través de Internet por Amazon.com|  
+| Stack Tecnológico | Ecosistema tecnológico, conjunto de lineamientos, servicios y softwares que componen un aplicación |
 
 # 2. Requerimientos 
 ## 2.1. WBS
@@ -983,6 +999,43 @@ Requirements Specification
 
 # 3. Arquitectura
 ## 3.1. Diagrama de Arquitectura
+=======
+## 1.5. WBS
+1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/WBS%20-%20V1.pdf
+<img src="WBS - V1.jpg" width="500" title="hover text">
+
+# 2. Descripción General
+## 2.1. Clases de Usuarios y Características
+1. _Usuario Comprador_ <br>
+* Usuario que usa la plataforma con el propósito de adquirir un vehículo. 
+* No tiene ningún permiso de tipo administrador como todos los demás usuarios.
+* Tiene una cuenta, perfil y la posibilidad de realizar una transacción monetaria.
+2. _Usuario Vendedor_
+* Primer usuario de tipo administrador, tiene el menor número de privilegios; solamente se le permite acceder a su información y a la de sus clientes.
+* Tiene una cuenta y un perfil.
+* Sus permisos y accesos son asignados por un usuario gerente o agencia.  
+3. _Usuario Gerente_
+* Usuario administrador, sus permisos y acceso es gestionado por el usuario agencia.
+* Se le permite acceder a la información de sus vendedores y los clientes de su sucursal correspondiente. 
+* Tiene una cuenta y un perfil.
+4. _Usuario Agencia_
+* Usuario administrador, sus permisos y acceso es gestionado por el usuario grupo automotriz. Gestiona al usuario gerente y junto con el, se gestionan los usuarios vendedores. 
+* Se le permite acceder a la información de sus gerentes, vendedores, vehículos y los clientes de la agencia. Dentro de los usuarios de la agencia, es el que más privilegios tiene. 
+* Tiene una cuenta y un perfil.
+5. _Usuario Grupo Automotriz_
+* Usuario administrador, sus permisos y acceso es gestionado por el usuario super-administrador.
+* Se le permite acceder a la información de todas las agencias bajo su supervisión, sus catálogos y vehículos, gerentes y vendedores. 
+* Gestiona que sucursales serán parte de la plataforma en conjunto con el usuario super-administrador. 
+* Tiene una cuenta y un perfil.
+6. _Usuario Super-Administrador_  
+* Usuario con mayor número de privilegios, su acceso y permisos son gestionados por NDS y los desarrolladores. Es el responsable de gestionar a los usuarios grupo automotriz. 
+* Puede acceder a la información de los grupos, agencias, ventas, catálogos y vehículos, al igual que a la información del comportamiento de la plataforma. 
+* Tiene una cuenta y un perfil.
+
+## 2.2. Ambiente de Desarrollo
+La aplicación se desarrolló en los sistemas operativos de Windows 11 y MacOS Big Sur. 
+
+### 2.2.1. Diagrama de Arquitectura
 1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/Architecture%20Diagram.drawio.png
 <div align="center">
     <img src="Architecture Diagram.drawio.png" width="500" title="hover text">
@@ -1007,9 +1060,8 @@ Componentes:
 15. S3 Bucket for ECD & DB backup: Bucket para almacenamiento de copias de seguridad de instancias EC2 y bases de datos.
 16. CloudWatch: Servicio de monitor cloud de AWS.
 17. IAM: Servicios de autorización y autenticación configurables dentro de AWS.
-  
-  
-## 3.2. Stack Tecnológico
+
+### 2.2.2. Stack Tecnológico 
 1. Software Development IDE
 
 _Visual Studio Code:_
@@ -1110,13 +1162,37 @@ _GitHub:_
 * Safari
 * Edge
 
-11. Operating Systems
-* Windows 
-
-  
-### Diagrama del Tech Stack
+### 2.2.3. Diagrama del Tech Stack
 A continuación se encuentra la visualización gráfica del Tech Stack de la solución. <br>
 Link al diagrama: https://www.figma.com/file/yLADWuGigqfuYnZxik1LG7/Tech-Stack-Diagram-(Copy)?node-id=0%3A1&t=aLeCQBq4z7graTVD-1
 <p align="center">
   <img src="TechStackChart.png" width="600" title="hover text">
 </p>
+
+## 2.3. Restricciones
+1. Solamente se aceptan grupos automotrices y agencias como participantes en la plataforma, no individuos. 
+2. Uso de Cloud requerido, SaaS. 
+3. HumanIT Consulting no proveera mantenimiento a la aplicación.
+
+## 2.4. Suposiciones y Dependencias
+
+# 3. Características del Sistema
+## 3.1. Requerimientos Funcionales
+
+## 3.2. Requerimientos No Funcionales
+
+## 3.3. Diagramas de Casos de Uso
+
+# 4. Modelo de Datos
+## 4.1. Diagrama de Procesos
+Versión 1: https://lucid.app/lucidchart/f537bb12-606e-4b78-aa77-da29f215a0ba/edit?viewport_loc=49%2C-44%2C5353%2C2575%2C3B0CRSot8otI&invitationId=inv_fc08b46c-fb27-4142-98ad-536a40099759
+  
+<div align="center">
+    <img src="flowChart.png" width="1000" title="hover text">
+</div> 
+
+## 4.2. Diagrama Entidad-Relación 
+
+# 5. Interfaces
+## 5.1. Diagrama de Procesos 
+## 5.2. Wireframe 
