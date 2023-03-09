@@ -279,7 +279,17 @@ Link al diagrama: https://www.figma.com/file/yLADWuGigqfuYnZxik1LG7/Tech-Stack-D
 3. HumanIT Consulting no proveera mantenimiento a la aplicación.
 
 ## 2.4. Suposiciones y Dependencias
-
+1. Suposiciones
+  <ul>
+    <li>El usuario utilizará la plataforma en un dispositivo digital como: una computadora, una tablet, un dispositivo movil.</li>
+    <li>Se utilizará un Tech Stack open-source; que no representa un gasto. Si se incluyen componentes o herramientas con costo, se dejan a manera de propuesta tentativa para el Project Owner, estipulando una cotizacion estimada clara.</li>
+  </ul>
+2. Dependencias
+  <ul>
+    <li> Preparación adecuada del Working Environment: Correcta instalación y configuración de los componentes del Tech-stack.</li>
+    <li> Importación de los componentes de desarrollo para front-end y back-end dentro de la jerarquía del proyecto.
+  </ul>
+  
 # 3. Características del Sistema
 ## 3.1. Requerimientos Funcionales
 Versión 1:
