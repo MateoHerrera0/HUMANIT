@@ -105,92 +105,184 @@ Requirements Specification
 | AWS        | Amazon Web Services, colección de servicios de computación en la nube pública que en conjunto forman una plataforma de computación en la nube, ofrecidas a través de Internet por Amazon.com|  
 | Stack Tecnológico | Ecosistema tecnológico, conjunto de lineamientos, servicios y softwares que componen un aplicación |
 
-# 2. Requerimientos 
-## 2.1. WBS
-1. Versión 1: 
-<table cellspacing="0" cellpadding="0">
-        <thead>
-            <tr>
-                <th colspan="2">Project Definition</th>
-                <th class="s2" dir="ltr" colspan="2">Project Development</th>
-                <th class="s3" dir="ltr" colspan="2">Validation</th>
-                <th class="s4" dir="ltr" colspan="2">Deployment</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1. Scope<br> 1.1. Requirement Definition<br> 1.1.1. Functional<br> 1.1.2.
-                    Non-Functional<br> 1.2. System Map<br> 1.3. Epics</td>
-                <td>All</td>
-                <td>1. Project Initialization <br> 1.1. Set up working env<br> 1.2. Install
-                    Dependencies<br> 1.3. Configure Source Control<br><br><br></td>
-                <td class="s7" dir="ltr"><br>K &amp; S<br>K &amp; S<br>K &amp; S<br><br><br></td>
-                <td>1. Beta Testing<br> 1.1. Unit Test<br> 1.2. Integral Test<br> 1.3. White Box
-                    Testing<br> 1.4. Black Box Testing<br> 1.5. General Pentesting Round</td>
-                <td><br>K &amp; R &amp; S<br>K &amp; R &amp; S<br>K &amp; R &amp; S &amp; M<br>K
-                    &amp; R<br>K &amp; M<br></td>
-                <td>1. Feedback</td>
-                <td>All</td>
-            </tr>
-            <tr>
-                <td class="s5" dir="ltr">2. Design<br> 2.1. Tech Stack Definition<br> 2.2. Architecture Diagram<br> 2.3.
-                    User Stories<br> 2.4. Process Diagram<br><br></td>
-                <td class="s6" dir="ltr"><br><br><br><br><br><br><br>All<br></td>
-                <td class="s11" dir="ltr">2. Backend<br> 2.1. Payment Implementation<br> 2.2. Design data structures<br>
-                    2.3. API Creation<br> 2.3.1. End-points design<br> 2.3.2. Database Connection<br> 2.4. Hooks for
-                    account creation <br> 2.5. Hooks for data visualisation<br> 2.6. Roles implementation <br> 2.6.1.
-                    Hierarchy Implementation<br> 2.6.2. Access Restriction <br> 2.6.3. Principle of Least Privilege and
-                    filtering<br> 2.7. Front-end Connection<br><br><br><br></td>
-                <td class="s7" dir="ltr"><br>A &amp; S &amp; K<br>A &amp; S<br>A &amp; S &amp; M<br><br><br>A &amp;
-                    S<br>A &amp; S<br>A &amp; S &amp; K &amp; M<br><br><br><br><br><br>A &amp; S &amp; K &amp;
-                    R<br><br><br><br></td>
-                <td></td>
-                <td class="s12"></td>
-                <td class="s10" dir="ltr">2. Debugging</td>
-                <td class="s10" dir="ltr">All</td>
-            </tr>
-            <tr style="height: 20px">
-                <td class="s5" dir="ltr">3. Documentation<br> 3.1. Budgeting<br> 3.2. SRS<br><br><br></td>
-                <td class="s6" dir="ltr"><br>All<br>K<br><br><br></td>
-                <td class="s7" dir="ltr">3. Frontend<br> 3.1. Wireframe design<br> 3.2. App Mock-up<br> 3.3. React
-                    Implementation<br> 3.4. Views for roles<br> 3.5. Local Asset Sourcing </td>
-                <td class="s7" dir="ltr"><br>R<br>R &amp; K<br>M&amp; K &amp; S &amp; R<br>R &amp; K &amp; S<br>R &amp;
-                    K</td>
-                <td></td>
-                <td class="s12"></td>
-                <td class="s10" dir="ltr">3. Cloud Deployment</td>
-                <td class="s10" dir="ltr">M &amp; S</td>
-            </tr>
-            <tr style="height: 20px">
-                <td class="s13"></td>
-                <td class="s7" dir="ltr">4. Database<br> 4.1. Database Design<br> 4.1.1. Class Diagram<br> 4.1.2.
-                    Entity-Relation Diagram<br> 4.2. Database Programming<br> 4.3. Database Implementation</td>
-                <td class="s7" dir="ltr"><br>K &amp; R<br>K &amp; R &amp; M<br>K &amp; R &amp; M</td>
-                <td></td>
-                <td class="s12"></td>
-                <td class="s10" dir="ltr">4. Product Deployment</td>
-                <td class="s10" dir="ltr">R &amp; S</td>
-            </tr>
-            <tr style="height: 20px">
-                <td class="s13"></td>
-                <td class="s11" dir="ltr">5. Security <br> 5.1. Web Traffic Encryption <br> 5.2. User Credentials
-                    Encryption<br> 5.3. Implementation of JWS Tokens<br> 5.4. Implementation of Google OAuth<br> 5.5.
-                    Endpoint authorization and authentication<br> 5.6. Database data encryption<br> 5.7. Data Integrity
-                    Protection<br> 5.8. Permision Restriction in Database<br> 5.9. Database Backup
-                    Implementation<br><br><br><br><br><br></td>
-                <td class="s7" dir="ltr"><br>A &amp; M<br>A &amp; M<br><br>A &amp; M<br><br>A &amp; M<br><br>A &amp;
-                    M<br><br>A &amp; M<br><br>A &amp; M<br>A &amp; M<br><br>K &amp; A &amp; M<br><br><br><br><br><br>
-                </td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </tbody>
-    </table>
+## 1.5. WBS
+1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/WBS%20-%20V1.pdf
+<img src="WBS - V1.jpg" width="500" title="hover text">
 
-## 2.2. Requerimientos Funcionales
-1. Versión 1:
+# 2. Descripción General
+## 2.1. Clases de Usuarios y Características
+1. _Usuario Comprador_ <br>
+* Usuario que usa la plataforma con el propósito de adquirir un vehículo. 
+* No tiene ningún permiso de tipo administrador como todos los demás usuarios.
+* Tiene una cuenta, perfil y la posibilidad de realizar una transacción monetaria.
+2. _Usuario Vendedor_
+* Primer usuario de tipo administrador, tiene el menor número de privilegios; solamente se le permite acceder a su información y a la de sus clientes.
+* Tiene una cuenta y un perfil.
+* Sus permisos y accesos son asignados por un usuario gerente o agencia.  
+3. _Usuario Gerente_
+* Usuario administrador, sus permisos y acceso es gestionado por el usuario agencia.
+* Se le permite acceder a la información de sus vendedores y los clientes de su sucursal correspondiente. 
+* Tiene una cuenta y un perfil.
+4. _Usuario Agencia_
+* Usuario administrador, sus permisos y acceso es gestionado por el usuario grupo automotriz. Gestiona al usuario gerente y junto con el, se gestionan los usuarios vendedores. 
+* Se le permite acceder a la información de sus gerentes, vendedores, vehículos y los clientes de la agencia. Dentro de los usuarios de la agencia, es el que más privilegios tiene. 
+* Tiene una cuenta y un perfil.
+5. _Usuario Grupo Automotriz_
+* Usuario administrador, sus permisos y acceso es gestionado por el usuario super-administrador.
+* Se le permite acceder a la información de todas las agencias bajo su supervisión, sus catálogos y vehículos, gerentes y vendedores. 
+* Gestiona que sucursales serán parte de la plataforma en conjunto con el usuario super-administrador. 
+* Tiene una cuenta y un perfil.
+6. _Usuario Super-Administrador_  
+* Usuario con mayor número de privilegios, su acceso y permisos son gestionados por NDS y los desarrolladores. Es el responsable de gestionar a los usuarios grupo automotriz. 
+* Puede acceder a la información de los grupos, agencias, ventas, catálogos y vehículos, al igual que a la información del comportamiento de la plataforma. 
+* Tiene una cuenta y un perfil.
+
+## 2.2. Ambiente de Desarrollo
+La aplicación se desarrolló en los sistemas operativos de Windows 11 y MacOS Big Sur. 
+
+### 2.2.1. Diagrama de Arquitectura
+1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/Architecture%20Diagram.drawio.png
+<div align="center">
+    <img src="Architecture Diagram.drawio.png" width="500" title="hover text">
+</div> 
+  
+Componentes:
+1. Route53: Servicio de DNS proporcionado por AWS.
+2. AWS Shield: Servicio de protección ante ataques DDoS proporcionado por AWS.
+3. WAF: Firewall de aplicaciones web de AWS. Contiene preconfiguraciones de reglas que protegen ante los top 10 riesgos de seguridad según OWASP.
+4. CloudFront. Servicio de CDN (cloud distribution network) proporcionado por AWS. Hace uso de edge locations (caches) para generar conexiones más rápidas. CloudFront también encripta la comunicación entre el servidor y cliente.
+5. Elastic Load Balancer: Servicio de AWS que automáticamente distribuye el tráfico entrante a diferentes destinos (EC2). Si una instancia de EC2 tiene mucho tráfico, este servicio automáticamente redirige a usuarios entrantes a otras instancias para generar un mejor desempeño de la aplicación.
+6. Auto Scaling Group: Servicio de AWS que permite la creación automática de nuevas instancias de EC2 si se requiere en relación al tráfico entrante, y las destruye cuando no se necesiten. Esto ayuda a la escalabilidad del sistema.
+7. Web Server (EC2): Máquina virtual EC2  encargada del despliegue del front-end.
+8. App Server (EC2): Máquina virtual EC2 encargada del despliegue del back-end.
+9. Elasticache: Caché de base de datos proporcionada por AWS. Queries de información frecuentemente utilizadas suceden dentro del caché, ayudando al rendimiento de la aplicación.
+10. mySQL: Base de datos relacional.
+11. MongoDB: Base de datos no relacional.
+12. Rekognition (Opcional): Servicio de computer vision de AWS capaz de detectar contenido inapropiado, texto y biométricos en imágenes y videos.
+13. Textract (Opcional):  Servicio de OCR proporcionado por AWS  capaz de extraer texto de documentos.
+14. S3 Bucket for media: Bucket para almacenamiento de documentos e imágenes de la aplicación web
+15. S3 Bucket for ECD & DB backup: Bucket para almacenamiento de copias de seguridad de instancias EC2 y bases de datos.
+16. CloudWatch: Servicio de monitor cloud de AWS.
+17. IAM: Servicios de autorización y autenticación configurables dentro de AWS.
+
+### 2.2.2. Stack Tecnológico 
+1. Software Development IDE
+
+_Visual Studio Code:_
+* Gratuito - Open Source.
+* Los programadores cuentan con conocimiento y experiencia previa.
+* Compatible con diversos OS.
+* Gran compatibilidad con extensiones/plugins de herramientas externas.
+* Intuitivo de utilizar.
+
+2. Database
+
+_MySQL Community Edition (Almacenamiento de Cuentas):_
+* Gratuito - GPL Licence.
+* Los programadores cuentan con conocimiento y experiencia previa.
+* Compatible con diversos OS - compatible con Windows. 
+* Cuenta con capas de seguridad.
+* Estructura relacional -  bueno para almacenar relaciones como aquellas en los diferentes tipos de cuentas definidas para la plataforma.
+* Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
+
+_MongoDB (Almacenamiento de catálogo e información de la compra):_
+* Gratuito.
+* Los programadores cuentan con conocimiento y experiencia previa.
+* Compatible con diversos OS - compatible con Windows. 
+* Fácil instalación e implementación. 
+* Altamente flexible y escalable.
+* Tolera grandes volúmenes de datos.
+* Estructura no relacional - bueno para manejar muchas read-write operations como lo son búsquedas, filtrado e información referente a la compra del auto.
+* Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
+
+3. Dev. Environments
+
+_NodeJS (Application Layer):_
+* Gratuito - Open Source.
+* Los programadores cuentan con conocimiento y experiencia previa.
+* Compatibilidad cross-platform - gran compatibilidad con React.
+* Facilita el desarrollo del backend en JavaScript.
+* Particularmente rápido y escalable al estar construido sobre Chrome V8 Engine.
+* Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
+
+4. Frameworks
+
+_Express:_
+* Gratuito - Open Source.
+* Framework derivado de NodeJS y por ende compatible.
+* Los programadores cuentan con conocimiento y experiencia previa.
+* Provee un conjunto de herramientas que facilitan la creación del backend/API con NodeJS.
+* Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
+
+5. Front-end Development Libraries
+
+_React (JavaScript):_
+* Gratuito - Open Source
+* Los programadores cuentan con conocimiento y experiencia previa.
+* Permite programación por componentes haciendo fácil reutilización y mantenimiento de código para la implementación de la funcionalidad y renderizado del front-end.
+* Utiliza virtual DOM lo cual aumenta su rendimiento al permitir que cierta información se maneje y esté disponible “client-side”.
+* Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
+
+6. Cascading Style Libraries
+
+_Bootstrap:_
+* Gratuito.
+* Los programadores cuentan con conocimiento y experiencia previa.
+* Opera en base a un “Grid System” con elementos pre-desarrollados que ahorran tiempo y esfuerzo al momento de realizar el estilo.
+* A comparación de otras opciones que dan más libertad, con Bootstrap es sumamente rápido el desarrollo del UI.
+* Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
+
+7. Cloud Service
+
+_AWS - Academy Trial:_
+* Se cuenta con 100 USD de crédito por cada integrante (2,000 USD).
+* Los programadores cuentan con conocimiento y experiencia previa.
+* Altamente escalable y confiable.
+* Ofrece un amplio rango de herramientas y servicios.
+* Proporciona un alto nivel de seguridad necesaria para la documentación legal y otra información confidencial manejada en la compra de un auto.
+
+8. Payment Gateway Integration
+
+_Stripe:_
+* Comisión de 2.9% + 30 centavos por cada transacción.
+* API fácil y rápida de utilizar/integrar con otra plataforma.
+* Soporta una amplia variedad de monedas y métodos de pago.
+* Proporciona un sistema seguro de pago.
+* Cuenta con servicio al cliente 24/7 ya sea vía teléfono, email o live chat.
+* Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
+
+9. Source Control
+
+_GitHub:_
+* Gratuito.
+* Todos los programadores han utilizado y conocen extensamente la herramienta.
+* Permite repositorios ilimitados - lo cual da versatilidad a la organización que se tome para la realización del proyecto.
+* Permite administrar de forma sencilla y organizada controlar la colaboración, actualizaciones y cambios que se realicen al proyecto por parte de todos los miembros del equipo.
+* Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
+
+10. Browsers
+* Firefox
+* Chrome
+* Safari
+* Edge
+
+### 2.2.3. Diagrama del Tech Stack
+A continuación se encuentra la visualización gráfica del Tech Stack de la solución. <br>
+Link al diagrama: https://www.figma.com/file/yLADWuGigqfuYnZxik1LG7/Tech-Stack-Diagram-(Copy)?node-id=0%3A1&t=aLeCQBq4z7graTVD-1
+<p align="center">
+  <img src="TechStackChart.png" width="600" title="hover text">
+</p>
+
+## 2.3. Restricciones
+1. Solamente se aceptan grupos automotrices y agencias como participantes en la plataforma, no individuos. 
+2. Uso de Cloud requerido, SaaS. 
+3. HumanIT Consulting no proveera mantenimiento a la aplicación.
+
+## 2.4. Suposiciones y Dependencias
+
+# 3. Características del Sistema
+## 3.1. Requerimientos Funcionales
+Versión 1:
 <table>
     <thead>
         <tr>
@@ -845,8 +937,8 @@ Requirements Specification
     </tbody>
 </table>
 
-## 2.3. Requerimientos No Funcionales
-1. Versión 1
+## 3.2. Requerimientos No Funcionales
+Versión 1
 <table>
     <thead>
     </thead>
@@ -995,204 +1087,17 @@ Requirements Specification
     <tbody>
 </table>
 
-## 2.4. Restricciones
-
-# 3. Arquitectura
-## 3.1. Diagrama de Arquitectura
-=======
-## 1.5. WBS
-1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/WBS%20-%20V1.pdf
-<img src="WBS - V1.jpg" width="500" title="hover text">
-
-# 2. Descripción General
-## 2.1. Clases de Usuarios y Características
-1. _Usuario Comprador_ <br>
-* Usuario que usa la plataforma con el propósito de adquirir un vehículo. 
-* No tiene ningún permiso de tipo administrador como todos los demás usuarios.
-* Tiene una cuenta, perfil y la posibilidad de realizar una transacción monetaria.
-2. _Usuario Vendedor_
-* Primer usuario de tipo administrador, tiene el menor número de privilegios; solamente se le permite acceder a su información y a la de sus clientes.
-* Tiene una cuenta y un perfil.
-* Sus permisos y accesos son asignados por un usuario gerente o agencia.  
-3. _Usuario Gerente_
-* Usuario administrador, sus permisos y acceso es gestionado por el usuario agencia.
-* Se le permite acceder a la información de sus vendedores y los clientes de su sucursal correspondiente. 
-* Tiene una cuenta y un perfil.
-4. _Usuario Agencia_
-* Usuario administrador, sus permisos y acceso es gestionado por el usuario grupo automotriz. Gestiona al usuario gerente y junto con el, se gestionan los usuarios vendedores. 
-* Se le permite acceder a la información de sus gerentes, vendedores, vehículos y los clientes de la agencia. Dentro de los usuarios de la agencia, es el que más privilegios tiene. 
-* Tiene una cuenta y un perfil.
-5. _Usuario Grupo Automotriz_
-* Usuario administrador, sus permisos y acceso es gestionado por el usuario super-administrador.
-* Se le permite acceder a la información de todas las agencias bajo su supervisión, sus catálogos y vehículos, gerentes y vendedores. 
-* Gestiona que sucursales serán parte de la plataforma en conjunto con el usuario super-administrador. 
-* Tiene una cuenta y un perfil.
-6. _Usuario Super-Administrador_  
-* Usuario con mayor número de privilegios, su acceso y permisos son gestionados por NDS y los desarrolladores. Es el responsable de gestionar a los usuarios grupo automotriz. 
-* Puede acceder a la información de los grupos, agencias, ventas, catálogos y vehículos, al igual que a la información del comportamiento de la plataforma. 
-* Tiene una cuenta y un perfil.
-
-## 2.2. Ambiente de Desarrollo
-La aplicación se desarrolló en los sistemas operativos de Windows 11 y MacOS Big Sur. 
-
-### 2.2.1. Diagrama de Arquitectura
-1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/Architecture%20Diagram.drawio.png
-<div align="center">
-    <img src="Architecture Diagram.drawio.png" width="500" title="hover text">
-</div> 
-  
-Componentes:
-
-1. Route53: Servicio de DNS proporcionado por AWS.
-2. AWS Shield: Servicio de protección ante ataques DDoS proporcionado por AWS.
-3. WAF: Firewall de aplicaciones web de AWS. Contiene preconfiguraciones de reglas que protegen ante los top 10 riesgos de seguridad según OWASP.
-4. CloudFront. Servicio de CDN (cloud distribution network) proporcionado por AWS. Hace uso de edge locations (caches) para generar conexiones más rápidas. CloudFront también encripta la comunicación entre el servidor y cliente.
-5. Elastic Load Balancer: Servicio de AWS que automáticamente distribuye el tráfico entrante a diferentes destinos (EC2). Si una instancia de EC2 tiene mucho tráfico, este servicio automáticamente redirige a usuarios entrantes a otras instancias para generar un mejor desempeño de la aplicación.
-6. Auto Scaling Group: Servicio de AWS que permite la creación automática de nuevas instancias de EC2 si se requiere en relación al tráfico entrante, y las destruye cuando no se necesiten. Esto ayuda a la escalabilidad del sistema.
-7. Web Server (EC2): Máquina virtual EC2  encargada del despliegue del front-end.
-8. App Server (EC2): Máquina virtual EC2 encargada del despliegue del back-end.
-9. Elasticache: Caché de base de datos proporcionada por AWS. Queries de información frecuentemente utilizadas suceden dentro del caché, ayudando al rendimiento de la aplicación.
-10. mySQL: Base de datos relacional.
-11. MongoDB: Base de datos no relacional.
-12. Rekognition (Opcional): Servicio de computer vision de AWS capaz de detectar contenido inapropiado, texto y biométricos en imágenes y videos.
-13. Textract (Opcional):  Servicio de OCR proporcionado por AWS  capaz de extraer texto de documentos.
-14. S3 Bucket for media: Bucket para almacenamiento de documentos e imágenes de la aplicación web
-15. S3 Bucket for ECD & DB backup: Bucket para almacenamiento de copias de seguridad de instancias EC2 y bases de datos.
-16. CloudWatch: Servicio de monitor cloud de AWS.
-17. IAM: Servicios de autorización y autenticación configurables dentro de AWS.
-
-### 2.2.2. Stack Tecnológico 
-1. Software Development IDE
-
-_Visual Studio Code:_
-* Gratuito - Open Source.
-* Los programadores cuentan con conocimiento y experiencia previa.
-* Compatible con diversos OS.
-* Gran compatibilidad con extensiones/plugins de herramientas externas.
-* Intuitivo de utilizar.
-
-2. Database
-
-_MySQL Community Edition (Almacenamiento de Cuentas):_
-* Gratuito - GPL Licence.
-* Los programadores cuentan con conocimiento y experiencia previa.
-* Compatible con diversos OS - compatible con Windows. 
-* Cuenta con capas de seguridad.
-* Estructura relacional -  bueno para almacenar relaciones como aquellas en los diferentes tipos de cuentas definidas para la plataforma.
-* Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
-
-_MongoDB (Almacenamiento de catálogo e información de la compra):_
-* Gratuito.
-* Los programadores cuentan con conocimiento y experiencia previa.
-* Compatible con diversos OS - compatible con Windows. 
-* Fácil instalación e implementación. 
-* Altamente flexible y escalable.
-* Tolera grandes volúmenes de datos.
-* Estructura no relacional - bueno para manejar muchas read-write operations como lo son búsquedas, filtrado e información referente a la compra del auto.
-* Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
-
-3. Dev. Environments
-
-_NodeJS (Application Layer):_
-* Gratuito - Open Source.
-* Los programadores cuentan con conocimiento y experiencia previa.
-* Compatibilidad cross-platform - gran compatibilidad con React.
-* Facilita el desarrollo del backend en JavaScript.
-* Particularmente rápido y escalable al estar construido sobre Chrome V8 Engine.
-* Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
-
-4. Frameworks
-
-_Express:_
-* Gratuito - Open Source.
-* Framework derivado de NodeJS y por ende compatible.
-* Los programadores cuentan con conocimiento y experiencia previa.
-* Provee un conjunto de herramientas que facilitan la creación del backend/API con NodeJS.
-* Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
-
-5. Front-end Development Libraries
-
-_React (JavaScript):_
-* Gratuito - Open Source
-* Los programadores cuentan con conocimiento y experiencia previa.
-* Permite programación por componentes haciendo fácil reutilización y mantenimiento de código para la implementación de la funcionalidad y renderizado del front-end.
-* Utiliza virtual DOM lo cual aumenta su rendimiento al permitir que cierta información se maneje y esté disponible “client-side”.
-* Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
-
-6. Cascading Style Libraries
-
-_Bootstrap:_
-* Gratuito.
-* Los programadores cuentan con conocimiento y experiencia previa.
-* Opera en base a un “Grid System” con elementos pre-desarrollados que ahorran tiempo y esfuerzo al momento de realizar el estilo.
-* A comparación de otras opciones que dan más libertad, con Bootstrap es sumamente rápido el desarrollo del UI.
-* Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
-
-7. Cloud Service
-
-_AWS - Academy Trial:_
-* Se cuenta con 100 USD de crédito por cada integrante (2,000 USD).
-* Los programadores cuentan con conocimiento y experiencia previa.
-* Altamente escalable y confiable.
-* Ofrece un amplio rango de herramientas y servicios.
-* Proporciona un alto nivel de seguridad necesaria para la documentación legal y otra información confidencial manejada en la compra de un auto.
-
-8. Payment Gateway Integration
-
-_Stripe:_
-* Comisión de 2.9% + 30 centavos por cada transacción.
-* API fácil y rápida de utilizar/integrar con otra plataforma.
-* Soporta una amplia variedad de monedas y métodos de pago.
-* Proporciona un sistema seguro de pago.
-* Cuenta con servicio al cliente 24/7 ya sea vía teléfono, email o live chat.
-* Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
-
-9. Source Control
-
-_GitHub:_
-* Gratuito.
-* Todos los programadores han utilizado y conocen extensamente la herramienta.
-* Permite repositorios ilimitados - lo cual da versatilidad a la organización que se tome para la realización del proyecto.
-* Permite administrar de forma sencilla y organizada controlar la colaboración, actualizaciones y cambios que se realicen al proyecto por parte de todos los miembros del equipo.
-* Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
-
-10. Browsers
-* Firefox
-* Chrome
-* Safari
-* Edge
-
-### 2.2.3. Diagrama del Tech Stack
-A continuación se encuentra la visualización gráfica del Tech Stack de la solución. <br>
-Link al diagrama: https://www.figma.com/file/yLADWuGigqfuYnZxik1LG7/Tech-Stack-Diagram-(Copy)?node-id=0%3A1&t=aLeCQBq4z7graTVD-1
-<p align="center">
-  <img src="TechStackChart.png" width="600" title="hover text">
-</p>
-
-## 2.3. Restricciones
-1. Solamente se aceptan grupos automotrices y agencias como participantes en la plataforma, no individuos. 
-2. Uso de Cloud requerido, SaaS. 
-3. HumanIT Consulting no proveera mantenimiento a la aplicación.
-
-## 2.4. Suposiciones y Dependencias
-
-# 3. Características del Sistema
-## 3.1. Requerimientos Funcionales
-
-## 3.2. Requerimientos No Funcionales
-
 ## 3.3. Diagramas de Casos de Uso
 
 # 4. Modelo de Datos
-## 4.1. Diagrama de Procesos
-Versión 1: https://lucid.app/lucidchart/f537bb12-606e-4b78-aa77-da29f215a0ba/edit?viewport_loc=49%2C-44%2C5353%2C2575%2C3B0CRSot8otI&invitationId=inv_fc08b46c-fb27-4142-98ad-536a40099759
+## 4.1. Diagrama Entidad-Relación 
+
+# 5. Interfaces
+## 5.1. Diagrama de Procesos 
+ https://lucid.app/lucidchart/f537bb12-606e-4b78-aa77-da29f215a0ba/edit?viewport_loc=49%2C-44%2C5353%2C2575%2C3B0CRSot8otI&invitationId=inv_fc08b46c-fb27-4142-98ad-536a40099759
   
 <div align="center">
     <img src="flowChart.png" width="1000" title="hover text">
 </div> 
 
-## 4.2. Diagrama Entidad-Relación 
-
-# 5. Interfaces
-## 5.1. Diagrama de Procesos 
 ## 5.2. Wireframe 
