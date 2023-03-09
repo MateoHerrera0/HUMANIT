@@ -755,7 +755,7 @@ Versión 1:
             <td class="s9" dir="ltr">S</td>
         </tr>
         <tr style="height: 20px">
-            <td class="s1" dir="ltr" colspan="7"></td>
+            <td class="s1" dir="ltr" colspan="7">Servicio al Cliente</td>
         </tr>
         <tr style="height: 20px">
             <td class="s5" dir="ltr" colspan="7">4.2 Diálogo con Agente por Chat</td>
@@ -941,11 +941,12 @@ Versión 1:
 Versión 1
 <table>
     <thead>
+      <tr style="height: 20px">
+            <th class="s0" dir="ltr" colspan="7">REQUERIMIENTOS NO FUNCIONALES</th>
+        </tr>
+      
     </thead>
     <tbody>
-        <tr style="height: 20px">
-            <td class="s13" dir="ltr" colspan="7">REQUERIMIENTOS NO FUNCIONALES</td>
-        </tr>
         <tr style="height: 20px">
             <td class="s1" dir="ltr" colspan="7">Catálogo de Autos</td>
         </tr>
