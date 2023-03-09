@@ -1100,4 +1100,8 @@ Versión 1
     <img src="flowChart.png" width="1000" title="hover text">
 </div> 
 
-## 5.2. Wireframe 
+## 5.2. Wireframe
+    https://www.figma.com/file/WTCOBY7Hoe1upAHeEOTFWQ/wireframe?node-id=0%3A1&t=CU4t6F4SZqMV0XiR-1
+  <div align="center">
+    <embed src="wireframe.pdf" width="1000" height="auto" />
+  </div>
