@@ -944,7 +944,6 @@ Versión 1
       <tr style="height: 20px">
             <th class="s0" dir="ltr" colspan="7">REQUERIMIENTOS NO FUNCIONALES</th>
         </tr>
-      
     </thead>
     <tbody>
         <tr style="height: 20px">
