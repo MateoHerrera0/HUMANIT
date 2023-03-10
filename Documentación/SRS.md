@@ -1141,7 +1141,7 @@ https://www.figma.com/file/WTCOBY7Hoe1upAHeEOTFWQ/wireframe?node-id=0%3A1&t=CU4t
 ### Diagrama de Arquitectura
 1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/Architecture%20Diagram.drawio.png
 <div align="center">
-    <img src="Architecture Diagram.drawio.png" width="500" title="hover text">
+    <img src="Lambda Architecture Diagram.drawio.png" width="500" title="hover text">
 </div> 
   
 Componentes:
