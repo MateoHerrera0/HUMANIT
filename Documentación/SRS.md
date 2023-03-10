@@ -114,6 +114,9 @@ Requirements Specification
 
 # 2. Descripción General
 ## 2.1. Perspectiva del Producto
+La aplicación busca ser un servicio e-commerce donde un usuario comprador tenga la oportunidad de comprar un vehículo de forma intuitiva, amigable, segura y digital. NDS Cognitive Labs es una consultora internacional especializada en el diseño y desarrollo de soluciones de software de tiempo real que van desde Inteligencia Artificial a Nube. 
+
+La idea del servicio pretende trabajar con tecnologías emergentes para facilitar el proceso de adquisión de un vehículo de agencia.
 
 ## 2.2. Clases de Usuarios y Características
 1. _Usuario Comprador_ <br>
@@ -252,8 +255,6 @@ https://www.figma.com/file/yLADWuGigqfuYnZxik1LG7/Tech-Stack-Diagram-(Copy)?node
 <p align="center">
   <img src="TechStackChart.png" width="600" title="hover text">
 </p>
-
-### 2.3.1.
 
 ## 2.4. Restricciones de Implementación y Diseño
 1. Solamente se aceptan grupos automotrices y agencias como participantes en la plataforma, no individuos. 
@@ -1085,6 +1086,9 @@ Versión 1
 ## 4.1. Modelo de Datos Lógico: Diagrama Entidad-Relación 
 ## 4.2. Diccionario de Datos
 ## 4.3. Reportes 
+Se busca que la plataforma sea capaz de producir diferentes estádisticas y dependiendo el rol del usuario y sus permisos se le muestran diferentes datos y aspectos de la plataforma. 
+1. 
+
 ## 4.4. Adquisición de Datos, Integridad, Retención y Eliminación
 La información que será recopilada dentro de la plataforma podrá o no contener datos sensibles protegidos por los derechos ARCO dentro de Mexico. Esta información podría o no contener documentos, imágenes e información confidencial que sea requerida para el proceso de compra/venta de automóviles, registro de usuarios y cualquier otro pedazo de información que sea requerido para el correcto funcionamiento de los procesos de el servicio.
 
