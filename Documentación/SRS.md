@@ -1109,6 +1109,29 @@ Versión 1
 <div align="center">
     <img src="flowChart.png" width="1000" title="hover text">
 </div> 
+  
+<div align="center">
+    <img src="flowChart2.png" width="1000" title="hover text">
+</div> 
+  
+<div align="center">
+    <img src="flowChart5.png" width="1000" title="hover text">
+</div> 
+  
+<div align="center">
+    <img src="flowChart6.png" width="1000" title="hover text">
+</div> 
+  
+<div align="center">
+    <img src="flowChart4.png" width="1000" title="hover text">
+</div> 
+  
+<div align="center">
+    <img src="flowChart7.png" width="1000" title="hover text">
+</div> 
+  
+  
+  
 
 ## 5.2. Wireframe
     https://www.figma.com/file/WTCOBY7Hoe1upAHeEOTFWQ/wireframe?node-id=0%3A1&t=CU4t6F4SZqMV0XiR-1
