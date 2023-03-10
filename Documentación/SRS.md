@@ -36,7 +36,7 @@ Requirements Specification
 
     1.4. [Definiciones, Acrónimos y Abreviaciones](#14-definiciones-acrónimos-y-abreviaciones)
 
-    1.5. [WBS](#15-wbs)
+    1.5. [Convenciones del Documento](#15-convenciones-de-documento)
 
     1.6. [Referencias](#16-referencias)
 
@@ -107,17 +107,15 @@ Requirements Specification
 | AWS        | Amazon Web Services, colección de servicios de computación en la nube pública que en conjunto forman una plataforma de computación en la nube, ofrecidas a través de Internet por Amazon.com|  
 | Stack Tecnológico | Ecosistema tecnológico, conjunto de lineamientos, servicios y softwares que componen un aplicación |
 
-## 1.5. WBS
-1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/WBS%20-%20V1.pdf
-<img src="WBS - V1.jpg" width="500" title="hover text">
+## 1.5. Convenciones de Documento
+### No aplica
 
 ## 1.6. Referencias
 
-## 1.7. Convenciones de Documento
-### No aplica
-
 # 2. Descripción General
-## 2.1. Clases de Usuarios y Características
+## 2.1. Perspectiva del Producto
+
+## 2.2. Clases de Usuarios y Características
 1. _Usuario Comprador_ <br>
 * Usuario que usa la plataforma con el propósito de adquirir un vehículo. 
 * No tiene ningún permiso de tipo administrador como todos los demás usuarios.
@@ -144,35 +142,7 @@ Requirements Specification
 * Puede acceder a la información de los grupos, agencias, ventas, catálogos y vehículos, al igual que a la información del comportamiento de la plataforma. 
 * Tiene una cuenta y un perfil.
 
-## 2.2. Ambiente de Desarrollo
-La aplicación se desarrolló en los sistemas operativos de Windows 11 y MacOS Big Sur. 
-
-### 2.2.1. Diagrama de Arquitectura
-1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/Architecture%20Diagram.drawio.png
-<div align="center">
-    <img src="Architecture Diagram.drawio.png" width="500" title="hover text">
-</div> 
-  
-Componentes:
-1. Route53: Servicio de DNS proporcionado por AWS.
-2. AWS Shield: Servicio de protección ante ataques DDoS proporcionado por AWS.
-3. WAF: Firewall de aplicaciones web de AWS. Contiene preconfiguraciones de reglas que protegen ante los top 10 riesgos de seguridad según OWASP.
-4. CloudFront. Servicio de CDN (cloud distribution network) proporcionado por AWS. Hace uso de edge locations (caches) para generar conexiones más rápidas. CloudFront también encripta la comunicación entre el servidor y cliente.
-5. Elastic Load Balancer: Servicio de AWS que automáticamente distribuye el tráfico entrante a diferentes destinos (EC2). Si una instancia de EC2 tiene mucho tráfico, este servicio automáticamente redirige a usuarios entrantes a otras instancias para generar un mejor desempeño de la aplicación.
-6. Auto Scaling Group: Servicio de AWS que permite la creación automática de nuevas instancias de EC2 si se requiere en relación al tráfico entrante, y las destruye cuando no se necesiten. Esto ayuda a la escalabilidad del sistema.
-7. Web Server (EC2): Máquina virtual EC2  encargada del despliegue del front-end.
-8. App Server (EC2): Máquina virtual EC2 encargada del despliegue del back-end.
-9. Elasticache: Caché de base de datos proporcionada por AWS. Queries de información frecuentemente utilizadas suceden dentro del caché, ayudando al rendimiento de la aplicación.
-10. mySQL: Base de datos relacional.
-11. MongoDB: Base de datos no relacional.
-12. Rekognition (Opcional): Servicio de computer vision de AWS capaz de detectar contenido inapropiado, texto y biométricos en imágenes y videos.
-13. Textract (Opcional):  Servicio de OCR proporcionado por AWS  capaz de extraer texto de documentos.
-14. S3 Bucket for media: Bucket para almacenamiento de documentos e imágenes de la aplicación web
-15. S3 Bucket for ECD & DB backup: Bucket para almacenamiento de copias de seguridad de instancias EC2 y bases de datos.
-16. CloudWatch: Servicio de monitor cloud de AWS.
-17. IAM: Servicios de autorización y autenticación configurables dentro de AWS.
-
-### 2.2.2. Stack Tecnológico 
+## 2.3. Ambiente de Desarrollo
 <p align="justify"> En esta sección, se define el Tech Stack diseñado para la solución que se presenta en este escrito. Como se observa a continuación, dese el IDE de desarrollo de software hasta los navegadores utilizados para acceder al sitio, cada herramienta se ha seleccionado cuidadosamente en función de sus características y compatibilidad con el sistema global.
 Posteriormente, se describen las ventajas particulares de cada una de estas tecnologías que justifican su elección para la implementación de la solución. De manera específica, se examinan las ventajas de utilizar Visual Studio Code como IDE, MySQL Community Edition para el almacenamiento de cuentas y MongoDB para el almacenamiento de catálogos e información de compra. Además, se exploran las ventajas de utilizar NodeJS para la capa de aplicación, Express para el desarrollo backend, React para el desarrollo front-end y Bootstrap para las bibliotecas de estilo en cascada. Finalmente, se propone el uso de AWS para los servicios en la nube, Stripe para la integración de la pasarela de pago y GitHub para el control de código fuente. 
   
@@ -276,7 +246,6 @@ _GitHub:_
 * Safari
 * Edge
 
-### 2.2.3. Diagrama del Tech Stack
 A continuación se encuentra la visualización gráfica del Tech Stack de la solución. <br>
 <b>Link al diagrama:</b>
 https://www.figma.com/file/yLADWuGigqfuYnZxik1LG7/Tech-Stack-Diagram-(Copy)?node-id=0%3A1&t=aLeCQBq4z7graTVD-1
@@ -284,12 +253,37 @@ https://www.figma.com/file/yLADWuGigqfuYnZxik1LG7/Tech-Stack-Diagram-(Copy)?node
   <img src="TechStackChart.png" width="600" title="hover text">
 </p>
 
-## 2.3. Restricciones
+### 2.3.1. Diagrama de Arquitectura
+1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/Architecture%20Diagram.drawio.png
+<div align="center">
+    <img src="Architecture Diagram.drawio.png" width="500" title="hover text">
+</div> 
+  
+Componentes:
+1. Route53: Servicio de DNS proporcionado por AWS.
+2. AWS Shield: Servicio de protección ante ataques DDoS proporcionado por AWS.
+3. WAF: Firewall de aplicaciones web de AWS. Contiene preconfiguraciones de reglas que protegen ante los top 10 riesgos de seguridad según OWASP.
+4. CloudFront. Servicio de CDN (cloud distribution network) proporcionado por AWS. Hace uso de edge locations (caches) para generar conexiones más rápidas. CloudFront también encripta la comunicación entre el servidor y cliente.
+5. Elastic Load Balancer: Servicio de AWS que automáticamente distribuye el tráfico entrante a diferentes destinos (EC2). Si una instancia de EC2 tiene mucho tráfico, este servicio automáticamente redirige a usuarios entrantes a otras instancias para generar un mejor desempeño de la aplicación.
+6. Auto Scaling Group: Servicio de AWS que permite la creación automática de nuevas instancias de EC2 si se requiere en relación al tráfico entrante, y las destruye cuando no se necesiten. Esto ayuda a la escalabilidad del sistema.
+7. Web Server (EC2): Máquina virtual EC2  encargada del despliegue del front-end.
+8. App Server (EC2): Máquina virtual EC2 encargada del despliegue del back-end.
+9. Elasticache: Caché de base de datos proporcionada por AWS. Queries de información frecuentemente utilizadas suceden dentro del caché, ayudando al rendimiento de la aplicación.
+10. mySQL: Base de datos relacional.
+11. MongoDB: Base de datos no relacional.
+12. Rekognition (Opcional): Servicio de computer vision de AWS capaz de detectar contenido inapropiado, texto y biométricos en imágenes y videos.
+13. Textract (Opcional):  Servicio de OCR proporcionado por AWS  capaz de extraer texto de documentos.
+14. S3 Bucket for media: Bucket para almacenamiento de documentos e imágenes de la aplicación web
+15. S3 Bucket for ECD & DB backup: Bucket para almacenamiento de copias de seguridad de instancias EC2 y bases de datos.
+16. CloudWatch: Servicio de monitor cloud de AWS.
+17. IAM: Servicios de autorización y autenticación configurables dentro de AWS.
+
+## 2.4. Restricciones de Implementación y Diseño
 1. Solamente se aceptan grupos automotrices y agencias como participantes en la plataforma, no individuos. 
 2. Uso de Cloud requerido, SaaS. 
 3. HumanIT Consulting no proveera mantenimiento a la aplicación.
 
-## 2.4. Suposiciones y Dependencias
+## 2.5. Suposiciones y Dependencias
 1. Suposiciones
   <ul>
     <li>El usuario utilizará la plataforma en un dispositivo digital como: una computadora, una tablet, un dispositivo movil.</li>
@@ -1110,11 +1104,15 @@ Versión 1
 
 ## 3.3. Diagramas de Casos de Uso
 
-# 4. Modelo de Datos
-## 4.1. Diagrama Entidad-Relación 
+# 4. Requerimiento de Datos
+## 4.1. Modelo de Datos Lógico: Diagrama Entidad-Relación 
+## 4.2. Diccionario de Datos
+## 4.3. Reportes 
+## 4.4. Adquisición de Datos, Integridad, Retención y Eliminación
 
-# 5. Interfaces
-## 5.1. Diagrama de Procesos 
+# 5. Requerimientos de Interfaces Externas
+## 5.1. Interfaces de Usuario
+### Diagrama de Procesos 
  https://lucid.app/lucidchart/f537bb12-606e-4b78-aa77-da29f215a0ba/edit?viewport_loc=49%2C-44%2C5353%2C2575%2C3B0CRSot8otI&invitationId=inv_fc08b46c-fb27-4142-98ad-536a40099759
   
 <div align="center">
@@ -1141,20 +1139,33 @@ Versión 1
     <img src="flowChart7.png" width="1000" title="hover text">
 </div> 
   
-  
-  
+### Wireframe
+https://www.figma.com/file/WTCOBY7Hoe1upAHeEOTFWQ/wireframe?node-id=0%3A1&t=CU4t6F4SZqMV0XiR-1
 
-## 5.2. Wireframe
-    https://www.figma.com/file/WTCOBY7Hoe1upAHeEOTFWQ/wireframe?node-id=0%3A1&t=CU4t6F4SZqMV0XiR-1
-  
- <div align="center">
-    <img src="wireframe3.png" width="500" height="500" title="hover text">
-    <img src="wireframe4.png" width="500" height="500" title="hover text">
-</div> 
-<div align="center">
-    <img src="wireframe1.png" width="500" height="500" title="hover text">
-    <img src="wireframe2.png" width="500" height="500" title="hover text">
-</div> 
+  <div align="center">
+    <embed src="wireframe.pdf" width="1000" height="auto" />
+  </div>
 
+## 5.2. Interfaces de Software
 
+## 5.3. Interfaces de Hardware 
+### No aplica
+
+## 5.4. Interfaces de Comunicación
+
+# 6. Atributos de Calidad
+## 6.1. Usabilidad
+## 6.2. Rendimiento
+## 6.3. Seguridad 
+## 6.4. Protección
+
+# 7. Requerimientos de Internacionalización y Localización 
+
+# 8. Otros Requerimientos
+### No aplica
+
+# 9. Apéndices
+1. WBS
+Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/WBS%20-%20V1.pdf
+<img src="WBS - V1.jpg" width="500" title="hover text">
 
