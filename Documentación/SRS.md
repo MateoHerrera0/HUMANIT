@@ -166,7 +166,7 @@ Componentes:
 17. IAM: Servicios de autorización y autenticación configurables dentro de AWS.
 
 ### 2.2.2. Stack Tecnológico 
-1. Software Development IDE
+<b>1. Software Development IDE</b>
 
 _Visual Studio Code:_
 * Gratuito - Open Source.
@@ -175,7 +175,7 @@ _Visual Studio Code:_
 * Gran compatibilidad con extensiones/plugins de herramientas externas.
 * Intuitivo de utilizar.
 
-2. Database
+<b>2. Database</b>
 
 _MySQL Community Edition (Almacenamiento de Cuentas):_
 * Gratuito - GPL Licence.
@@ -195,7 +195,7 @@ _MongoDB (Almacenamiento de catálogo e información de la compra):_
 * Estructura no relacional - bueno para manejar muchas read-write operations como lo son búsquedas, filtrado e información referente a la compra del auto.
 * Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
 
-3. Dev. Environments
+<b>3. Dev. Environments</b>
 
 _NodeJS (Application Layer):_
 * Gratuito - Open Source.
@@ -205,7 +205,7 @@ _NodeJS (Application Layer):_
 * Particularmente rápido y escalable al estar construido sobre Chrome V8 Engine.
 * Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
 
-4. Frameworks
+<b>4. Frameworks</b>
 
 _Express:_
 * Gratuito - Open Source.
@@ -214,7 +214,7 @@ _Express:_
 * Provee un conjunto de herramientas que facilitan la creación del backend/API con NodeJS.
 * Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
 
-5. Front-end Development Libraries
+<b>5. Front-end Development Libraries</b>
 
 _React (JavaScript):_
 * Gratuito - Open Source
@@ -223,7 +223,7 @@ _React (JavaScript):_
 * Utiliza virtual DOM lo cual aumenta su rendimiento al permitir que cierta información se maneje y esté disponible “client-side”.
 * Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
 
-6. Cascading Style Libraries
+<b>6. Cascading Style Libraries</b>
 
 _Bootstrap:_
 * Gratuito.
@@ -232,7 +232,7 @@ _Bootstrap:_
 * A comparación de otras opciones que dan más libertad, con Bootstrap es sumamente rápido el desarrollo del UI.
 * Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
 
-7. Cloud Service
+<b>7. Cloud Service</b>
 
 _AWS - Academy Trial:_
 * Se cuenta con 100 USD de crédito por cada integrante (2,000 USD).
@@ -241,7 +241,7 @@ _AWS - Academy Trial:_
 * Ofrece un amplio rango de herramientas y servicios.
 * Proporciona un alto nivel de seguridad necesaria para la documentación legal y otra información confidencial manejada en la compra de un auto.
 
-8. Payment Gateway Integration
+<b>8. Payment Gateway Integration</b>
 
 _Stripe:_
 * Comisión de 2.9% + 30 centavos por cada transacción.
@@ -251,7 +251,7 @@ _Stripe:_
 * Cuenta con servicio al cliente 24/7 ya sea vía teléfono, email o live chat.
 * Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
 
-9. Source Control
+<b>9. Source Control</b>
 
 _GitHub:_
 * Gratuito.
@@ -260,7 +260,7 @@ _GitHub:_
 * Permite administrar de forma sencilla y organizada controlar la colaboración, actualizaciones y cambios que se realicen al proyecto por parte de todos los miembros del equipo.
 * Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
 
-10. Browsers
+<b>10. Browsers</b>
 * Firefox
 * Chrome
 * Safari
