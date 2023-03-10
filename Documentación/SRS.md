@@ -1105,11 +1105,15 @@ Es por esto por lo que es importante recalcar que la información capturada dent
 </div> 
   
 <div align="center">
-    <img src="flowChart5.png" width="1000" title="hover text">
+    <img src="flowChart9.png" width="1000" title="hover text">
 </div> 
   
 <div align="center">
     <img src="flowChart6.png" width="1000" title="hover text">
+</div> 
+  
+<div align="center">
+    <img src="flowChart8.png" width="1000" title="hover text">
 </div> 
   
 <div align="center">
