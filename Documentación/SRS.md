@@ -1086,8 +1086,10 @@ Versión 1
 ## 4.1. Modelo de Datos Lógico: Diagrama Entidad-Relación 
 ## 4.2. Diccionario de Datos
 ## 4.3. Reportes 
-Se busca que la plataforma sea capaz de producir diferentes estádisticas y dependiendo el rol del usuario y sus permisos se le muestran diferentes datos y aspectos de la plataforma. 
-1. 
+Se busca que la plataforma sea capaz de producir diferentes estádisticas y dependiendo el rol del usuario y sus permisos se le muestran diferentes datos y aspectos de la plataforma. Algunas de las estadísticas que se pretenden mostrar en la aplicación son:
+1. Ventas de cada vendedor, agencia y grupo automotriz, pruebas de manejo por agencia.
+2. Venta de cada vehículo y su popularidad (ya sea por número de personas interesadas en el o por la cantidad de pruebas de manejo del modelo).
+3. Comportamiento de la plataforma, cantidad de usuarios, información geográfica de los usuarios. 
 
 ## 4.4. Adquisición de Datos, Integridad, Retención y Eliminación
 La información que será recopilada dentro de la plataforma podrá o no contener datos sensibles protegidos por los derechos ARCO dentro de Mexico. Esta información podría o no contener documentos, imágenes e información confidencial que sea requerida para el proceso de compra/venta de automóviles, registro de usuarios y cualquier otro pedazo de información que sea requerido para el correcto funcionamiento de los procesos de el servicio.
