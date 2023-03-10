@@ -38,6 +38,8 @@ Requirements Specification
 
     1.5. [WBS](#15-wbs)
 
+    1.6. [Referencias](#16-referencias)
+
 2. [Descripción General](#2-descripción-general)
 
     2.1. [Clases de Usuarios y Características](#21-clases-de-usuarios-y-características)
@@ -108,6 +110,8 @@ Requirements Specification
 ## 1.5. WBS
 1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/WBS%20-%20V1.pdf
 <img src="WBS - V1.jpg" width="500" title="hover text">
+
+## 1.6. Referencias
 
 # 2. Descripción General
 ## 2.1. Clases de Usuarios y Características
