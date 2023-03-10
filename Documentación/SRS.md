@@ -1084,7 +1084,12 @@ Versión 1
 
 # 4. Requerimiento de Datos
 ## 4.1. Modelo de Datos Lógico: Diagrama Entidad-Relación 
+<div align="center">
+    <img src="HumanIT(4).png" width="1000" title="hover text">
+</div> 
+
 ## 4.2. Diccionario de Datos
+
 ## 4.3. Reportes 
 Se busca que la plataforma sea capaz de producir diferentes estádisticas y dependiendo el rol del usuario y sus permisos se le muestran diferentes datos y aspectos de la plataforma. Algunas de las estadísticas que se pretenden mostrar en la aplicación son:
 1. Ventas de cada vendedor, agencia y grupo automotriz, pruebas de manejo por agencia.
@@ -1141,7 +1146,7 @@ https://www.figma.com/file/WTCOBY7Hoe1upAHeEOTFWQ/wireframe?node-id=0%3A1&t=CU4t
 ### Diagrama de Arquitectura
 1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/Architecture%20Diagram.drawio.png
 <div align="center">
-    <img src="Lambda Architecture Diagram.drawio.png" width="500" title="hover text">
+    <img src="Architecture Diagram.drawio.png" width="500" title="hover text">
 </div> 
   
 Componentes:
