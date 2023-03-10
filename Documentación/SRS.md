@@ -1143,6 +1143,15 @@ Versión 1
 
 ## 5.2. Wireframe
     https://www.figma.com/file/WTCOBY7Hoe1upAHeEOTFWQ/wireframe?node-id=0%3A1&t=CU4t6F4SZqMV0XiR-1
-  <div align="center">
-    <embed src="wireframe.pdf" width="1000" height="auto" />
-  </div>
+  
+ <div align="center">
+    <img src="wireframe3.png" width="500" height="500" title="hover text">
+    <img src="wireframe4.png" width="500" height="500" title="hover text">
+</div> 
+<div align="center">
+    <img src="wireframe1.png" width="500" height="500" title="hover text">
+    <img src="wireframe2.png" width="500" height="500" title="hover text">
+</div> 
+
+
+
