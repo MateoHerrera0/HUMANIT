@@ -1109,6 +1109,10 @@ Versión 1
 ## 4.2. Diccionario de Datos
 ## 4.3. Reportes 
 ## 4.4. Adquisición de Datos, Integridad, Retención y Eliminación
+La información que será recopilada dentro de la plataforma podrá o no contener datos sensibles protegidos por los derechos ARCO dentro de Mexico. Esta información podría o no contener documentos, imágenes e información confidencial que sea requerida para el proceso de compra/venta de automóviles, registro de usuarios y cualquier otro pedazo de información que sea requerido para el correcto funcionamiento de los procesos de el servicio.
+
+Es por esto por lo que es importante recalcar que la información capturada dentro de la plataforma estará cifrada . De igual manera, el acceso a esta información estará restringido a los usuarios propietarios de la misma. Igualmente en relación a la modificación y eliminación de la información guardada, estos cambios se verán reflejados excepto en casos donde un registro de documentación referente a los procesos legales de la compra y venta de los automóviles ofrecidos sea requerido.
+
 
 # 5. Requerimientos de Interfaces Externas
 ## 5.1. Interfaces de Usuario
