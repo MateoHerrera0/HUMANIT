@@ -113,6 +113,9 @@ Requirements Specification
 
 ## 1.6. Referencias
 
+## 1.7. Convenciones de Documento
+### No aplica
+
 # 2. Descripción General
 ## 2.1. Clases de Usuarios y Características
 1. _Usuario Comprador_ <br>
