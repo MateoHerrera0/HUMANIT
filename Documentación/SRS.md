@@ -166,6 +166,9 @@ Componentes:
 17. IAM: Servicios de autorización y autenticación configurables dentro de AWS.
 
 ### 2.2.2. Stack Tecnológico 
+<p align="justify"> En esta sección, se define el Tech Stack diseñado para la solución que se presenta en este escrito. Como se observa a continuación, dese el IDE de desarrollo de software hasta los navegadores utilizados para acceder al sitio, cada herramienta se ha seleccionado cuidadosamente en función de sus características y compatibilidad con el sistema global.
+Posteriormente, se describen las ventajas particulares de cada una de estas tecnologías que justifican su elección para la implementación de la solución. De manera específica, se examinan las ventajas de utilizar Visual Studio Code como IDE, MySQL Community Edition para el almacenamiento de cuentas y MongoDB para el almacenamiento de catálogos e información de compra. Además, se exploran las ventajas de utilizar NodeJS para la capa de aplicación, Express para el desarrollo backend, React para el desarrollo front-end y Bootstrap para las bibliotecas de estilo en cascada. Finalmente, se propone el uso de AWS para los servicios en la nube, Stripe para la integración de la pasarela de pago y GitHub para el control de código fuente. 
+  
 <b>1. Software Development IDE</b>
 
 _Visual Studio Code:_
@@ -268,7 +271,8 @@ _GitHub:_
 
 ### 2.2.3. Diagrama del Tech Stack
 A continuación se encuentra la visualización gráfica del Tech Stack de la solución. <br>
-Link al diagrama: https://www.figma.com/file/yLADWuGigqfuYnZxik1LG7/Tech-Stack-Diagram-(Copy)?node-id=0%3A1&t=aLeCQBq4z7graTVD-1
+<b>Link al diagrama:</b>
+https://www.figma.com/file/yLADWuGigqfuYnZxik1LG7/Tech-Stack-Diagram-(Copy)?node-id=0%3A1&t=aLeCQBq4z7graTVD-1
 <p align="center">
   <img src="TechStackChart.png" width="600" title="hover text">
 </p>
