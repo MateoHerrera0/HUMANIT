@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../Logos/humanIT.005.png" width="300" title="hover text">
+  <img src="../assets/Logos/humanIT.005.png" width="300" title="hover text">
 </p>
 <hr/>
 
@@ -86,9 +86,9 @@ Requirements Specification
 ## 1.2. Enfoque y Alcances
 <p align="justify"> Por medio de una aplicación web que fomente la convivencia entre diferentes agencias, grupos automotrices y marcas se espera que el usuario sea capaz de elegir un vehículo desde un amplio catálogo, encuentre planes de financiamiento que se adapten a sus necesidades y que cuente con una plataforma con diversas formas de pago. El usuario puede solicitar una prueba de manejo si así lo desea y comprar su vehículo en cualquier agencia disponible y puede comunicarse con una agencia (vendedor específico) por medio de un chat en tiempo real.
 
-<p align="justify"> Nuestra aplicación busca habilitar permisos de usuarios y roles administrativos. La plataforma permitirá a usuarios administradores subir catálogos de autos y a sus clientes navegar los mismos. Los clientes también serán capaces de subir los documentos legales requeridos y toda la información solicitada estará cifrada y protegida. La plataforma tendrá una interfaz intuitiva para que los usuarios puedan buscar y filtrar autos de un catálogo, comparar opciones seleccionadas y ver sus especificaciones.
+<p align="justify"> Nuestra aplicación busca habilitar permisos de usuarios y roles administrativos. La plataforma permitirá a usuarios administradores subir catálogos de autos y a sus clientes navegar los mismos. Los clientes también serán capaces de subir los documentos legales requeridos y toda la información solicitada estará encriptada y protegida. La plataforma tendrá una interfaz intuitiva para que los usuarios puedan buscar y filtrar autos de un catálogo, comparar opciones seleccionadas y ver sus especificaciones.
 
-<p align="justify"> Lo que nos distingue de la competencia es nuestra intención de crear un simulador Comparativo de autos, dar recomendaciones personalizadas con Machine Learning y la implementación de un "Wishlist" (Bookmark de autos preferidos). Algunos aspectos de la solución, que quedan mas allá de nuestra propuesta como HumanIT Consulting son el mantenimiento de la aplicación, el servicio y hospedaje para el almacenamiento en Cloudñ y la solución de quejas acerca de la manufactura o el estado de los automóviles.
+<p align="justify"> Lo que nos diferencia de la competencia es nuestra intención de crear un simulador Comparativo de autos, dar recomendaciones personalizadas con Machine Learning y la implementación de un "Wishlist" (Bookmark de autos preferidos). Algunos aspectos de la solución que nosotros como HumanIT Consulting no cubriremos son el mantenimiento de la aplicación, el servicio y patrocinio del almacenamiento en Cloud y la solución de quejas acerca de la manufactura o el estado de los automóviles.
 
 ## 1.3. Objetivos SMART
 1. _Mejorar la experiencia del usuario:_ para fines de junio 2023, con el lanzamiento de la aplicación, buscamos reducir a la mitad, el tiempo que le toma a un usuario finalizar la compra de un automóvil en la plataforma acelerando el proceso de pago y mejorando la interfaz de usuario.
@@ -253,7 +253,7 @@ A continuación se encuentra la visualización gráfica del Tech Stack de la sol
 <b>Link al diagrama:</b>
 https://www.figma.com/file/yLADWuGigqfuYnZxik1LG7/Tech-Stack-Diagram-(Copy)?node-id=0%3A1&t=aLeCQBq4z7graTVD-1
 <p align="center">
-  <img src="TechStackChart.png" width="600" title="hover text">
+  <img src="../assets/diagrams/TechStackChart.png" width="600" title="hover text">
 </p>
 
 ## 2.4. Restricciones de Implementación y Diseño
@@ -897,9 +897,9 @@ Versión 1:
         <tr style="height: 20px">
             <td class="s6" dir="ltr">REQ_FUN[047]</td>
             <td class="s7" dir="ltr"></td>
-            <td class="s6" dir="ltr">Cifrar credenciales de las cuentas</td>
+            <td class="s6" dir="ltr">Encriptar credenciales de las cuentas</td>
             <td class="s6" dir="ltr">Almacenar las credenciales (usuario y contraseña) de los usuarios de la
-                plataforma de forma cifrada.</td>
+                plataforma de forma encriptada.</td>
             <td class="s12"></td>
             <td class="s6" dir="ltr">6.2.1</td>
             <td class="s9" dir="ltr">M</td>
@@ -907,8 +907,8 @@ Versión 1:
         <tr style="height: 20px">
             <td class="s6" dir="ltr">REQ_FUN[048]</td>
             <td class="s7" dir="ltr"></td>
-            <td class="s6" dir="ltr">Cifrar archivos subidos</td>
-            <td class="s6" dir="ltr">Almacenar a los archivos subidos a la plataforma de forma cifrada.</td>
+            <td class="s6" dir="ltr">Encriptar archivos subidos</td>
+            <td class="s6" dir="ltr">Almacenar a los archivos subidos a la plataforma de forma encriptada.</td>
             <td class="s7"></td>
             <td class="s6" dir="ltr">6.2.2</td>
             <td class="s9" dir="ltr">M</td>
@@ -1084,24 +1084,11 @@ Versión 1
 
 # 4. Requerimiento de Datos
 ## 4.1. Modelo de Datos Lógico: Diagrama Entidad-Relación 
-### Primera Versión
 <div align="center">
-    <img src="entidadRelacion.png" width="1000" title="hover text">
+    <img src="HumanIT(4).png" width="1000" title="hover text">
 </div> 
 
 ## 4.2. Diccionario de Datos
-Debido al alcance del proyecto se espera que la aplicación sea capaz de almacenar información de los usuarios, vehículos y procesos dentro de ella. A continuación se encuentra una sintensis del primer boceto de todas las entidades que co-existiran en el servicio:
-1. Usuario_Cliente: almacena al usuario que tiene como propósito realizar la compra de un vehículo, se almacena su información.
-2. Usuario_Vendedor: almacena al usuario que tiene como propósito vender un vehículo, este usuario tiene una relación de m:1 con la entidad "Usuario_Gerente" al igual que con la entidad "Usuario_Agencia".
-3. Usuario_Gerente: almacena al usuario que tiene como propósito supervisar a los vendedores de una agencia. Este usuario tiene una relación m:1 con la entidad "Usuario_Agencia" y 1:m con otros usuarios gerentes. 
-4. Usuario_Agencia: almacena la información de una agencia, brindandole un usuario. Esta entidad tiene una relación m:1 con la entidad "Usuario_GA"  y 1:m con la entidad "Usuario_Gerente".
-5. Usuario_GA: esta entidad se refiere a un grupo automotriz, almacena la información del grupo brindandole un usuario. 
-6. Usuario_SA: esta entidad se refiere al usuario super-administrador, que es responsable de dar de alta en la plataforma grupos automotrices y dar de alta agencias en conjunto con el grupo automotriz.  
-7. Documentación: este se considera un proceso necesario para la alta de grupos automotrices, de agencias, la agenda de una prueba de manejo y para la compra de un vehículo. Esta entidad se compone del solicitante que puede ser "Usuario_GA" o "Usuario_Cliente", del supervisor que puede ser "Usuario_Vendedor", "Usuario_SA". Esta entidad tiene una relación 1:m con la entidad "Documento". 
-8. Documento: se refiere a cualquier documento que necesite el proceso de documentación. 
-9. Carro: almacena la información del vehículo y tiene una relación m:1 con la entidad "Usuario_Agencia". 
-10. PruebaManejo: este se considera un proceso que el "Usuario_Cliente" (m:1) puede o no solicitar a un "Usuario_Vendedor" (m:1) con respecto a un "Carro" (1:1) y debe de seguir un proceso de documentación (1:1).
-11. Compra: este se considera un proceso que por el "Usuario_Cliente" (1:1) atraviesa para adquirir un "Carro" (1:1) de un "Usuario_Vendedor" (m:1) y de un "Usuario_Agencia" (m:1) y debe seguir un proceso de documentación (1:1).
 
 ## 4.3. Reportes 
 Se busca que la plataforma sea capaz de producir diferentes estádisticas y dependiendo el rol del usuario y sus permisos se le muestran diferentes datos y aspectos de la plataforma. Algunas de las estadísticas que se pretenden mostrar en la aplicación son:
@@ -1121,31 +1108,31 @@ Es por esto por lo que es importante recalcar que la información capturada dent
  https://lucid.app/lucidchart/f537bb12-606e-4b78-aa77-da29f215a0ba/edit?viewport_loc=49%2C-44%2C5353%2C2575%2C3B0CRSot8otI&invitationId=inv_fc08b46c-fb27-4142-98ad-536a40099759
   
 <div align="center">
-    <img src="flowChart.png" width="1000" title="hover text">
+    <img src="../assets/diagrams/flowCharts/flowChart.png" width="1000" title="hover text">
 </div> 
   
 <div align="center">
-    <img src="flowChart2.png" width="1000" title="hover text">
+    <img src="../assets/diagrams/flowCharts/flowChart2.png" width="1000" title="hover text">
 </div> 
   
 <div align="center">
-    <img src="flowChart9.png" width="1000" title="hover text">
+    <img src="../assets/diagrams/flowCharts/flowChart9.png" width="1000" title="hover text">
 </div> 
   
 <div align="center">
-    <img src="flowChart6.png" width="1000" title="hover text">
+    <img src="../assets/diagrams/flowCharts/flowChart6.png" width="1000" title="hover text">
 </div> 
   
 <div align="center">
-    <img src="flowChart8.png" width="1000" title="hover text">
+    <img src="../assets/diagrams/flowCharts/flowChart8.png" width="1000" title="hover text">
 </div> 
   
 <div align="center">
-    <img src="flowChart4.png" width="1000" title="hover text">
+    <img src="../assets/diagrams/flowCharts/flowChart4.png" width="1000" title="hover text">
 </div> 
   
 <div align="center">
-    <img src="flowChart7.png" width="1000" title="hover text">
+    <img src="../assets/diagrams/flowCharts/flowChart7.png" width="1000" title="hover text">
 </div> 
   
 ### Wireframe
@@ -1159,14 +1146,14 @@ https://www.figma.com/file/WTCOBY7Hoe1upAHeEOTFWQ/wireframe?node-id=0%3A1&t=CU4t
 ### Diagrama de Arquitectura
 1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/Architecture%20Diagram.drawio.png
 <div align="center">
-    <img src="Architecture Diagram.drawio.png" width="500" title="hover text">
+    <img src="../assets/diagrams/architectures/Architecture Diagram.drawio.png" width="500" title="hover text">
 </div> 
   
 Componentes:
 1. Route53: Servicio de DNS proporcionado por AWS.
 2. AWS Shield: Servicio de protección ante ataques DDoS proporcionado por AWS.
 3. WAF: Firewall de aplicaciones web de AWS. Contiene preconfiguraciones de reglas que protegen ante los top 10 riesgos de seguridad según OWASP.
-4. CloudFront. Servicio de CDN (cloud distribution network) proporcionado por AWS. Hace uso de edge locations (caches) para generar conexiones más rápidas. CloudFront también cifra la comunicación entre el servidor y cliente.
+4. CloudFront. Servicio de CDN (cloud distribution network) proporcionado por AWS. Hace uso de edge locations (caches) para generar conexiones más rápidas. CloudFront también encripta la comunicación entre el servidor y cliente.
 5. Elastic Load Balancer: Servicio de AWS que automáticamente distribuye el tráfico entrante a diferentes destinos (EC2). Si una instancia de EC2 tiene mucho tráfico, este servicio automáticamente redirige a usuarios entrantes a otras instancias para generar un mejor desempeño de la aplicación.
 6. Auto Scaling Group: Servicio de AWS que permite la creación automática de nuevas instancias de EC2 si se requiere en relación al tráfico entrante, y las destruye cuando no se necesiten. Esto ayuda a la escalabilidad del sistema.
 7. Web Server (EC2): Máquina virtual EC2  encargada del despliegue del front-end.
@@ -1185,17 +1172,10 @@ Componentes:
 ### No aplica
 
 ## 5.4. Interfaces de Comunicación
-<div style="text-align: justify">
-<ol>
-<li> E-mail
-<div>Se integrará un servicio de respuesta automática por correo, utilizando una herramienta como MailChimp. Este servicio permitirá a los usuarios recibir notificaciones de los cambios en el estado de su solicitud, así como de los cambios en la información de la misma.</div></li>
-
-<li>Entrega y Reconocimiento de Documentos
-<div>Se desarrollarán interfaces donde el usuario pueda arrastrar o elegir documentos desde su sistema de archivos, asegurando que el formato sea el adecuado. El sistema deberá ser capaz de reconocer el tipo de documento y verificar la identidad por medio de un servicio de validacion de identidad facial. El sistema tambien deberá validar los carnets de identidad y licencias a pàrtir del texto que contengan.</div></li>
-<li>Sistema de Chat
-<div>Se integrará una herramienta externa para instanciar chat en tiempo real entre los usuarios y los administradores de la aplicación para dar seguimiento a las solicitudes.</div></li>
-<li>Plataforma de Pago
-<div>Se integrará una plataforma de pago para que los usuarios puedan pagar por los servicios de la aplicación a partir de un servicio como OpenPay o Stripe.</div></li>
+1. E-mail
+2. Entrega y Reconocimiento de Documentos
+3. Sistema de Chat
+4. Plataforma de Pago
 
 # 6. Atributos de Calidad
 ## 6.1. Usabilidad
@@ -1212,4 +1192,4 @@ Debido a las diferencias legales que se presentan de acuerdo a la región polít
 # 9. Apéndices
 1. WBS
 Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/WBS%20-%20V1.pdf
-<img src="WBS - V1.jpg" width="500" title="hover text">
+<img src="../assets/diagrams/WBS/WBS - V1.jpg" width="500" title="hover text">
