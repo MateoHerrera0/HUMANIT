@@ -1179,15 +1179,18 @@ Es por esto por lo que es importante recalcar que la información capturada dent
 ## 5.1. Interfaces de Usuario
 ### Diagrama de Procesos 
  https://lucid.app/lucidchart/f537bb12-606e-4b78-aa77-da29f215a0ba/edit?viewport_loc=49%2C-44%2C5353%2C2575%2C3B0CRSot8otI&invitationId=inv_fc08b46c-fb27-4142-98ad-536a40099759
-  
+
+#### Flujo del Cliente:
 <div align="center">
     <img src="../assets/diagrams/flowCharts/flowChart.png" width="1000" title="hover text">
 </div> 
   
+#### Flujo del Super Administrador:
 <div align="center">
     <img src="../assets/diagrams/flowCharts/flowChart2.png" width="1000" title="hover text">
 </div> 
-  
+
+#### Flujo del Grupo Automotriz:
 <div align="center">
     <img src="../assets/diagrams/flowCharts/flowChart9.png" width="1000" title="hover text">
 </div> 
@@ -1195,15 +1198,18 @@ Es por esto por lo que es importante recalcar que la información capturada dent
 <div align="center">
     <img src="../assets/diagrams/flowCharts/flowChart6.png" width="1000" title="hover text">
 </div> 
-  
+
+#### Flujo de la Agencia:
 <div align="center">
     <img src="../assets/diagrams/flowCharts/flowChart8.png" width="1000" title="hover text">
 </div> 
-  
+
+#### Flujo del Gerente:
 <div align="center">
     <img src="../assets/diagrams/flowCharts/flowChart4.png" width="1000" title="hover text">
 </div> 
-  
+
+#### Flujo del Vendedor:
 <div align="center">
     <img src="../assets/diagrams/flowCharts/flowChart7.png" width="1000" title="hover text">
 </div> 
