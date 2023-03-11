@@ -165,6 +165,7 @@ Algunos aspectos de la solución, que quedan mas allá de nuestra propuesta como
 | Stack Tecnológico | Ecosistema tecnológico, conjunto de lineamientos, servicios y softwares que componen un aplicación |
 
 ## 1.5. Referencias
+"IEEE Guide for Software Requirements Specifications," in IEEE Std 830-1984 , vol., no., pp.1-26, 10 Feb. 1984, doi: 10.1109/IEEESTD.1984.119205. https://ieeexplore.ieee.org/document/278253
 
 # 2. Descripción General
 ## 2.1. Perspectiva del Producto
