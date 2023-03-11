@@ -1144,29 +1144,29 @@ https://www.figma.com/file/WTCOBY7Hoe1upAHeEOTFWQ/wireframe?node-id=0%3A1&t=CU4t
 
 ## 5.2. Interfaces de Software
 ### Diagrama de Arquitectura
+<p align="justify"> En esta sección se presenta el diagrama de arquitectura correspondiente a la solución para la plataforma digital de venta de automóviles descrita en este documento. Es relevante mencionar que dicha arquitectura se encuentra implementada en AWS (Amazon Web Services) y por consiguiente utiliza varios de sus servicios.<br>
+  
+<p align="justify"> En términos generales, el diagrama comienza con el “end user” representando el cliente que interactúa con el sistema. Para realizar dicha conexión se pasa por un sistema de autenticación y respectivo DNS para facilitar el acceso al mismo. Posteriormente, se tiene Cloudfront el servicio CDN (Cloud Distribution Network) en el que se almacena el front-end de la aplicación ya que hace uso de caches lo cual permite su rápido acceso. En conjunto con el anterior, se utiliza un S3 Bucket para almacenar información estática como archivos multimedia que requieran un fácil acceso. <br>
+  
+<p align="justify"> Para la conexión entre el front-end y el back-end de la plataforma se utiliza un API Gateway. Ahora bien, profundizando en la arquitectura del back-end, para ella se propone utilizar una Lambda que englobe en diferentes Lambda Functions, a las múltiples llamadas definidas para la DB. Por consiguiente, dicha Lambda se tiene comunicación con DB de la aplicación compuesta por una DB no relacional en MongoDB y una relacional en MySQL, que a su vez se comunica con un sistema automático de backup. En este apartado es relevante mencionar la ventaja que el uso de Lambdas trae consigo, ya que al este ser un servicio ligero y reactivo a eventos, permite que el recurso sea únicamente agotado cuando está en uso, así reduciendo costos a comparación de otros servicios como EC2 que siempre está activo a pesar de no estar siendo utilizado.<br>
+  
+<p align="justify"> En cuanto a los flujos relevantes del diagrama, está el “Purchase Workflow” que hace uso de una herramienta externa de pago; así como el “OCR Workflow” que se encarga de la revisión automatizada de información por lo cual para ello utiliza las herramientas de AWS Textract y Rekognition para analizar automáticamente documentos e imágenes respectivamente.<br>
+
 1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/Architecture%20Diagram.drawio.png
 <div align="center">
-    <img src="../assets/diagrams/architectures/Architecture Diagram.drawio.png" width="500" title="hover text">
+    <img src="Architecture Diagram.drawio.png" width="500" title="hover text">
 </div> 
   
-Componentes:
-1. Route53: Servicio de DNS proporcionado por AWS.
-2. AWS Shield: Servicio de protección ante ataques DDoS proporcionado por AWS.
-3. WAF: Firewall de aplicaciones web de AWS. Contiene preconfiguraciones de reglas que protegen ante los top 10 riesgos de seguridad según OWASP.
-4. CloudFront. Servicio de CDN (cloud distribution network) proporcionado por AWS. Hace uso de edge locations (caches) para generar conexiones más rápidas. CloudFront también encripta la comunicación entre el servidor y cliente.
-5. Elastic Load Balancer: Servicio de AWS que automáticamente distribuye el tráfico entrante a diferentes destinos (EC2). Si una instancia de EC2 tiene mucho tráfico, este servicio automáticamente redirige a usuarios entrantes a otras instancias para generar un mejor desempeño de la aplicación.
-6. Auto Scaling Group: Servicio de AWS que permite la creación automática de nuevas instancias de EC2 si se requiere en relación al tráfico entrante, y las destruye cuando no se necesiten. Esto ayuda a la escalabilidad del sistema.
-7. Web Server (EC2): Máquina virtual EC2  encargada del despliegue del front-end.
-8. App Server (EC2): Máquina virtual EC2 encargada del despliegue del back-end.
-9. Elasticache: Caché de base de datos proporcionada por AWS. Queries de información frecuentemente utilizadas suceden dentro del caché, ayudando al rendimiento de la aplicación.
-10. mySQL: Base de datos relacional.
-11. MongoDB: Base de datos no relacional.
-12. Rekognition (Opcional): Servicio de computer vision de AWS capaz de detectar contenido inapropiado, texto y biométricos en imágenes y videos.
-13. Textract (Opcional):  Servicio de OCR proporcionado por AWS  capaz de extraer texto de documentos.
-14. S3 Bucket for media: Bucket para almacenamiento de documentos e imágenes de la aplicación web
-15. S3 Bucket for ECD & DB backup: Bucket para almacenamiento de copias de seguridad de instancias EC2 y bases de datos.
-16. CloudWatch: Servicio de monitor cloud de AWS.
-17. IAM: Servicios de autorización y autenticación configurables dentro de AWS.
+<b>Componentes:</b><br>
+ A continuación se encuentra una descripción detallada de los servicios y componentes vistos en el diagrama anterior:
+  
+1. <b>CloudFront</b>. Servicio de CDN (cloud distribution network) proporcionado por AWS. Hace uso de edge locations (caches) para generar conexiones más rápidas. CloudFront también encripta la comunicación entre el servidor y cliente.
+2. <b>mySQL:</b> Base de datos relacional.
+3. <b>MongoDB:</b> Base de datos no relacional.
+4. <b>Rekognition (Opcional):</b> Servicio de computer vision de AWS capaz de detectar contenido inapropiado, texto y biométricos en imágenes y videos.
+5. <b>Textract (Opcional):</b>  Servicio de OCR proporcionado por AWS  capaz de extraer texto de documentos.
+6. <b>S3 Bucket for media:</b> Bucket para almacenamiento de documentos e imágenes de la aplicación web
+7. <b>S3 Bucket for ECD & DB backup:</b> Bucket para almacenamiento de copias de seguridad de instancias EC2 y bases de datos.
 
 ## 5.3. Interfaces de Hardware 
 ### No aplica
