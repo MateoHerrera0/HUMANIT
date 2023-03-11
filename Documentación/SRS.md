@@ -1089,6 +1089,13 @@ Versión 1
 </div> 
 
 ## 4.2. Diccionario de Datos
+Debido al alcance del proyecto se espera que la aplicación sea capaz de almacenar información de los usuarios, vehículos y procesos dentro de ella. A continuación se encuentra una sintensis de todas las entidades que co-existiran en el servicio:
+1. Usuario_Cliente: almacena al usuario que tiene como propósito realizar la compra de un vehículo, se almacena su información.
+2. Usuario_Vendedor: almacena al usuario que tiene como propósito vender un vehículo, este usuario tiene una relación de m:1 con la entidad "Usuario_Gerente" al igual que con la entidad "Usuario_Agencia".
+3. Usuario_Gerente: almacena al usuario que tiene como propósito supervisar a los vendedores de una agencia. Este usuario tiene una relación m:1 con la entidad "Usuario_Agencia" y 1:m con otros usuarios gerentes. 
+4. Usuario_Agencia: almacena la información de una agencia, brindandole un usuario. Esta entidad tiene una relación m:1 con la entidad "Usuario_GA"  y 1:m con la entidad "Usuario_Gerente".
+5. Usuario_GA: esta entidad se refiere a un grupo automotriz, almacena la información del grupo brindandole un usuario. 
+6. Usuario_SA: esta entidad se refiere al usuario super-administrador, que es responsable de dar de alta en la plataforma grupos automotrices y dar de alta agencias en conjunto con el grupo automotriz.  
 
 ## 4.3. Reportes 
 Se busca que la plataforma sea capaz de producir diferentes estádisticas y dependiendo el rol del usuario y sus permisos se le muestran diferentes datos y aspectos de la plataforma. Algunas de las estadísticas que se pretenden mostrar en la aplicación son:
