@@ -1275,13 +1275,15 @@ Debido a las diferencias legales que se presentan de acuerdo a la región polít
 # 9. Apéndices
 
 ## 1. WBS
-Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/WBS%20-%20V1.pdf
-<img src="../assets/diagrams/WBS/WBS - V1.jpg" width="500" title="hover text">
+https://docs.google.com/spreadsheets/d/1mhZ_qIYWIUyUSCxu1mOtZAXbmx8PcQmU7t2N_OtFEqQ/edit?usp=sharing
 
 ## 2. Gantt
+https://tec95061.monday.com/boards/4072044099
 
 ## 3. Budget and Effort Analysis
+https://docs.google.com/spreadsheets/d/1ly0dWI62bnknZJVVpErckTMsAR-R8uxb2mM7pmTSej0/edit?usp=sharing
 
-## 4. Historias de Usuario
+## 4. [Historias de Usuario](HistoriasDeUsuario.md)
 
 ## 5. Administración de Riesgos
+https://docs.google.com/spreadsheets/d/1xujlj3pWdxhrvX1wZ9oN0m2dJ_TPj0les43tetmMe4w/edit?usp=sharing
