@@ -1172,10 +1172,17 @@ Componentes:
 ### No aplica
 
 ## 5.4. Interfaces de Comunicación
-1. E-mail
-2. Entrega y Reconocimiento de Documentos
-3. Sistema de Chat
-4. Plataforma de Pago
+<div style="text-align: justify">
+<ol>
+<li> E-mail
+<div>Se integrará un servicio de respuesta automática por correo, utilizando una herramienta como MailChimp. Este servicio permitirá a los usuarios recibir notificaciones de los cambios en el estado de su solicitud, así como de los cambios en la información de la misma.</div></li>
+
+<li>Entrega y Reconocimiento de Documentos
+<div>Se desarrollarán interfaces donde el usuario pueda arrastrar o elegir documentos desde su sistema de archivos, asegurando que el formato sea el adecuado. El sistema deberá ser capaz de reconocer el tipo de documento y verificar la identidad por medio de un servicio de validacion de identidad facial. El sistema tambien deberá validar los carnets de identidad y licencias a pàrtir del texto que contengan.</div></li>
+<li>Sistema de Chat
+<div>Se integrará una herramienta externa para instanciar chat en tiempo real entre los usuarios y los administradores de la aplicación para dar seguimiento a las solicitudes.</div></li>
+<li>Plataforma de Pago
+<div>Se integrará una plataforma de pago para que los usuarios puedan pagar por los servicios de la aplicación a partir de un servicio como OpenPay o Stripe.</div></li>
 
 # 6. Atributos de Calidad
 ## 6.1. Usabilidad
@@ -1193,4 +1200,3 @@ Debido a las diferencias legales que se presentan de acuerdo a la región polít
 1. WBS
 Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/WBS%20-%20V1.pdf
 <img src="WBS - V1.jpg" width="500" title="hover text">
-
