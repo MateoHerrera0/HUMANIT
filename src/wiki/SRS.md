@@ -36,21 +36,19 @@ Requirements Specification
 
     1.4. [Objetivos SMART](#13-objetivos-smart)
 
-    1.4. [Definiciones, Acrónimos y Abreviaciones](#14-definiciones-acrónimos-y-abreviaciones)
-
-    1.6. [Referencias](#16-referencias)
+    1.5. [Referencias](#16-referencias)
 
 2. [Descripción General](#2-descripción-general)
 
     2.1. [Pespectiva del Producto](#21-perspectiva-del-producto)
 
-    2.2. [Clases de Usuarios y Características](#21-clases-de-usuarios-y-características)
+    2.2. [Clases de Usuarios y Características](#22-clases-de-usuarios-y-características)
 
-    2.3. [Ambiente de Desarrollo](#22-ambiente-de-desarrollo)
+    2.3. [Ambiente de Desarrollo](#23-ambiente-de-desarrollo)
 
-    2.3. [Restricciones del Diseño e Implementación](#23-restricciones)
+    2.4. [Restricciones del Diseño e Implementación](#24-restricciones-de-implementación-y-diseño)
 
-    2.4. [Suposiciones y Dependencias](#24-suposiciones-y-dependencias)
+    2.5. [Suposiciones y Dependencias](#25-suposiciones-y-dependencias)
 
 3. [Características del Sistema](#3-características-del-sistema)
 
@@ -58,44 +56,53 @@ Requirements Specification
 
     3.2. [Requerimientos No Funcionales](#32-requerimientos-no-funcionales)
 
-    3.3. [Diagrama de Procesos](#33-diagrama-de-procesos)
+    3.3. [Diagrama de Casos de Uso](#33-diagramas-de-casos-de-uso)
 
-4. Requerimientos de Datos
+4. [Requerimientos de Datos](#4-requerimientos-de-datos) 
 
-    4.1. Modelo de Datos Lógico: Diagrama Entidad-Relación
+    4.1. [Modelo de Datos Lógico: Diagrama Entidad-Relación](#41-modelo-de-datos-lógico-diagrama-entidad-relación)
 
-    4.2. Diccionario de Datos
+    4.2. [Diccionario de Datos](#42-diccionario-de-datos)
 
-    4.3. Reportes
+    4.3. [Reportes](#43-reportes)
 
-    4.4. Adquisición, Integridad, Retención y Eliminación de Datos  
+    4.4. [Adquisición, Integridad, Retención y Eliminación de Datos](#44-adquisición-de-datos-integridad-retención-y-eliminación)  
 
-5. Requerimientos de Interfaces Externas
+5. [Requerimientos de Interfaces Externas](#5-requerimientos-de-interfaces-externas)
 
-    5.1. Interfaces de Usuario
+    5.1. [Interfaces de Usuario](#51-interfaces-de-usuario)
 
-    5.2. Interfaces de Software
+    5.2. [Interfaces de Software](#52-interfaces-de-software)
 
     5.3. Interfaces de Hardware (N/A)
 
-    5.4. Interfaces de Comunicación
+    5.4. [Interfaces de Comunicación](#54-interfaces-de-comunicación)
 
-6. Atributos de Calidad
+6. [Atributos de Calidad](#6-atributos-de-calidad)
 
-    6.1. Usabilidad
+    6.1. [Usabilidad](#61-usabilidad)
 
-    6.2. Desempeño
+    6.2. [Rendimiento](#62-rendimiento)
 
-    6.3. Seguridad
+    6.3. [Seguridad](#63-seguridad)
 
-    6.4. Protección
+    6.4. [Protección](#64-protección)
 
-7. Internacionalización y Ubicación de Requerimientos
+7. [Internacionalización y Ubicación de Requerimientos](#7-internacionalización-y-ubicación-de-requerimientos)
 
 8. Otros Requerimientos (N/A)
 
-9. Apéndices
+9. [Apéndices](#9-apéndices)
 
+    9.1. [WBS](#1-wbs)
+
+    9.2. [Gantt](#2-gantt)
+
+    9.3. [Budget and Effort Analysis](#3-budget-and-effort-analysis)
+
+    9.4. [Historias de Usuario](#4-historias-de-usuario)
+
+    9.5. [Administración de Riesgos](#5-administración-de-riesgos) 
 
 # 1. Introducción 
 <p align="justify"> El objetivo de este documento es recopilar, analizar y brindar una visión profunda de la aplicación web para NDS Cognitive Labs, definiendo el problema y la solución en detalle. El documento también concentra las capacidades requeridas por todos los stakeholders y sus necesidades definiendo las características del producto.
@@ -115,14 +122,14 @@ Requirements Specification
     <li> La completa protección de datos de usuarios
 </ul>
 
-## 1.3. Enfoque y Alcances
+## 1.2. Enfoque y Alcances
 <p align="justify"> Por medio de una aplicación web que fomente la convivencia entre diferentes agencias, grupos automotrices y marcas se espera que el usuario sea capaz de elegir un vehículo desde un amplio catálogo, encuentre planes de financiamiento que se adapten a sus necesidades y que cuente con una plataforma con diversas formas de pago. El usuario puede solicitar una prueba de manejo si así lo desea y comprar su vehículo en cualquier agencia disponible y puede comunicarse con una agencia (vendedor específico) por medio de un chat en tiempo real.
 
 <p align="justify"> Nuestra aplicación busca habilitar permisos de usuarios y roles administrativos. La plataforma permitirá a usuarios administradores subir catálogos de autos y a sus clientes navegar los mismos. Los clientes también serán capaces de subir los documentos legales requeridos y toda la información solicitada estará cifrada y protegida. La plataforma tendrá una interfaz intuitiva para que los usuarios puedan buscar y filtrar autos de un catálogo, comparar opciones seleccionadas y ver sus especificaciones.
 
 <p align="justify"> Lo que nos distingue de la competencia es nuestra intención de crear un simulador Comparativo de autos, dar recomendaciones personalizadas con Machine Learning y la implementación de un "Wishlist" (Bookmark de autos preferidos). Algunos aspectos de la solución, que quedan mas allá de nuestra propuesta como HumanIT Consulting son el mantenimiento de la aplicación, el servicio y hospedaje para el almacenamiento en Cloudñ y la solución de quejas acerca de la manufactura o el estado de los automóviles.
 
-## 1.4. Objetivos SMART
+## 1.3. Objetivos SMART
 1. _Mejorar la experiencia del usuario:_ para fines de junio 2023, con el lanzamiento de la aplicación, buscamos reducir a la mitad, el tiempo que le toma a un usuario finalizar la compra de un automóvil en la plataforma acelerando el proceso de pago y mejorando la interfaz de usuario.
 2. _Mejorar el servicio al cliente:_ para mediados de abril 2023, se busca implementar un chatbot que pueda ofrecer ayuda las 24 horas, los 7 días de la semana y reducir a la mitad los tiempos de respuesta a las consultas de los clientes. Esto mejorará el servicio al cliente en la plataforma.
 3. _Aumentar las opciones de pago:_ para fines de mayo de 2023, se busca incluir una pasarela de pago que acepte más formas de pago para ampliar la cantidad de alternativas de pago disponibles para los clientes en la plataforma.
@@ -130,7 +137,7 @@ Requirements Specification
 5. _Mejorar la seguridad de la plataforma:_ para evitar violaciones de datos y garantizar la privacidad del consumidor, se agregara autenticación y la verificación de autorización y se incluirá el cifrado de datos para fines de abril de 2023. 
 6. _Implemente análisis predictivos:_ uso de análisis predictivo para fines de junio de 2023 con el objetivo de estudiar los datos de los clientes y ofrecer sugerencias de automóviles individuales, lo que lleva a un aumento en la satisfacción del cliente.
 
-## 1.5. Convenciones de Documento
+## 1.4. Convenciones de Documento
 | Concepto   | Descripción       |  
 | :---------:|:-------------     | 
 | SQL        | Structured Query Language, lenguaje de programación para almacenar y procesar información en una base de datos relacional|                           
@@ -139,7 +146,7 @@ Requirements Specification
 | AWS        | Amazon Web Services, colección de servicios de computación en la nube pública que en conjunto forman una plataforma de computación en la nube, ofrecidas a través de Internet por Amazon.com|  
 | Stack Tecnológico | Ecosistema tecnológico, conjunto de lineamientos, servicios y softwares que componen un aplicación |
 
-## 1.6. Referencias
+## 1.5. Referencias
 
 # 2. Descripción General
 ## 2.1. Perspectiva del Producto
@@ -1241,21 +1248,22 @@ Componentes:
 ## 6.3. Seguridad 
 ## 6.4. Protección
 
-# 7. Requerimientos de Internacionalización y Localización 
+# 7. Internacionalización y Ubicación de Requerimientos 
 Debido a las diferencias legales que se presentan de acuerdo a la región política y geográfica, los requerimientos para la internacionalización y localización de la aplicación dependerán del proveedor, los stakeholders y las legislaciones particulares de cada país. El alcance de la aplicación en ese momento es exclusivo de México.
 
 # 8. Otros Requerimientos
 ### No aplica
 
 # 9. Apéndices
-1. WBS
+
+## 1. WBS
 Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/WBS%20-%20V1.pdf
 <img src="../assets/diagrams/WBS/WBS - V1.jpg" width="500" title="hover text">
 
-2. Gantt
+## 2. Gantt
 
-3. Budget and Effort Analysis
+## 3. Budget and Effort Analysis
 
-4. Historias de Usuario
+## 4. Historias de Usuario
 
-5. Administración de Riesgos
+## 5. Administración de Riesgos
