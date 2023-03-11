@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../Logos/humanIT.005.png" width="300" title="hover text">
+  <img src="../assets/Logos/humanIT.005.png" width="300" title="hover text">
 </p>
 <hr/>
 
@@ -253,7 +253,7 @@ A continuación se encuentra la visualización gráfica del Tech Stack de la sol
 <b>Link al diagrama:</b>
 https://www.figma.com/file/yLADWuGigqfuYnZxik1LG7/Tech-Stack-Diagram-(Copy)?node-id=0%3A1&t=aLeCQBq4z7graTVD-1
 <p align="center">
-  <img src="TechStackChart.png" width="600" title="hover text">
+  <img src="../assets/diagrams/TechStackChart.png" width="600" title="hover text">
 </p>
 
 ## 2.4. Restricciones de Implementación y Diseño
@@ -1108,31 +1108,31 @@ Es por esto por lo que es importante recalcar que la información capturada dent
  https://lucid.app/lucidchart/f537bb12-606e-4b78-aa77-da29f215a0ba/edit?viewport_loc=49%2C-44%2C5353%2C2575%2C3B0CRSot8otI&invitationId=inv_fc08b46c-fb27-4142-98ad-536a40099759
   
 <div align="center">
-    <img src="flowChart.png" width="1000" title="hover text">
+    <img src="../assets/diagrams/flowCharts/flowChart.png" width="1000" title="hover text">
 </div> 
   
 <div align="center">
-    <img src="flowChart2.png" width="1000" title="hover text">
+    <img src="../assets/diagrams/flowCharts/flowChart2.png" width="1000" title="hover text">
 </div> 
   
 <div align="center">
-    <img src="flowChart9.png" width="1000" title="hover text">
+    <img src="../assets/diagrams/flowCharts/flowChart9.png" width="1000" title="hover text">
 </div> 
   
 <div align="center">
-    <img src="flowChart6.png" width="1000" title="hover text">
+    <img src="../assets/diagrams/flowCharts/flowChart6.png" width="1000" title="hover text">
 </div> 
   
 <div align="center">
-    <img src="flowChart8.png" width="1000" title="hover text">
+    <img src="../assets/diagrams/flowCharts/flowChart8.png" width="1000" title="hover text">
 </div> 
   
 <div align="center">
-    <img src="flowChart4.png" width="1000" title="hover text">
+    <img src="../assets/diagrams/flowCharts/flowChart4.png" width="1000" title="hover text">
 </div> 
   
 <div align="center">
-    <img src="flowChart7.png" width="1000" title="hover text">
+    <img src="../assets/diagrams/flowCharts/flowChart7.png" width="1000" title="hover text">
 </div> 
   
 ### Wireframe
@@ -1146,7 +1146,7 @@ https://www.figma.com/file/WTCOBY7Hoe1upAHeEOTFWQ/wireframe?node-id=0%3A1&t=CU4t
 ### Diagrama de Arquitectura
 1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/Architecture%20Diagram.drawio.png
 <div align="center">
-    <img src="Architecture Diagram.drawio.png" width="500" title="hover text">
+    <img src="../assets/diagrams/architectures/Architecture Diagram.drawio.png" width="500" title="hover text">
 </div> 
   
 Componentes:
@@ -1192,5 +1192,4 @@ Debido a las diferencias legales que se presentan de acuerdo a la región polít
 # 9. Apéndices
 1. WBS
 Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/WBS%20-%20V1.pdf
-<img src="WBS - V1.jpg" width="500" title="hover text">
-
+<img src="../assets/diagrams/WBS/WBS - V1.jpg" width="500" title="hover text">
