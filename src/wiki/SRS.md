@@ -30,13 +30,13 @@ Requirements Specification
         
     1.1. [Propósito](#11-propósito)
 
-    1.2. [Enfoque y Alcance](#12-enfoque-y-alcances)
+    1.2. [Convenciones del Documento](#15-convenciones-de-documento)
 
-    1.3. [Objetivos SMART](#13-objetivos-smart)
+    1.3. [Enfoque y Alcance](#12-enfoque-y-alcances)
+
+    1.4. [Objetivos SMART](#13-objetivos-smart)
 
     1.4. [Definiciones, Acrónimos y Abreviaciones](#14-definiciones-acrónimos-y-abreviaciones)
-
-    1.5. [Convenciones del Documento](#15-convenciones-de-documento)
 
     1.6. [Referencias](#16-referencias)
 
