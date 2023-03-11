@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="Logos/humanIT.005.png" width="300" title="hover text">
+  <img src="./src/assets/Logos/humanIT.005.png" width="300" title="hover text">
 </p>
 <hr/>
 
@@ -23,7 +23,7 @@ At Human-IT we care about people, we look for our clients' and consultants' best
 In this section we present the logo and corporate image of our consulting compamy HumanIT.
 
 <p align="center">
-  <img src="Logos/humanIT.002.png" width="800" title="hover text">
+  <img src="./src/assets/Logos/humanIT.002.png" width="800" title="hover text">
 </p>
 
 <p>
@@ -32,7 +32,7 @@ In this section we present the logo and corporate image of our consulting compam
 <h1 align="center"> Digitization of the Acquisition of a Motor Vehicle </h1>
 
 <p align="center">
-  <img src="Logos/NDS.svg" width="300" title="hover text">
+  <img src="./src/assets/Logos/NDS.svg" width="300" title="hover text">
 </p>
 
 
