@@ -86,9 +86,9 @@ Requirements Specification
 ## 1.2. Enfoque y Alcances
 <p align="justify"> Por medio de una aplicación web que fomente la convivencia entre diferentes agencias, grupos automotrices y marcas se espera que el usuario sea capaz de elegir un vehículo desde un amplio catálogo, encuentre planes de financiamiento que se adapten a sus necesidades y que cuente con una plataforma con diversas formas de pago. El usuario puede solicitar una prueba de manejo si así lo desea y comprar su vehículo en cualquier agencia disponible y puede comunicarse con una agencia (vendedor específico) por medio de un chat en tiempo real.
 
-<p align="justify"> Nuestra aplicación busca habilitar permisos de usuarios y roles administrativos. La plataforma permitirá a usuarios administradores subir catálogos de autos y a sus clientes navegar los mismos. Los clientes también serán capaces de subir los documentos legales requeridos y toda la información solicitada estará encriptada y protegida. La plataforma tendrá una interfaz intuitiva para que los usuarios puedan buscar y filtrar autos de un catálogo, comparar opciones seleccionadas y ver sus especificaciones.
+<p align="justify"> Nuestra aplicación busca habilitar permisos de usuarios y roles administrativos. La plataforma permitirá a usuarios administradores subir catálogos de autos y a sus clientes navegar los mismos. Los clientes también serán capaces de subir los documentos legales requeridos y toda la información solicitada estará cifrada y protegida. La plataforma tendrá una interfaz intuitiva para que los usuarios puedan buscar y filtrar autos de un catálogo, comparar opciones seleccionadas y ver sus especificaciones.
 
-<p align="justify"> Lo que nos diferencia de la competencia es nuestra intención de crear un simulador Comparativo de autos, dar recomendaciones personalizadas con Machine Learning y la implementación de un "Wishlist" (Bookmark de autos preferidos). Algunos aspectos de la solución que nosotros como HumanIT Consulting no cubriremos son el mantenimiento de la aplicación, el servicio y patrocinio del almacenamiento en Cloud y la solución de quejas acerca de la manufactura o el estado de los automóviles.
+<p align="justify"> Lo que nos distingue de la competencia es nuestra intención de crear un simulador Comparativo de autos, dar recomendaciones personalizadas con Machine Learning y la implementación de un "Wishlist" (Bookmark de autos preferidos). Algunos aspectos de la solución, que quedan mas allá de nuestra propuesta como HumanIT Consulting son el mantenimiento de la aplicación, el servicio y hospedaje para el almacenamiento en Cloudñ y la solución de quejas acerca de la manufactura o el estado de los automóviles.
 
 ## 1.3. Objetivos SMART
 1. _Mejorar la experiencia del usuario:_ para fines de junio 2023, con el lanzamiento de la aplicación, buscamos reducir a la mitad, el tiempo que le toma a un usuario finalizar la compra de un automóvil en la plataforma acelerando el proceso de pago y mejorando la interfaz de usuario.
@@ -897,9 +897,9 @@ Versión 1:
         <tr style="height: 20px">
             <td class="s6" dir="ltr">REQ_FUN[047]</td>
             <td class="s7" dir="ltr"></td>
-            <td class="s6" dir="ltr">Encriptar credenciales de las cuentas</td>
+            <td class="s6" dir="ltr">Cifrar credenciales de las cuentas</td>
             <td class="s6" dir="ltr">Almacenar las credenciales (usuario y contraseña) de los usuarios de la
-                plataforma de forma encriptada.</td>
+                plataforma de forma cifrada.</td>
             <td class="s12"></td>
             <td class="s6" dir="ltr">6.2.1</td>
             <td class="s9" dir="ltr">M</td>
@@ -907,8 +907,8 @@ Versión 1:
         <tr style="height: 20px">
             <td class="s6" dir="ltr">REQ_FUN[048]</td>
             <td class="s7" dir="ltr"></td>
-            <td class="s6" dir="ltr">Encriptar archivos subidos</td>
-            <td class="s6" dir="ltr">Almacenar a los archivos subidos a la plataforma de forma encriptada.</td>
+            <td class="s6" dir="ltr">Cifrar archivos subidos</td>
+            <td class="s6" dir="ltr">Almacenar a los archivos subidos a la plataforma de forma cifrada.</td>
             <td class="s7"></td>
             <td class="s6" dir="ltr">6.2.2</td>
             <td class="s9" dir="ltr">M</td>
@@ -1089,6 +1089,13 @@ Versión 1
 </div> 
 
 ## 4.2. Diccionario de Datos
+Debido al alcance del proyecto se espera que la aplicación sea capaz de almacenar información de los usuarios, vehículos y procesos dentro de ella. A continuación se encuentra una sintensis de todas las entidades que co-existiran en el servicio:
+1. Usuario_Cliente: almacena al usuario que tiene como propósito realizar la compra de un vehículo, se almacena su información.
+2. Usuario_Vendedor: almacena al usuario que tiene como propósito vender un vehículo, este usuario tiene una relación de m:1 con la entidad "Usuario_Gerente" al igual que con la entidad "Usuario_Agencia".
+3. Usuario_Gerente: almacena al usuario que tiene como propósito supervisar a los vendedores de una agencia. Este usuario tiene una relación m:1 con la entidad "Usuario_Agencia" y 1:m con otros usuarios gerentes. 
+4. Usuario_Agencia: almacena la información de una agencia, brindandole un usuario. Esta entidad tiene una relación m:1 con la entidad "Usuario_GA"  y 1:m con la entidad "Usuario_Gerente".
+5. Usuario_GA: esta entidad se refiere a un grupo automotriz, almacena la información del grupo brindandole un usuario. 
+6. Usuario_SA: esta entidad se refiere al usuario super-administrador, que es responsable de dar de alta en la plataforma grupos automotrices y dar de alta agencias en conjunto con el grupo automotriz.  
 
 ## 4.3. Reportes 
 Se busca que la plataforma sea capaz de producir diferentes estádisticas y dependiendo el rol del usuario y sus permisos se le muestran diferentes datos y aspectos de la plataforma. Algunas de las estadísticas que se pretenden mostrar en la aplicación son:
@@ -1153,7 +1160,7 @@ Componentes:
 1. Route53: Servicio de DNS proporcionado por AWS.
 2. AWS Shield: Servicio de protección ante ataques DDoS proporcionado por AWS.
 3. WAF: Firewall de aplicaciones web de AWS. Contiene preconfiguraciones de reglas que protegen ante los top 10 riesgos de seguridad según OWASP.
-4. CloudFront. Servicio de CDN (cloud distribution network) proporcionado por AWS. Hace uso de edge locations (caches) para generar conexiones más rápidas. CloudFront también encripta la comunicación entre el servidor y cliente.
+4. CloudFront. Servicio de CDN (cloud distribution network) proporcionado por AWS. Hace uso de edge locations (caches) para generar conexiones más rápidas. CloudFront también cifra la comunicación entre el servidor y cliente.
 5. Elastic Load Balancer: Servicio de AWS que automáticamente distribuye el tráfico entrante a diferentes destinos (EC2). Si una instancia de EC2 tiene mucho tráfico, este servicio automáticamente redirige a usuarios entrantes a otras instancias para generar un mejor desempeño de la aplicación.
 6. Auto Scaling Group: Servicio de AWS que permite la creación automática de nuevas instancias de EC2 si se requiere en relación al tráfico entrante, y las destruye cuando no se necesiten. Esto ayuda a la escalabilidad del sistema.
 7. Web Server (EC2): Máquina virtual EC2  encargada del despliegue del front-end.
@@ -1172,10 +1179,17 @@ Componentes:
 ### No aplica
 
 ## 5.4. Interfaces de Comunicación
-1. E-mail
-2. Entrega y Reconocimiento de Documentos
-3. Sistema de Chat
-4. Plataforma de Pago
+<div style="text-align: justify">
+<ol>
+<li> E-mail
+<div>Se integrará un servicio de respuesta automática por correo, utilizando una herramienta como MailChimp. Este servicio permitirá a los usuarios recibir notificaciones de los cambios en el estado de su solicitud, así como de los cambios en la información de la misma.</div></li>
+
+<li>Entrega y Reconocimiento de Documentos
+<div>Se desarrollarán interfaces donde el usuario pueda arrastrar o elegir documentos desde su sistema de archivos, asegurando que el formato sea el adecuado. El sistema deberá ser capaz de reconocer el tipo de documento y verificar la identidad por medio de un servicio de validacion de identidad facial. El sistema tambien deberá validar los carnets de identidad y licencias a pàrtir del texto que contengan.</div></li>
+<li>Sistema de Chat
+<div>Se integrará una herramienta externa para instanciar chat en tiempo real entre los usuarios y los administradores de la aplicación para dar seguimiento a las solicitudes.</div></li>
+<li>Plataforma de Pago
+<div>Se integrará una plataforma de pago para que los usuarios puedan pagar por los servicios de la aplicación a partir de un servicio como OpenPay o Stripe.</div></li>
 
 # 6. Atributos de Calidad
 ## 6.1. Usabilidad
@@ -1193,4 +1207,3 @@ Debido a las diferencias legales que se presentan de acuerdo a la región polít
 1. WBS
 Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/WBS%20-%20V1.pdf
 <img src="WBS - V1.jpg" width="500" title="hover text">
-
