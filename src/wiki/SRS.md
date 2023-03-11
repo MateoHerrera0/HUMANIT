@@ -115,12 +115,12 @@ Requirements Specification
 <p align="justify"> El propósito del documento es recopilar y analizar todas las ideas que han surgido para definir el sistema y sus requisitos con respecto a los usuarios que harán uso de la aplicación. 
 
 <p align="justify"> En este proyecto en colaboración con NDS Cognitive Labs, se busca la digitalización del proceso de adquisición de vehículos nuevos y seminuevos. La problemática que se busca resolver es agilizar un proceso que se ha vuelto inconveniente y tedioso: la compra de un vehículo. Dicho proceso presenta múltiples inconvenientes desde que no todas las agencias tienen el catálogo completo de autos disponibles hasta la cercanía entre las agencias y el comprador. Nuestra propuesta busca:
-<ul>
+<ol>
     <li> Transparencia en los procesos de compra 
     <li> Un diseño intuitivo y funcional
     <li> Un proceso de compra amigable y conveniente
     <li> La protección de datos de usuarios
-</ul>
+</ol>
 
 ## 1.2. Enfoque y Alcances
 Por medio de una aplicación web que fomente la convivencia entre diferentes agencias, grupos automotrices y marcas se espera que el usuario sea capaz de:
