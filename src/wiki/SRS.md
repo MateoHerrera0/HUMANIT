@@ -329,6 +329,8 @@ https://www.figma.com/file/yLADWuGigqfuYnZxik1LG7/Tech-Stack-Diagram-(Copy)?node
   </ul>
   
 # 3. Características del Sistema
+<p align="justify"> En este apartado se definen las características y aspectos específicos que se requieren del sistema. En específico, se detallan cada uno de los requerimientos funcionales y no funcionales recopilados a lo largo de las diferentes sesiones para el levantamiento de requerimientos que se tuvieron con el cliente. De la misma manera, muestran los diagramas de casos de uso, cuyo propósito es presentar de una manera gráfica y visual el comportamiento esperado de cierta parte del sistema en relación con sus diferentes actores.
+  
 ## 3.1. Requerimientos Funcionales
 Versión 1:
 <table>
