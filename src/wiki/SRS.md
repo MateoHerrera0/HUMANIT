@@ -1135,6 +1135,7 @@ Versión 1
 </table>
 
 ## 3.3. Diagramas de Casos de Uso
+https://lucid.app/lucidchart/3ca1a174-c477-4503-a4a6-288f42759f7a/edit?viewport_loc=-377%2C-497%2C4560%2C3265%2C.Q4MUjXso07N&invitationId=inv_506e812c-2781-48bb-9336-edec1927c1b1 
 
 # 4. Requerimientos de Datos
 ## 4.1. Modelo de Datos Lógico: Diagrama Entidad-Relación 
