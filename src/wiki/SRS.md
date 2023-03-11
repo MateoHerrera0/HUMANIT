@@ -1157,8 +1157,17 @@ https://www.figma.com/file/WTCOBY7Hoe1upAHeEOTFWQ/wireframe?node-id=0%3A1&t=CU4t
 
 ## 5.2. Interfaces de Software
 ### Diagrama de Arquitectura
+<p align="justify"> En esta sección se presenta el diagrama de arquitectura correspondiente a la solución para la plataforma digital de venta de automóviles descrita en este documento. Es relevante mencionar que dicha arquitectura se encuentra implementada en AWS (Amazon Web Services) y por consiguiente utiliza varios de sus servicios.<br>
+  
+<p align="justify"> En términos generales, el diagrama comienza con el “end user” representando el cliente que interactúa con el sistema. Para realizar dicha conexión se pasa por un sistema de autenticación y respectivo DNS para facilitar el acceso al mismo. Posteriormente, se tiene Cloudfront el servicio CDN (Cloud Distribution Network) en el que se almacena el front-end de la aplicación ya que hace uso de caches lo cual permite su rápido acceso. En conjunto con el anterior, se utiliza un S3 Bucket para almacenar información estática como archivos multimedia que requieran un fácil acceso. <br>
+  
+<p align="justify"> Para la conexión entre el front-end y el back-end de la plataforma se utiliza un API Gateway. Ahora bien, profundizando en la arquitectura del back-end, para ella se propone utilizar una Lambda que englobe en diferentes Lambda Functions, a las múltiples llamadas definidas para la DB. Por consiguiente, dicha Lambda se tiene comunicación con DB de la aplicación compuesta por una DB no relacional en MongoDB y una relacional en MySQL, que a su vez se comunica con un sistema automático de backup. En este apartado es relevante mencionar la ventaja que el uso de Lambdas trae consigo, ya que al este ser un servicio ligero y reactivo a eventos, permite que el recurso sea únicamente agotado cuando está en uso, así reduciendo costos a comparación de otros servicios como EC2 que siempre está activo a pesar de no estar siendo utilizado.<br>
+  
+<p align="justify"> En cuanto a los flujos relevantes del diagrama, está el “Purchase Workflow” que hace uso de una herramienta externa de pago; así como el “OCR Workflow” que se encarga de la revisión automatizada de información por lo cual para ello utiliza las herramientas de AWS Textract y Rekognition para analizar automáticamente documentos e imágenes respectivamente.<br>
+
 1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/Architecture%20Diagram.drawio.png
 <div align="center">
+    <img src="Architecture Diagram.drawio.png" width="500" title="hover text">
     <img src="Architecture Diagram.drawio.png" width="500" title="hover text">
 </div> 
   
