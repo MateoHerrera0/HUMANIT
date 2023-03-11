@@ -42,17 +42,13 @@ Requirements Specification
 
 2. [Descripción General](#2-descripción-general)
 
-    2.1. [Clases de Usuarios y Características](#21-clases-de-usuarios-y-características)
+    2.1. [Pespectiva del Producto](#21-perspectiva-del-producto)
 
-    2.2. [Ambiente de Desarrollo](#22-ambiente-de-desarrollo)
+    2.2. [Clases de Usuarios y Características](#21-clases-de-usuarios-y-características)
 
-    2.2.1. [Diagrama de Arquitectura](#221-diagrama-de-arquitectura)
+    2.3. [Ambiente de Desarrollo](#22-ambiente-de-desarrollo)
 
-    2.2.2. [Stack Tecnológico](#222-stack-tecnológico)
-
-    2.2.3. [Diagrama del Tech Stack](#223-diagrama-del-tech-stack)
-
-    2.3. [Restricciones](#23-restricciones)
+    2.3. [Restricciones del Diseño e Implementación](#23-restricciones)
 
     2.4. [Suposiciones y Dependencias](#24-suposiciones-y-dependencias)
 
@@ -63,6 +59,42 @@ Requirements Specification
     3.2. [Requerimientos No Funcionales](#32-requerimientos-no-funcionales)
 
     3.3. [Diagrama de Procesos](#33-diagrama-de-procesos)
+
+4. Requerimientos de Datos
+
+    4.1. Modelo de Datos Lógico: Diagrama Entidad-Relación
+
+    4.2. Diccionario de Datos
+
+    4.3. Reportes
+
+    4.4. Adquisición, Integridad, Retención y Eliminación de Datos  
+
+5. Requerimientos de Interfaces Externas
+
+    5.1. Interfaces de Usuario
+
+    5.2. Interfaces de Software
+
+    5.3. Interfaces de Hardware (N/A)
+
+    5.4. Interfaces de Comunicación
+
+6. Atributos de Calidad
+
+    6.1. Usabilidad
+
+    6.2. Desempeño
+
+    6.3. Seguridad
+
+    6.4. Protección
+
+7. Internacionalización y Ubicación de Requerimientos
+
+8. Otros Requerimientos (N/A)
+
+9. Apéndices
 
 
 # 1. Introducción 
@@ -83,14 +115,14 @@ Requirements Specification
     <li> La completa protección de datos de usuarios
 </ul>
 
-## 1.2. Enfoque y Alcances
+## 1.3. Enfoque y Alcances
 <p align="justify"> Por medio de una aplicación web que fomente la convivencia entre diferentes agencias, grupos automotrices y marcas se espera que el usuario sea capaz de elegir un vehículo desde un amplio catálogo, encuentre planes de financiamiento que se adapten a sus necesidades y que cuente con una plataforma con diversas formas de pago. El usuario puede solicitar una prueba de manejo si así lo desea y comprar su vehículo en cualquier agencia disponible y puede comunicarse con una agencia (vendedor específico) por medio de un chat en tiempo real.
 
 <p align="justify"> Nuestra aplicación busca habilitar permisos de usuarios y roles administrativos. La plataforma permitirá a usuarios administradores subir catálogos de autos y a sus clientes navegar los mismos. Los clientes también serán capaces de subir los documentos legales requeridos y toda la información solicitada estará cifrada y protegida. La plataforma tendrá una interfaz intuitiva para que los usuarios puedan buscar y filtrar autos de un catálogo, comparar opciones seleccionadas y ver sus especificaciones.
 
 <p align="justify"> Lo que nos distingue de la competencia es nuestra intención de crear un simulador Comparativo de autos, dar recomendaciones personalizadas con Machine Learning y la implementación de un "Wishlist" (Bookmark de autos preferidos). Algunos aspectos de la solución, que quedan mas allá de nuestra propuesta como HumanIT Consulting son el mantenimiento de la aplicación, el servicio y hospedaje para el almacenamiento en Cloudñ y la solución de quejas acerca de la manufactura o el estado de los automóviles.
 
-## 1.3. Objetivos SMART
+## 1.4. Objetivos SMART
 1. _Mejorar la experiencia del usuario:_ para fines de junio 2023, con el lanzamiento de la aplicación, buscamos reducir a la mitad, el tiempo que le toma a un usuario finalizar la compra de un automóvil en la plataforma acelerando el proceso de pago y mejorando la interfaz de usuario.
 2. _Mejorar el servicio al cliente:_ para mediados de abril 2023, se busca implementar un chatbot que pueda ofrecer ayuda las 24 horas, los 7 días de la semana y reducir a la mitad los tiempos de respuesta a las consultas de los clientes. Esto mejorará el servicio al cliente en la plataforma.
 3. _Aumentar las opciones de pago:_ para fines de mayo de 2023, se busca incluir una pasarela de pago que acepte más formas de pago para ampliar la cantidad de alternativas de pago disponibles para los clientes en la plataforma.
@@ -98,7 +130,7 @@ Requirements Specification
 5. _Mejorar la seguridad de la plataforma:_ para evitar violaciones de datos y garantizar la privacidad del consumidor, se agregara autenticación y la verificación de autorización y se incluirá el cifrado de datos para fines de abril de 2023. 
 6. _Implemente análisis predictivos:_ uso de análisis predictivo para fines de junio de 2023 con el objetivo de estudiar los datos de los clientes y ofrecer sugerencias de automóviles individuales, lo que lleva a un aumento en la satisfacción del cliente.
 
-## 1.4. Definiciones, Acrónimos y Abreviaciones
+## 1.5. Convenciones de Documento
 | Concepto   | Descripción       |  
 | :---------:|:-------------     | 
 | SQL        | Structured Query Language, lenguaje de programación para almacenar y procesar información en una base de datos relacional|                           
@@ -106,9 +138,6 @@ Requirements Specification
 | BD o DB    | Base de Datos o Database|   
 | AWS        | Amazon Web Services, colección de servicios de computación en la nube pública que en conjunto forman una plataforma de computación en la nube, ofrecidas a través de Internet por Amazon.com|  
 | Stack Tecnológico | Ecosistema tecnológico, conjunto de lineamientos, servicios y softwares que componen un aplicación |
-
-## 1.5. Convenciones de Documento
-### No aplica
 
 ## 1.6. Referencias
 
@@ -1082,7 +1111,7 @@ Versión 1
 
 ## 3.3. Diagramas de Casos de Uso
 
-# 4. Requerimiento de Datos
+# 4. Requerimientos de Datos
 ## 4.1. Modelo de Datos Lógico: Diagrama Entidad-Relación 
 ### Primera Versión
 <div align="center">
