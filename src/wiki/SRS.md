@@ -1116,8 +1116,6 @@ Es por esto por lo que es importante recalcar que la información capturada dent
 
 
 # 5. Requerimientos de Interfaces Externas
-<p align="justify"> En esta sección se presentan las diferentes interfaces que componen a la plataforma propuesta para la solución. De manera específica, se comienza por detallar las interfaces de usuario que hacen referencia al flujo en el que interactúan cada uno de los diferentes tipos de usuario dentro de la aplicación; posteriormente se describen las interfaces de software que hace referencia a la relación e interacción entre los diferentes componentes de software que conforman a la arquitectura de la aplicación; finalmente se listan las interfaces de comunicación que a un nivel más alto de abstracción incluye a los diferentes puntos de comunicación que se ofrecen dentro de la plataforma. 
-  
 ## 5.1. Interfaces de Usuario
 ### Diagrama de Procesos 
  https://lucid.app/lucidchart/f537bb12-606e-4b78-aa77-da29f215a0ba/edit?viewport_loc=49%2C-44%2C5353%2C2575%2C3B0CRSot8otI&invitationId=inv_fc08b46c-fb27-4142-98ad-536a40099759
@@ -1224,3 +1222,11 @@ Debido a las diferencias legales que se presentan de acuerdo a la región polít
 1. WBS
 Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/WBS%20-%20V1.pdf
 <img src="../assets/diagrams/WBS/WBS - V1.jpg" width="500" title="hover text">
+
+2. Gantt
+
+3. Budget and Effort Analysis
+
+4. Historias de Usuario
+
+5. Administración de Riesgos
