@@ -3,7 +3,7 @@
 </p>
 <hr/>
 
-<h2 align="center"> Completa Digitalización del Proceso de Adquisición de un Vehículo 
+<h2 align="center"> Digitalización del Proceso de Adquisición de un Vehículo 
 
 <h2 align="center"> Software 
 Requirements Specification
@@ -107,27 +107,45 @@ Requirements Specification
 # 1. Introducción 
 <p align="justify"> El objetivo de este documento es recopilar, analizar y brindar una visión profunda de la aplicación web para NDS Cognitive Labs, definiendo el problema y la solución en detalle. El documento también concentra las capacidades requeridas por todos los stakeholders y sus necesidades definiendo las características del producto.
 
-<p align="justify"> Nuestra misión para este proyecto es hacer el proceso de compra de un auto de la forma más fácil y conveniente para el usuario haciéndolo completamente en línea.Esto planeamos lograrlo creando una plataforma confiable, transparente y de fácil acceso en la que los clientes puedan tomar decisiones informadas basadas en información confiable y recomendaciones profesionales. Nuestro compromiso con nuestros clientes es ofrecerles una gama variada de autos a través de agencias y grupos automotrices previamente verificadas en nuestra plataforma.
+<p align="justify"> Nuestra misión para este proyecto es hacer el proceso de compra de un auto más fácil y conveniente para el usuario digitalizando dicho proceso. Esto planeamos lograrlo creando una plataforma confiable, transparente y de fácil acceso en la que los clientes puedan tomar decisiones informadas basadas en información confiable y recomendaciones profesionales. Nuestro compromiso con nuestros clientes es ofrecerles una gama variada de autos a través de agencias y grupos automotrices previamente verificadas en nuestra plataforma.
 
-<p align="justify"> Con respecto a nuestra visión, buscamos transformar radicalmente el sector de ventas de autos. Con este proyecto queremos que la experiencia tradicional de la compra de autos cambie por completo y sea de una manera completamente digital y sin estrés. Estamos comprometidos a crear una comunidad confiable de vendedores y compradores donde las transacciones pueden ser completamente en línea, quitando los problemas e inconvenientes asociados a la compra tradicional de autos. 
+<p align="justify"> Con respecto a nuestra visión, buscamos transformar radicalmente el sector de ventas de autos. Con este proyecto queremos que la experiencia tradicional de la compra de autos cambie, se adapte a las nuevas tecnologías y no estrese a los usuarios. Estamos comprometidos a crear una comunidad confiable de vendedores y compradores donde las transacciones puedan ser en línea, quitando los problemas e inconvenientes asociados a la compra tradicional de autos. 
 
 ## 1.1. Propósito
 <p align="justify"> El propósito del documento es recopilar y analizar todas las ideas que han surgido para definir el sistema y sus requisitos con respecto a los usuarios que harán uso de la aplicación. 
 
-<p align="justify"> En este proyecto en colaboración con NDS Cognitive Labs, se busca la completa digitalización del proceso de adquisición de vehículos nuevos y seminuevos. La problemática que se busca resolver es agilizar un proceso que se ha vuelto inconveniente y tedioso: la compra de un vehículo. Dicho proceso presenta múltiples inconvenientes desde que no todas las agencias tienen el catálogo completo de autos disponibles hasta la cercanía entre las agencias y el comprador. Nuestra propuesta busca:
+<p align="justify"> En este proyecto en colaboración con NDS Cognitive Labs, se busca la digitalización del proceso de adquisición de vehículos nuevos y seminuevos. La problemática que se busca resolver es agilizar un proceso que se ha vuelto inconveniente y tedioso: la compra de un vehículo. Dicho proceso presenta múltiples inconvenientes desde que no todas las agencias tienen el catálogo completo de autos disponibles hasta la cercanía entre las agencias y el comprador. Nuestra propuesta busca:
 <ul>
-    <li> La completa transparencia en los procesos de compra 
+    <li> Transparencia en los procesos de compra 
     <li> Un diseño intuitivo y funcional
     <li> Un proceso de compra amigable y conveniente
-    <li> La completa protección de datos de usuarios
+    <li> La protección de datos de usuarios
 </ul>
 
 ## 1.2. Enfoque y Alcances
-<p align="justify"> Por medio de una aplicación web que fomente la convivencia entre diferentes agencias, grupos automotrices y marcas se espera que el usuario sea capaz de elegir un vehículo desde un amplio catálogo, encuentre planes de financiamiento que se adapten a sus necesidades y que cuente con una plataforma con diversas formas de pago. El usuario puede solicitar una prueba de manejo si así lo desea y comprar su vehículo en cualquier agencia disponible y puede comunicarse con una agencia (vendedor específico) por medio de un chat en tiempo real.
+Por medio de una aplicación web que fomente la convivencia entre diferentes agencias, grupos automotrices y marcas se espera que el usuario sea capaz de:
+1. Elegir un vehículo desde un amplio catálogo, 
+2. Encuentre planes de financiamiento que se adapten a sus necesidades,  
+4. Solicitar una prueba de manejo si así lo desea, 
+5. Comprar su vehículo en cualquier agencia disponible,
+6. Comunicarse con una agencia (vendedor específico) por medio de un chat en tiempo real,
+7. Subir los documentos legales requeridos.
 
-<p align="justify"> Nuestra aplicación busca habilitar permisos de usuarios y roles administrativos. La plataforma permitirá a usuarios administradores subir catálogos de autos y a sus clientes navegar los mismos. Los clientes también serán capaces de subir los documentos legales requeridos y toda la información solicitada estará cifrada y protegida. La plataforma tendrá una interfaz intuitiva para que los usuarios puedan buscar y filtrar autos de un catálogo, comparar opciones seleccionadas y ver sus especificaciones.
+Nuestra aplicación busca: 
+1. Habilitar permisos de usuarios y roles administrativos, 
+2. Permitir a usuarios administradores subir catálogos de autos y a sus clientes navegar los mismos,
+3. Tener una interfaz intuitiva para que los usuarios puedan buscar y filtrar autos de un catálogo, 
+4. Comparar opciones seleccionadas y ver sus especificaciones,
+5. Tener una plataforma con diversas formas de pago, 
+6. Que la información solicitada estará cifrada y protegida.
 
-<p align="justify"> Lo que nos distingue de la competencia es nuestra intención de crear un simulador Comparativo de autos, dar recomendaciones personalizadas con Machine Learning y la implementación de un "Wishlist" (Bookmark de autos preferidos). Algunos aspectos de la solución, que quedan mas allá de nuestra propuesta como HumanIT Consulting son el mantenimiento de la aplicación, el servicio y hospedaje para el almacenamiento en Cloudñ y la solución de quejas acerca de la manufactura o el estado de los automóviles.
+Lo que nos distingue de la competencia es nuestra intención de:
+1. Crear un simulador comparativo de autos, 
+2. Dar recomendaciones personalizadas con Machine Learning y 
+3. La implementación de un "Wishlist" (Bookmark de autos preferidos).
+Pero, priorizando la entrega de un MVP funcional, de calidad y que cubra las necesidades del cliente, NDS. 
+
+Algunos aspectos de la solución, que quedan mas allá de nuestra propuesta como HumanIT Consulting son el mantenimiento de la aplicación, el servicio y hospedaje para el almacenamiento en Cloud y la solución de quejas acerca de la manufactura o el estado de los automóviles.
 
 ## 1.3. Objetivos SMART
 1. _Mejorar la experiencia del usuario:_ para fines de junio 2023, con el lanzamiento de la aplicación, buscamos reducir a la mitad, el tiempo que le toma a un usuario finalizar la compra de un automóvil en la plataforma acelerando el proceso de pago y mejorando la interfaz de usuario.
