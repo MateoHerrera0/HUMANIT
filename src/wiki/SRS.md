@@ -1227,28 +1227,22 @@ https://www.figma.com/file/WTCOBY7Hoe1upAHeEOTFWQ/wireframe?node-id=0%3A1&t=CU4t
 
 1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/Architecture%20Diagram.drawio.png
 <div align="center">
-    <img src="../assets/diagrams/architectures/Architecture Diagram.drawio.png" width="500" title="hover text">
-    <img src="../assets/diagrams/architectures/Architecture Diagram.drawio.png" width="500" title="hover text">
+    <img src="../assets/diagrams/architectures/Lambda Architecture Diagram.drawio.png" width="700" title="hover text">
 </div> 
   
-Componentes:
-1. Route53: Servicio de DNS proporcionado por AWS.
-2. AWS Shield: Servicio de protección ante ataques DDoS proporcionado por AWS.
-3. WAF: Firewall de aplicaciones web de AWS. Contiene preconfiguraciones de reglas que protegen ante los top 10 riesgos de seguridad según OWASP.
-4. CloudFront. Servicio de CDN (cloud distribution network) proporcionado por AWS. Hace uso de edge locations (caches) para generar conexiones más rápidas. CloudFront también cifra la comunicación entre el servidor y cliente.
-5. Elastic Load Balancer: Servicio de AWS que automáticamente distribuye el tráfico entrante a diferentes destinos (EC2). Si una instancia de EC2 tiene mucho tráfico, este servicio automáticamente redirige a usuarios entrantes a otras instancias para generar un mejor desempeño de la aplicación.
-6. Auto Scaling Group: Servicio de AWS que permite la creación automática de nuevas instancias de EC2 si se requiere en relación al tráfico entrante, y las destruye cuando no se necesiten. Esto ayuda a la escalabilidad del sistema.
-7. Web Server (EC2): Máquina virtual EC2  encargada del despliegue del front-end.
-8. App Server (EC2): Máquina virtual EC2 encargada del despliegue del back-end.
-9. Elasticache: Caché de base de datos proporcionada por AWS. Queries de información frecuentemente utilizadas suceden dentro del caché, ayudando al rendimiento de la aplicación.
-10. mySQL: Base de datos relacional.
-11. MongoDB: Base de datos no relacional.
-12. Rekognition (Opcional): Servicio de computer vision de AWS capaz de detectar contenido inapropiado, texto y biométricos en imágenes y videos.
-13. Textract (Opcional):  Servicio de OCR proporcionado por AWS  capaz de extraer texto de documentos.
-14. S3 Bucket for media: Bucket para almacenamiento de documentos e imágenes de la aplicación web
-15. S3 Bucket for ECD & DB backup: Bucket para almacenamiento de copias de seguridad de instancias EC2 y bases de datos.
-16. CloudWatch: Servicio de monitor cloud de AWS.
-17. IAM: Servicios de autorización y autenticación configurables dentro de AWS.
+#### Componentes:
+<b>A continuación se encuentra una descripción de los servicios y componentes que conforman a la arquitectura prropuesta:</b><br>
+
+1. <b>CloudFront:</b> Servicio de CDN (cloud distribution network) proporcionado por AWS. Hace uso de edge locations (caches) para generar conexiones más rápidas. CloudFront también cifra la comunicación entre el servidor y cliente.
+2. <b>Web Server (EC2):</b> Máquina virtual EC2  encargada del despliegue del front-end.
+3. <b>App Server (EC2):</b> Máquina virtual EC2 encargada del despliegue del back-end.
+4. <b>mySQL:</b> Base de datos relacional.
+5. <b>MongoDB:</b> Base de datos no relacional.
+6. <b>Rekognition (Opcional):</b> Servicio de computer vision de AWS capaz de detectar contenido inapropiado, texto y biométricos en imágenes y videos.
+7. <b>Textract (Opcional):</b>  Servicio de OCR proporcionado por AWS  capaz de extraer texto de documentos.
+8. <b>S3 Bucket for media:</b> Bucket para almacenamiento de documentos e imágenes de la aplicación web
+9. <b>S3 Bucket for ECD & DB backup:</b> Bucket para almacenamiento de copias de seguridad de instancias EC2 y bases de datos.
+
 
 ## 5.3. Interfaces de Hardware 
 ### No aplica
