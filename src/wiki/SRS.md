@@ -174,31 +174,32 @@ La aplicación busca ser un servicio e-commerce donde un usuario comprador tenga
 La idea del servicio pretende trabajar con tecnologías emergentes para facilitar el proceso de adquisión de un vehículo de agencia.
 
 ## 2.2. Clases de Usuarios y Características
+
 1. _Usuario Comprador_ <br>
-* Usuario que usa la plataforma con el propósito de adquirir un vehículo. 
-* No tiene ningún permiso de tipo administrador como todos los demás usuarios.
-* Tiene una cuenta, perfil y la posibilidad de realizar una transacción monetaria.
+  * Usuario que usa la plataforma con el propósito de adquirir un vehículo. 
+  * No tiene ningún permiso de tipo administrador como todos los demás usuarios.
+  * Tiene una cuenta, perfil y la posibilidad de realizar una transacción monetaria.
 2. _Usuario Vendedor_
-* Primer usuario de tipo administrador, tiene el menor número de privilegios; solamente se le permite acceder a su información y a la de sus clientes.
-* Tiene una cuenta y un perfil.
-* Sus permisos y accesos son asignados por un usuario gerente o agencia.  
+  * Primer usuario de tipo administrador, tiene el menor número de privilegios; solamente se le permite acceder a su información y a la de sus clientes.
+  * Tiene una cuenta y un perfil.
+  * Sus permisos y accesos son asignados por un usuario gerente o agencia.  
 3. _Usuario Gerente_
-* Usuario administrador, sus permisos y acceso es gestionado por el usuario agencia.
-* Se le permite acceder a la información de sus vendedores y los clientes de su sucursal correspondiente. 
-* Tiene una cuenta y un perfil.
+  * Usuario administrador, sus permisos y acceso es gestionado por el usuario agencia.
+  * Se le permite acceder a la información de sus vendedores y los clientes de su sucursal correspondiente. 
+  * Tiene una cuenta y un perfil.
 4. _Usuario Agencia_
-* Usuario administrador, sus permisos y acceso es gestionado por el usuario grupo automotriz. Gestiona al usuario gerente y junto con el, se gestionan los usuarios vendedores. 
-* Se le permite acceder a la información de sus gerentes, vendedores, vehículos y los clientes de la agencia. Dentro de los usuarios de la agencia, es el que más privilegios tiene. 
-* Tiene una cuenta y un perfil.
+  * Usuario administrador, sus permisos y acceso es gestionado por el usuario grupo automotriz. Gestiona al usuario gerente y junto con el, se gestionan los usuarios vendedores. 
+  * Se le permite acceder a la información de sus gerentes, vendedores, vehículos y los clientes de la agencia. Dentro de los usuarios de la agencia, es el que más privilegios tiene. 
+  * Tiene una cuenta y un perfil.
 5. _Usuario Grupo Automotriz_
-* Usuario administrador, sus permisos y acceso es gestionado por el usuario super-administrador.
-* Se le permite acceder a la información de todas las agencias bajo su supervisión, sus catálogos y vehículos, gerentes y vendedores. 
-* Gestiona que sucursales serán parte de la plataforma en conjunto con el usuario super-administrador. 
-* Tiene una cuenta y un perfil.
+  * Usuario administrador, sus permisos y acceso es gestionado por el usuario super-administrador.
+  * Se le permite acceder a la información de todas las agencias bajo su supervisión, sus catálogos y vehículos, gerentes y vendedores. 
+  * Gestiona que sucursales serán parte de la plataforma en conjunto con el usuario super-administrador. 
+  * Tiene una cuenta y un perfil.
 6. _Usuario Super-Administrador_  
-* Usuario con mayor número de privilegios, su acceso y permisos son gestionados por NDS y los desarrolladores. Es el responsable de gestionar a los usuarios grupo automotriz. 
-* Puede acceder a la información de los grupos, agencias, ventas, catálogos y vehículos, al igual que a la información del comportamiento de la plataforma. 
-* Tiene una cuenta y un perfil.
+  * Usuario con mayor número de privilegios, su acceso y permisos son gestionados por NDS y los desarrolladores. Es el responsable de gestionar a los usuarios grupo automotriz. 
+  * Puede acceder a la información de los grupos, agencias, ventas, catálogos y vehículos, al igual que a la información del comportamiento de la plataforma. 
+  * Tiene una cuenta y un perfil.
 
 ## 2.3. Ambiente de Desarrollo
 <p align="justify"> En esta sección, se define el Tech Stack diseñado para la solución que se presenta en este escrito. Como se observa a continuación, dese el IDE de desarrollo de software hasta los navegadores utilizados para acceder al sitio, cada herramienta se ha seleccionado cuidadosamente en función de sus características y compatibilidad con el sistema global.
