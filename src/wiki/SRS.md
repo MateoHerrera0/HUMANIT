@@ -10,11 +10,12 @@ Requirements Specification
 
 <h2 align="center"> Versión 0.3
 
-| Date           | Version       | Description  |  
-| -------------  |:-------------:| :----------- |
-| 26/02/2023     | 0.1           | Creación del Doc SRS|                          
-| 01/03/2023     | 0.2           | Doc en Markdown|      
-| 07/03/2023     | 0.3           | Avance Significativo|      
+| Date       | Version | Description  |  
+|------------|:-------:| :----------- |
+| 26/02/2023 | 0.1     | Creación del Doc SRS|                          
+| 01/03/2023 | 0.2     | Doc en Markdown|      
+| 07/03/2023 | 0.3     | Avance Significativo|     
+| 12/03/2023 | 1       | Primer Entrega |
 
 <h2 align="center"> Authors
 <h3 align="center"> Andreína Sanánez
