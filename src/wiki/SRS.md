@@ -343,7 +343,12 @@ Versión 1:
     </thead>
     <tbody>
         <tr>
-            <td class="s1" dir="ltr" colspan="7">Catálogo de Autos</td>
+            <td colspan="7">Catálogo de Autos</td>
+        </tr>
+        <tr>
+            <td colspan="7">
+                El catálogo se puede cargar desde un documento JSON y muestra diferentes vehículos del grupo automotriz, cada uno denota sus características principales como el modelo y el color.
+            </td>
         </tr>
         <tr style="height: 20px">
             <td class="s5" dir="ltr">ID Req Funcional</td>
@@ -500,6 +505,11 @@ Versión 1:
         </tr>
         <tr style="height: 20px">
             <td class="s1" dir="ltr" colspan="7">Venta de Autos</td>
+        </tr>
+        <tr>
+            <td colspan="7">
+                Del catálogo se puede seleccionar un vehículo; mostrar sus detalles y abrir la vista de venta con el precio final.
+            </td>
         </tr>
         <tr style="height: 20px">
             <td class="s5" dir="ltr" colspan="7">2.1 Seleccionar Pago</td>
@@ -661,6 +671,11 @@ Versión 1:
         <tr style="height: 20px">
             <td class="s1" dir="ltr" colspan="7">Cuentas</td>
         </tr>
+        <tr>
+            <td colspan="7">
+                Las cuentas delimitan los permisos de cada tipo de usuario, y permiten generar una estructura bidimensional de jerarquía donde se asignan administradores para monitorear a otros usuarios.
+            </td>
+        </tr>
         <tr style="height: 20px">
             <td class="s5" dir="ltr" colspan="7">3.1 Creación de cuentas</td>
         </tr>
@@ -809,6 +824,11 @@ Versión 1:
         <tr style="height: 20px">
             <td class="s1" dir="ltr" colspan="7">Servicio al Cliente</td>
         </tr>
+        <tr>
+            <td colspan="7">
+                La plataforma proveé una interfaz de diálogo en tiempo real entre el cliente final y un vendedor de grupo automotriz, donde puede atender a dudas y solicitudes.
+            </td>
+        </tr>
         <tr style="height: 20px">
             <td class="s5" dir="ltr" colspan="7">4.2 Diálogo con Agente por Chat</td>
         </tr>
@@ -840,8 +860,13 @@ Versión 1:
         <tr style="height: 20px">
             <td class="s1" dir="ltr" colspan="7">Admins</td>
         </tr>
+        <tr>
+            <td colspan="7">
+                Los administradores de la plataforma tienen la oportunidad de ver estadísticas y métricas de venta y consulta de los catálogos.
+            </td>
+        </tr>
         <tr style="height: 20px">
-            <td class="s5" dir="ltr" colspan="7">5.1 Estadisticas y metricas</td>
+            <td class="s5" dir="ltr" colspan="7">5.1 Estadísticas y métricas</td>
         </tr>
         <tr style="height: 20px">
             <td class="s6" dir="ltr">REQ_FUN[038]</td>
@@ -937,6 +962,11 @@ Versión 1:
         <tr style="height: 20px">
             <td class="s1" dir="ltr" colspan="7">Seguridad</td>
         </tr>
+        <tr>
+            <td colspan="7">
+            Con el fin de proteger la información de todos los usuarios de la plataforma y de los productos en venta; se utilizan estándares de cifrado de la información, sanitización de las entradas, y control de los permisos de usuario.
+            </td>
+        </tr>
         <tr style="height: 20px">
             <td class="s5" dir="ltr" colspan="7">6.1 Seguridad de la Interfaz</td>
         </tr>
@@ -1001,6 +1031,11 @@ Versión 1
         <tr style="height: 20px">
             <td class="s1" dir="ltr" colspan="7">Catálogo de Autos</td>
         </tr>
+        <tr>
+            <td colspan="7">
+                Como parte de la funcionalidad adicional del catálogo de autos, se toma en consideracion un sistema de recomendacion de autos, una vista comparativa entre productosm y una lista de deseos.
+            </td>
+        </tr>
         <tr style="height: 20px">
             <td class="s5" dir="ltr">ID Req Funcional</td>
             <td class="s5" dir="ltr">ID Historia de Usuario Asociada</td>
@@ -1050,6 +1085,9 @@ Versión 1
         <tr style="height: 20px">
             <td class="s1" dir="ltr" colspan="7">Venta</td>
         </tr>
+            <td colspan="7">
+                Se busca que los procesos de venta dentro de la plataforma sean claros y transparentes, con la inclusión de un sistema de comparacion entre financiamientos y métodos de pago.
+            </td>
         <tr style="height: 20px">
             <td class="s5" dir="ltr" colspan="7">2.1 Cotización</td>
         </tr>
@@ -1077,6 +1115,11 @@ Versión 1
         <tr style="height: 20px">
             <td class="s1" dir="ltr" colspan="7">Recepción de documentos</td>
         </tr>
+        <tr>
+            <td colspan="7">
+                Como parte de la funcionalidad adicional del registro de los documentos, se puede implementar un sistema de reconocimiento de OCR, a forma de que se guardan los datos como texto plano.
+            </td>
+        </tr>
         <tr style="height: 20px">
             <td class="s5" dir="ltr" colspan="7">3.1 Procesamientos de documentos</td>
         </tr>
@@ -1092,6 +1135,11 @@ Versión 1
         </tr>
         <tr style="height: 20px">
             <td class="s1" dir="ltr" colspan="7">Diseño de aplicación web</td>
+        </tr>
+        <tr>
+            <td colspan="7">
+                Se busca que el diseño de la plataforma sea sencillo e intuitivo, asi como flexible, al cargarse en dispositivos con distintas proporciones y resolución.
+            </td>
         </tr>
         <tr style="height: 20px">
             <td class="s5" dir="ltr" colspan="7">4.1 Interface</td>
