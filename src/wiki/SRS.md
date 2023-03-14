@@ -8,7 +8,7 @@
 <h2 align="center"> Software 
 Requirements Specification
 
-<h2 align="center"> Versión 0.3
+<h2 align="center"> Versión 1
 
 | Date       | Version | Description  |  
 |------------|:-------:| :----------- |
