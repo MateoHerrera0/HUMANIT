@@ -310,7 +310,7 @@ A continuación se encuentra la visualización gráfica del Tech Stack de la sol
 <b>Link al diagrama:</b>
 https://www.figma.com/file/yLADWuGigqfuYnZxik1LG7/Tech-Stack-Diagram-(Copy)?node-id=0%3A1&t=aLeCQBq4z7graTVD-1
 <p align="center">
-  <img src="../assets/diagrams/TechStackChart.png" width="600" title="hover text">
+  <img src="../assets/Diagrams/TechStack/TechStackChart.png" width="600" title="hover text">
 </p>
 
 ## 2.4. Restricciones de Implementación y Diseño
@@ -1194,7 +1194,7 @@ https://lucid.app/lucidchart/3ca1a174-c477-4503-a4a6-288f42759f7a/edit?viewport_
 ## 4.1. Modelo de Datos Lógico: Diagrama Entidad-Relación 
 ### Primera Versión
 <div align="center">
-    <img src="../assets/diagrams/entidadRelacion.png" width="1000" title="hover text">
+    <img src="../assets/Diagrams/Entidad Relacion/entidadRelacion.png" width="1000" title="hover text">
 </div> 
 
 ## 4.2. Diccionario de Datos
@@ -1232,36 +1232,36 @@ Es por esto por lo que es importante recalcar que la información capturada dent
 
 #### Flujo del Cliente:
 <div align="center">
-    <img src="../assets/diagrams/flowCharts/flowChart.png" width="1000" title="hover text">
+    <img src="../assets/Diagrams/FlowCharts/flowChart.png" width="1000" title="hover text">
 </div> 
   
 #### Flujo del Super Administrador:
 <div align="center">
-    <img src="../assets/diagrams/flowCharts/flowChart2.png" width="1000" title="hover text">
+    <img src="../assets/Diagrams/FlowCharts/flowChart2.png" width="1000" title="hover text">
 </div> 
 
 #### Flujo del Grupo Automotriz:
 <div align="center">
-    <img src="../assets/diagrams/flowCharts/flowChart9.png" width="1000" title="hover text">
+    <img src="../assets/Diagrams/FlowCharts/flowChart9.png" width="1000" title="hover text">
 </div> 
   
 <div align="center">
-    <img src="../assets/diagrams/flowCharts/flowChart6.png" width="1000" title="hover text">
+    <img src="../assets/Diagrams/FlowCharts/flowChart6.png" width="1000" title="hover text">
 </div> 
 
 #### Flujo de la Agencia:
 <div align="center">
-    <img src="../assets/diagrams/flowCharts/flowChart8.png" width="1000" title="hover text">
+    <img src="../assets/Diagrams/FlowCharts/flowChart8.png" width="1000" title="hover text">
 </div> 
 
 #### Flujo del Gerente:
 <div align="center">
-    <img src="../assets/diagrams/flowCharts/flowChart4.png" width="1000" title="hover text">
+    <img src="../assets/Diagrams/FlowCharts/flowChart4.png" width="1000" title="hover text">
 </div> 
 
 #### Flujo del Vendedor:
 <div align="center">
-    <img src="../assets/diagrams/flowCharts/flowChart7.png" width="1000" title="hover text">
+    <img src="../assets/Diagrams/FlowCharts/flowChart7.png" width="1000" title="hover text">
 </div> 
   
 ### Wireframe
@@ -1281,9 +1281,9 @@ https://www.figma.com/file/WTCOBY7Hoe1upAHeEOTFWQ/wireframe?node-id=0%3A1&t=CU4t
   
 <p align="justify"> En cuanto a los flujos relevantes del diagrama, está el “Purchase Workflow” que hace uso de una herramienta externa de pago; así como el “OCR Workflow” que se encarga de la revisión automatizada de información por lo cual para ello utiliza las herramientas de AWS Textract y Rekognition para analizar automáticamente documentos e imágenes respectivamente.<br>
 
-https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/Architecture%20Diagram.drawio.png
+https://github.com/MateoHerrera0/HUMANIT/blob/SRSchanges/src/assets/Diagrams/Architectures/Lambda%20Architecture%20Diagram.drawio.png
 <div align="center">
-    <img src="../assets/diagrams/architectures/Lambda Architecture Diagram.drawio.png" width="700" title="hover text">
+    <img src="../assets/Diagrams/Architectures/Lambda Architecture Diagram.drawio.png" width="700" title="hover text">
 </div> 
   
 #### Componentes:
@@ -1370,16 +1370,12 @@ Debido a las diferencias legales que se presentan de acuerdo a la región polít
 
 # 9. Apéndices
 
-## 1. WBS
-https://docs.google.com/spreadsheets/d/1mhZ_qIYWIUyUSCxu1mOtZAXbmx8PcQmU7t2N_OtFEqQ/edit?usp=sharing
+## 1. [WBS](../assets/Diagrams/WBS/WBS.pdf)
 
-## 2. Gantt
-https://tec95061.monday.com/boards/4072044099
+## 2. [Gantt](https://tec95061.monday.com/boards/4072044099/)
 
-## 3. Budget and Effort Analysis
-https://docs.google.com/spreadsheets/d/1ly0dWI62bnknZJVVpErckTMsAR-R8uxb2mM7pmTSej0/edit?usp=sharing
+## 3. [Budget and Effort Analysis](../assets/Diagrams/Budget%26Effort/)
 
 ## 4. [Historias de Usuario](HistoriasDeUsuario.md)
 
-## 5. Administración de Riesgos
-https://docs.google.com/spreadsheets/d/1xujlj3pWdxhrvX1wZ9oN0m2dJ_TPj0les43tetmMe4w/edit?usp=sharing
+## 5. [Administración de Riesgos](../assets/Diagrams/Riesgos/AdministracionRiesgo.pdf)
