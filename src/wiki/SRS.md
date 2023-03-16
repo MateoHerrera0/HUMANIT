@@ -1281,7 +1281,7 @@ https://www.figma.com/file/WTCOBY7Hoe1upAHeEOTFWQ/wireframe?node-id=0%3A1&t=CU4t
   
 <p align="justify"> En cuanto a los flujos relevantes del diagrama, está el “Purchase Workflow” que hace uso de una herramienta externa de pago; así como el “OCR Workflow” que se encarga de la revisión automatizada de información por lo cual para ello utiliza las herramientas de AWS Textract y Rekognition para analizar automáticamente documentos e imágenes respectivamente.<br>
 
-https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/Architecture%20Diagram.drawio.png
+https://github.com/MateoHerrera0/HUMANIT/blob/SRSchanges/src/assets/Diagrams/Architectures/Lambda%20Architecture%20Diagram.drawio.png
 <div align="center">
     <img src="../assets/Diagrams/Architectures/Lambda Architecture Diagram.drawio.png" width="700" title="hover text">
 </div> 
