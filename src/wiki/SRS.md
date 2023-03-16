@@ -310,7 +310,7 @@ A continuación se encuentra la visualización gráfica del Tech Stack de la sol
 <b>Link al diagrama:</b>
 https://www.figma.com/file/yLADWuGigqfuYnZxik1LG7/Tech-Stack-Diagram-(Copy)?node-id=0%3A1&t=aLeCQBq4z7graTVD-1
 <p align="center">
-  <img src="../assets/diagrams/TechStackChart.png" width="600" title="hover text">
+  <img src="../assets/Diagrams/TechStack/TechStackChart.png" width="600" title="hover text">
 </p>
 
 ## 2.4. Restricciones de Implementación y Diseño
@@ -1194,7 +1194,7 @@ https://lucid.app/lucidchart/3ca1a174-c477-4503-a4a6-288f42759f7a/edit?viewport_
 ## 4.1. Modelo de Datos Lógico: Diagrama Entidad-Relación 
 ### Primera Versión
 <div align="center">
-    <img src="../assets/diagrams/entidadRelacion.png" width="1000" title="hover text">
+    <img src="../assets/Diagrams/Entidad Relacion/entidadRelacion.png" width="1000" title="hover text">
 </div> 
 
 ## 4.2. Diccionario de Datos
@@ -1232,36 +1232,36 @@ Es por esto por lo que es importante recalcar que la información capturada dent
 
 #### Flujo del Cliente:
 <div align="center">
-    <img src="../assets/diagrams/flowCharts/flowChart.png" width="1000" title="hover text">
+    <img src="../assets/Diagrams/FlowCharts/flowChart.png" width="1000" title="hover text">
 </div> 
   
 #### Flujo del Super Administrador:
 <div align="center">
-    <img src="../assets/diagrams/flowCharts/flowChart2.png" width="1000" title="hover text">
+    <img src="../assets/Diagrams/FlowCharts/flowChart2.png" width="1000" title="hover text">
 </div> 
 
 #### Flujo del Grupo Automotriz:
 <div align="center">
-    <img src="../assets/diagrams/flowCharts/flowChart9.png" width="1000" title="hover text">
+    <img src="../assets/Diagrams/FlowCharts/flowChart9.png" width="1000" title="hover text">
 </div> 
   
 <div align="center">
-    <img src="../assets/diagrams/flowCharts/flowChart6.png" width="1000" title="hover text">
+    <img src="../assets/Diagrams/FlowCharts/flowChart6.png" width="1000" title="hover text">
 </div> 
 
 #### Flujo de la Agencia:
 <div align="center">
-    <img src="../assets/diagrams/flowCharts/flowChart8.png" width="1000" title="hover text">
+    <img src="../assets/Diagrams/FlowCharts/flowChart8.png" width="1000" title="hover text">
 </div> 
 
 #### Flujo del Gerente:
 <div align="center">
-    <img src="../assets/diagrams/flowCharts/flowChart4.png" width="1000" title="hover text">
+    <img src="../assets/Diagrams/FlowCharts/flowChart4.png" width="1000" title="hover text">
 </div> 
 
 #### Flujo del Vendedor:
 <div align="center">
-    <img src="../assets/diagrams/flowCharts/flowChart7.png" width="1000" title="hover text">
+    <img src="../assets/Diagrams/FlowCharts/flowChart7.png" width="1000" title="hover text">
 </div> 
   
 ### Wireframe
@@ -1283,7 +1283,7 @@ https://www.figma.com/file/WTCOBY7Hoe1upAHeEOTFWQ/wireframe?node-id=0%3A1&t=CU4t
 
 https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/Architecture%20Diagram.drawio.png
 <div align="center">
-    <img src="../assets/diagrams/architectures/Lambda Architecture Diagram.drawio.png" width="700" title="hover text">
+    <img src="../assets/Diagrams/Architectures/Lambda Architecture Diagram.drawio.png" width="700" title="hover text">
 </div> 
   
 #### Componentes:
