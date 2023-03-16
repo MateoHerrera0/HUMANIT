@@ -1370,16 +1370,12 @@ Debido a las diferencias legales que se presentan de acuerdo a la región polít
 
 # 9. Apéndices
 
-## 1. WBS
-https://docs.google.com/spreadsheets/d/1mhZ_qIYWIUyUSCxu1mOtZAXbmx8PcQmU7t2N_OtFEqQ/edit?usp=sharing
+## 1. [WBS](../assets/Diagrams/WBS/WBS.pdf)
 
-## 2. Gantt
-https://tec95061.monday.com/boards/4072044099
+## 2. [Gantt](https://tec95061.monday.com/boards/4072044099/)
 
-## 3. Budget and Effort Analysis
-https://docs.google.com/spreadsheets/d/1ly0dWI62bnknZJVVpErckTMsAR-R8uxb2mM7pmTSej0/edit?usp=sharing
+## 3. [Budget and Effort Analysis](../assets/Diagrams/Budget%26Effort/)
 
 ## 4. [Historias de Usuario](HistoriasDeUsuario.md)
 
-## 5. Administración de Riesgos
-https://docs.google.com/spreadsheets/d/1xujlj3pWdxhrvX1wZ9oN0m2dJ_TPj0les43tetmMe4w/edit?usp=sharing
+## 5. [Administración de Riesgos](../assets/Diagrams/Riesgos/AdministracionRiesgo.pdf)
