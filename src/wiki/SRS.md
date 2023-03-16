@@ -146,7 +146,7 @@ Lo que nos distingue de la competencia es nuestra intención de:
 3. La implementación de un "Wishlist" (Bookmark de autos preferidos). <br>
 Pero, priorizando la entrega de un MVP funcional, de calidad y que cubra las necesidades del cliente, NDS. 
 
-Algunos aspectos de la solución, que quedan mas allá de nuestra propuesta como HumanIT Consulting son el mantenimiento de la aplicación, el servicio y hospedaje para el almacenamiento en Cloud y la solución de quejas acerca de la manufactura o el estado de los automóviles.
+Algunos aspectos de la solución, que quedan mas allá de nuestra propuesta como HumanIT Consulting son el mantenimiento de la aplicación, el servicio y hospedaje para el almacenamiento en Cloud y la solución de quejas acerca de la manufactura o el estado de los automóviles; así como el servicio de respaldo (backup) y la red de distribución de contenido (CDN).
 
 ## 1.3. Objetivos SMART
 1. _Mejorar la experiencia del usuario:_ al terminar el proyecto, con el lanzamiento de la aplicación, buscamos reducir aproximadamente un 30% el tiempo que le toma a un usuario comparar y adquirir un automóvil.
@@ -1281,7 +1281,7 @@ https://www.figma.com/file/WTCOBY7Hoe1upAHeEOTFWQ/wireframe?node-id=0%3A1&t=CU4t
   
 <p align="justify"> En cuanto a los flujos relevantes del diagrama, está el “Purchase Workflow” que hace uso de una herramienta externa de pago; así como el “OCR Workflow” que se encarga de la revisión automatizada de información por lo cual para ello utiliza las herramientas de AWS Textract y Rekognition para analizar automáticamente documentos e imágenes respectivamente.<br>
 
-1. Versión 1: https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/Architecture%20Diagram.drawio.png
+https://github.com/MateoHerrera0/HUMANIT/blob/main/Documentaci%C3%B3n/Architecture%20Diagram.drawio.png
 <div align="center">
     <img src="../assets/diagrams/architectures/Lambda Architecture Diagram.drawio.png" width="700" title="hover text">
 </div> 
@@ -1289,15 +1289,17 @@ https://www.figma.com/file/WTCOBY7Hoe1upAHeEOTFWQ/wireframe?node-id=0%3A1&t=CU4t
 #### Componentes:
 <b>A continuación se encuentra una descripción de los servicios y componentes que conforman a la arquitectura prropuesta:</b><br>
 
-1. <b>CloudFront:</b> Servicio de CDN (cloud distribution network) proporcionado por AWS. Hace uso de edge locations (caches) para generar conexiones más rápidas. CloudFront también cifra la comunicación entre el servidor y cliente.
-2. <b>Web Server (EC2):</b> Máquina virtual EC2  encargada del despliegue del front-end.
-3. <b>App Server (EC2):</b> Máquina virtual EC2 encargada del despliegue del back-end.
-4. <b>mySQL:</b> Base de datos relacional.
-5. <b>MongoDB:</b> Base de datos no relacional.
-6. <b>Rekognition (Opcional):</b> Servicio de computer vision de AWS capaz de detectar contenido inapropiado, texto y biométricos en imágenes y videos.
-7. <b>Textract (Opcional):</b>  Servicio de OCR proporcionado por AWS  capaz de extraer texto de documentos.
-8. <b>S3 Bucket for media:</b> Bucket para almacenamiento de documentos e imágenes de la aplicación web
-9. <b>S3 Bucket for ECD & DB backup:</b> Bucket para almacenamiento de copias de seguridad de instancias EC2 y bases de datos.
+1. <b>Web Server (EC2):</b> Máquina virtual EC2  encargada del despliegue del front-end.
+2. <b>App Server (EC2):</b> Máquina virtual EC2 encargada del despliegue del back-end.
+3. <b>mySQL:</b> Base de datos relacional.
+4. <b>MongoDB:</b> Base de datos no relacional.
+5. <b>Rekognition (Opcional):</b> Servicio de computer vision de AWS capaz de detectar contenido inapropiado, texto y biométricos en imágenes y videos.
+6. <b>Textract (Opcional):</b>  Servicio de OCR proporcionado por AWS  capaz de extraer texto de documentos.
+7. <b>S3 Bucket for media:</b> Bucket para almacenamiento de documentos e imágenes de la aplicación web
+8. <b>S3 Bucket for ECD & DB backup:</b> Bucket para almacenamiento de copias de seguridad de instancias EC2 y bases de datos.**
+9. <b>CloudFront:</b> Servicio de CDN (cloud distribution network) proporcionado por AWS. Hace uso de edge locations (caches) para generar conexiones más rápidas.** CloudFront también cifra la comunicación entre el servidor y cliente.
+  
+**Tanto el bucket de respaldo y la CDN se sugieren como parte de la arquitectura pero quedan mas allá del alcance de esta implementación.
 
 
 ## 5.3. Interfaces de Hardware 
@@ -1314,7 +1316,7 @@ https://www.figma.com/file/WTCOBY7Hoe1upAHeEOTFWQ/wireframe?node-id=0%3A1&t=CU4t
 <li>Sistema de Chat
 <div>Se integrará una herramienta externa para instanciar chat en tiempo real entre los usuarios y los administradores de la aplicación para dar seguimiento a las solicitudes.</div></li>
 <li>Plataforma de Pago
-<div>Se integrará una plataforma de pago para que los usuarios puedan pagar por los servicios de la aplicación a partir de un servicio como OpenPay o Stripe.</div></li>
+<div>Se integrará una plataforma de pago para que los usuarios puedan pagar por los servicios de la aplicación a partir de un servicio, se sugiere Stripe para esta implementación dado su sistema de comision por transacción; contra alternativas como OpenPay.</div></li>
 
 # 6. Atributos de Calidad
 ## 6.1. Usabilidad

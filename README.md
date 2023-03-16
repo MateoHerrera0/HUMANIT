@@ -87,7 +87,7 @@ Throughout the implementation and release of this platform we are dedicated to s
 <br>
 
 <div align="center">
-    <img src="https://rotulosmatesanz.com/wp-content/uploads/2017/09/2000px-Google_G_Logo.svg_.png" alt="Logo" width="80" height="80">
+    <img src="./src/assets/photos/mat.jpg" alt="Logo" width="80" height="80">
     <h3 align="center">Mateo Herrera Lavalle</h3>
     <p align="center"><i>Security and Business Consultant & Database Developer & Tester</i></p>
 </div>
@@ -95,7 +95,7 @@ Throughout the implementation and release of this platform we are dedicated to s
 <br>
 
 <div align="center">
-    <img src="https://rotulosmatesanz.com/wp-content/uploads/2017/09/2000px-Google_G_Logo.svg_.png" alt="Logo" width="80" height="80">
+    <img src="https://rotulosmatesanz.com/wp-content/uploads/2017/09/2000px-Google_G_Logo.svg_.png" alt="Logo" width="80" height="80" >
     <h3 align="center">Andreina Isabel Sananez Rico</h3>
     <p align="center"><i>Security Consultant & Backend Developer</i></p>
 </div>
@@ -111,7 +111,7 @@ Throughout the implementation and release of this platform we are dedicated to s
 <br>
 
 <div align="center">
-    <img src="https://rotulosmatesanz.com/wp-content/uploads/2017/09/2000px-Google_G_Logo.svg_.png" alt="Logo" width="80" height="80">
+    <img src="./src/assets/photos/salv.jpg" alt="Logo" width="80" height="80">
     <h3 align="center">Salvador Federico Milanés Braniff</h3>
     <p align="center"><i>Back/Front-End Developer & Tester</i></p>
 </div>
