@@ -399,7 +399,7 @@ El propósito de este tipo de pruebas es asegurar que el servicio, en términos 
 - <i>Metodología:</i> Crear escenarios de acuerdo a las situaciones más usuales de los usuarios.
 - <i>Cada cuándo:</i> Al final del proyecto.
 
-### 2.7 Criterios de aceptación de pruebas
+## 2.7 Criterios de aceptación de pruebas
 
 #### <b>Pruebas Informales</b>
 <p align="justify"> Cada desarrollador tiene como responsabilidad realizar una prueba informal a cada componente que finalice. Ya que esta prueba no sigue una metodología específica, el desarrollador sabrá que el componente pasó la prueba si realiza de manera correcta su funcionalidad y trabaja de manera adecuada con otros componentes. 
@@ -503,4 +503,297 @@ El propósito de este tipo de pruebas es asegurar que el servicio, en términos 
 </tbody>
 </table>
 
+## 3. Proceso de gestión de pruebas
+### 3.1 Proceso de ejecución de pruebas
 
+1. Aprobación del plan de pruebas y funcionamiento del ambiente de pruebas en todos los dispositivos que serán utilizados.
+  
+    - El ambiente de pruebas se comprueba por medio de una prueba informal que hagan de manera individual los desarrolladores. 
+
+2. Siguiendo el cronograma del proyecto y el plan de pruebas, el project manager en conjunto con el líder de pruebas asignará a cada líder sus respectivas pruebas.
+
+3. Conforme se finalicen componentes pero el cronograma no indique una prueba, los desarrolladores estarán a cargo de las pruebas informales, y darles seguimiento.
+
+4. Cuando se indique la ejecución de una prueba, cada líder tiene la responsabilidad de asegurarse de delegar las pruebas a sus equipos y darles seguimiento. 
+
+5. Cada desarrollador encargado de una prueba tiene la responsabilidad de documentar su proceso, el resultado de dicha prueba, el seguimiento que se le dará y la corrección de los errores. 
+
+    - El desarrollador tiene la responsabilidad de hacer su proceso de QA e informar si se pasa o no la prueba.
+
+    - Primero se ejecutarán las pruebas de caja negra y en caso de que algún componente falle dicha prueba, se aplicará la prueba de caja blanca de cobertura en general y en algún componente crítico camino básico.
+
+    - Una vez que cada componente pase las pruebas unitarias, se ejecutarán las pruebas de integración.
+
+6. El desarrollador tiene la responsabilidad de informar a sus respectivos líderes acerca del resultado de las pruebas de sus componentes. 
+
+7. Si hay fallas, se le informará a los líderes y al project manager de acuerdo a la gravedad de ellas y se incluirán capturas de pantalla y llenar los formularios propuestos, si es necesario.
+
+8. Este proceso se repite hasta que todos los casos de prueba se ejecuten por completo y tengan un estado en el que ya sea que pasen o fallen.
+
+    - Durante el ciclo siguiente, se probarán las pruebas falladas corregidas y los resultados se actualizarán en el documento durante el ciclo hasta que todas las pruebas pasen. El proceso continúa hasta que se llegue a un estándar comercial, promoviendo fiabilidad, fácil acceso y alta estabilidad.
+
+### 3.2 Riesgos de prueba y factores de mitigación
+
+<table>
+  <thead>
+    <tr>
+      <th>
+        ID
+      </th>
+      <th>
+        Riesgo
+      </th>
+      <th>
+        Fase del Proyecto
+      </th>
+      <th>
+        Sprint
+      </th>
+      <th>
+        Descripci&oacute;n
+      </th>
+      <th>
+        Acciones de Mitigaci&oacute;n
+      </th>
+      <th>
+        Estatus
+      </th>
+      <th>
+        Due&ntilde;o
+      </th>
+      <th>
+        Probabilidad
+      </th>
+      <th>
+        Impacto
+      </th>
+    </tr>
+  </thead>
+    <tr>
+      <td>
+        R_01
+      </td>
+      <td>
+        Que no se d&eacute; el presupuesto necesario para el hosting de la plataforma en la nube.
+      </td>
+      <td>
+        Cloud Deployment
+      </td>
+      <td>
+        Desde 7
+      </td>
+      <td>
+        Los servicios de cloud son costosos pero garantizan seguridad y escalabilidad, se debe de llegar a un acuerdo con el Tec para el uso de estos servicios
+      </td>
+      <td>
+        - Contar con alternativas gratuitas de respaldo como las cuentas con &quot;trial&quot; del servicio con suficiente alcance de tiempo para la entrega del proyecto.
+      </td>
+      <td>
+      </td>
+      <td>
+        G501
+      </td>
+      <td>
+        Media
+      </td>
+      <td>
+        Alto
+      </td>
+    </tr>
+    <tr>
+      <td>
+        R_02
+      </td>
+      <td>
+        Errores en la administraci&oacute;n del GitHub
+      </td>
+      <td>
+        Project Development
+      </td>
+      <td>
+        Desde 5
+      </td>
+      <td>
+        Al ser Github la plataforma en la que compartimos y organizamos nuestros avances, si existe alg&uacute;n error en la plataforma o si nosotros cometemos alg&uacute;n error, nuestro repositorio puede perder informaci&oacute;n o perderse por completo
+      </td>
+      <td>
+        - Regresar a la versi&oacute;n m&aacute;s estable dentro del historial de versiones
+        - Utilizar la versi&oacute;n del dispositivo de alguien
+      </td>
+      <td>
+      </td>
+      <td>
+        G501
+      </td>
+      <td>
+        Baja
+      </td>
+      <td>
+        Alto
+      </td>
+    </tr>
+    <tr>
+      <td>
+        R_03
+      </td>
+      <td>
+        Inclusi&oacute;n de nuevos miembros al equipo
+      </td>
+      <td>
+        Project Development
+      </td>
+      <td>
+        Desde 5
+      </td>
+      <td>
+        Debido a la naturaleza del proyecto, de 4 equipos se formar&aacute; solo un equipo, por lo que la integraci&oacute;n de las ideas y los integrantes puede resultr retadora
+      </td>
+      <td>
+        - Trabajar en c&eacute;lulas de trabajo compuestas de todos los aspectos del proyecto
+        - Utilizar las mejores ideas de cada equipo
+      </td>
+      <td>
+      </td>
+      <td>
+        PM
+      </td>
+      <td>
+        Media
+      </td>
+      <td>
+        Medio
+      </td>
+    </tr>
+    <tr>
+      <td>
+        R_04
+      </td>
+      <td>
+        Divergencia entre los distintos ambientes de desarrollo
+      </td>
+      <td>
+        Project Development
+      </td>
+      <td>
+        Desde 6
+      </td>
+      <td>
+        Ya que se utilizan diferentes librer&iacute;as y dependencias, si el sistema operativo del dispositivo de alg&uacute;n integrante no es compatible con dichos componentes, el desarrollo de la aplicaci&oacute;n puede retrasarse y la productividad y participaci&oacute;n del integrante puede verse afectada
+      </td>
+      <td>
+        - Estandarizar un ambiente de desarrollo
+        - Creaci&oacute;n de un ambiente virtual (anaconda)
+      </td>
+      <td>
+      </td>
+      <td>
+        G501
+      </td>
+      <td>
+        Media
+      </td>
+      <td>
+        Medio
+      </td>
+    </tr>
+  </table>
+
+  ### 3.3 Plan de comunicaciones y lista de equipos
+
+  <table>
+    <thead>
+    <tr>
+      <th>
+        Rol
+      </th>
+      <th>
+        Descripci&oacute;n
+      </th>
+    </tr>
+    </thead>
+    <tr>
+      <td>
+        Project Manager 
+      </td>
+      <td>
+        El miembro que est&aacute; a cargo de un equipo. Deben organizar y planificar las tareas del equipo para que el proyecto tenga &eacute;xito, asegur&aacute;ndose de que se entreguen en tiempo, forma y retroalimentadas. 
+      </td>
+    </tr>
+    <tr >
+      <td>
+        L&iacute;der de Pruebas
+      </td>
+      <td>
+        Miembro del equipo que es responsable de participar y supervisar el desarrollo de las pruebas. Debe de tener en cuenta todos los alcances y criterios de validaci&oacute;n de cada prueba para asegurarse de que se cumplan en tiempo y forma. 
+      </td>
+    </tr>
+    <tr >
+      <td>
+        L&iacute;der de Back-End
+      </td>
+      <td>
+        Miembro del equipo que es responsable de participar y supervisar el desarrollo del back-end. Debe coordinar con todos los equipos de desarrollo el avance y los componentes del proyecto, asignar tareas, asegurarse de que se completen en tiempo y forma y coordinarse con el project manager.
+      </td>
+    </tr>
+    <tr >
+      <td>
+        L&iacute;der de Front-End
+      </td>
+      <td>
+        Miembro del equipo que es responsable de participar y supervisar el desarrollo del front-end. Debe coordinar con todos los equipos de desarrollo, el avance y los componentes del proyecto, asignar tareas, asegurarse de que se completen en tiempo y forma y coordinarse con el project manager.
+      </td>
+    </tr>
+    <tr >
+      <td>
+        L&iacute;der de Base de Datos
+      </td>
+      <td>
+        Miembro del equipo que es responsable de participar y supervisar el desarrollo de la base de datos. Debe coordinar con todos los equipos de desarrollo, el avance y los componentes del proyecto, asignar tareas, asegurarse de que se completen en tiempo y forma y coordinarse con el project manager.
+      </td>
+    </tr>
+    <tr >
+      <td>
+        L&iacute;der de Seguridad
+      </td>
+      <td>
+        Miembro del equipo que es responsable de participar y supervisar la protecci&oacute;n de los diferentes aspectos del proyecto y la autenticaci&oacute;n de los usuarios. Debe coordinar con todos los equipos de desarrollo, el avance y los componentes del proyecto, asignar tareas, asegurarse de que se completen en tiempo y forma y coordinarse con el project manager.
+      </td>
+    </tr>
+    <tr >
+      <td>
+        Equipo de Desarrollo
+      </td>
+      <td>
+        C&eacute;lula de trabajo encargada de requerimientos espec&iacute;ficos,compuesta de un miembro de back-end, uno de front-end, uno de base de datos, uno de seguridad, de pruebas y un project manager.
+      </td>
+    </tr>
+  </table>
+
+### Expectativas del Rol 
+Es importante aclarar que dentro del proyecto presente, todos los involucrados en el desarrollo de la aplicación cumpliran un rol como tester a pesar de las responsabilidades que tengan en otro rol. Por lo antes mencionado, por cada componente que sea finalizado por cualquier persona en el equipo de desarrollo se realizará una prueba informal. De la misma manera, todo el equipo de desarrollo tiene como responsabilidad validar con el cliente los componentes de la aplicación y el entregable final.
+
+La siguiente lista define en términos generales las expectativas relacionadas a los roles que están involucrados con el manejo, planeación o ejecución de la prueba para el proyecto.
+
+### Project Manager 
+Revisa el contenido del plan de pruebas, la estrategia de las pueblas, los estimados, criterios de validación con los equipos de trabajo, líderes y los stakeholders. Recopila la retroalimentación e informa a los demás. Tiene la responsabilidad de darle acompañamiento a las pruebas de caja blanca.
+
+### Líder de Pruebas 
+Junto con el project manager, crea y revisa el contenido del plan de pruebas, la estrategia de las pueblas, los estimados y criterios de validación coordinando la ejecución con las actividades programadas en el cronograma del proyecto. Recibe retroalimentación de los equipos de trabajo, líderes y los stakeholders, se asegura que las pruebas se ejecuten en tiempo y forma y documenta el proceso y los resultados.
+
+### Líder de Back-End 
+Junto con el líder de pruebas y el project manager, suma al contenido del plan de pruebas considerando las actividades programadas para el desarrollo del back-end, el avance del mismo y se asegura de la ejecución de las pruebas de sus componentes y que la integración con los otros equipos sea probada y documentada. Se le asignan pruebas, es parte y delega dichas pruebas y se asegura que las funcionalidades críticas de su desarrollo sean consideradas como parte del plan de pruebas. Tiene un seguimiento de las pruebas informales que sus desarrolladores han ejecutado. 
+
+### Líder de Front-End 
+Junto con el líder de pruebas y el project manager, suma al contenido del plan de pruebas considerando las actividades programadas para el desarrollo del front-end, el avance del mismo y se asegura de la ejecución de las pruebas de sus componentes y que la integración con los otros equipos sea probada y documentada. Se le asignan pruebas, es parte y delega dichas pruebas y se asegura que las funcionalidades críticas de su desarrollo sean consideradas como parte del plan de pruebas. Tiene un seguimiento de las pruebas informales que sus desarrolladores han ejecutado. 
+
+### Líder de Base de Datos 
+Junto con el líder de pruebas y el project manager, suma al contenido del plan de pruebas considerando las actividades programadas para el desarrollo de la base de datos, el avance de la misma y se asegura de la ejecución de las pruebas de sus componentes y que la integración con los otros equipos sea probada y documentada. Se le asignan pruebas, es parte y delega dichas pruebas y se asegura que las funcionalidades críticas de su desarrollo sean consideradas como parte del plan de pruebas. Tiene un seguimiento de las pruebas informales que sus desarrolladores han ejecutado. 
+
+### Líder de Seguridad 
+Junto con el líder de pruebas y el project manager, suma al contenido del plan de pruebas considerando las actividades programadas para la protección de los diferentes aspectos del proyecto y la autenticación de los usuarios, y se asegura de la ejecución de las pruebas de sus componentes y que la integración con los otros equipos sea probada y documentada. Se le asignan pruebas, es parte y delega dichas pruebas y se asegura que las funcionalidades críticas de su desarrollo sean consideradas como parte del plan de pruebas. Tiene un seguimiento de las pruebas informales que sus desarrolladores han ejecutado.
+
+### Equipo de Desarrollo / Testers
+Junto con sus respectivos líderes ejecutan las diferentes pruebas establecidas en el plan y se aseguran de que estas sean ejecutadas en el mismo ambiente siguiendo la metodología. Proveen y dan seguimiento a la retroalimentación y documentan el proceso y los resultados, así garantizando un proceso de QA transparente. Informan a los líderes si existe algún problema o si algún componente necesita ser corregido, se encargan de hacer las pruebas en tiempo y forma (de acuerdo al cronograma), llevan un seguimiento de sus pruebas informales y corrigen sus funcionalidades. Cada integrante del desarrollo tiene la responsabilidad de realizar sus pruebas asignadas de caja negra y junto con el SCRUM Master y el Project Manager realizar las pruebas de caja blanca. 
+
+### Cronograma de Actividades
+[Gantt](https://tec95061.monday.com/boards/4072044099/)
