@@ -1068,6 +1068,12 @@ Junto con sus respectivos líderes ejecutan las diferentes pruebas establecidas 
 
 # 4. Ambiente de Pruebas
 
+- El entorno de prueba consistirá en un entorno de Windows 11 como mínimo, un núcleo Intel i5 o equivalente; 8 GB de RAM.
+- Se utilizarán los servicios de AWS, donde se busca alojar la aplicación web y la base de datos. 
+- Todos los testers trabajaran en la misma versión de la aplicación y base de datos y tendrán las mismas versiones del software utilizado (incluyendo las librerías y dependencias).
+- En caso de ser necesario se usará docker para poder ejecutar las pruebas y estandarizar el ambiente de trabajo.
+
+
 # 5. Pruebas
 
 # 6. Conclusiones
