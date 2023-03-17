@@ -204,18 +204,10 @@ La idea del servicio pretende trabajar con tecnologías emergentes para facilita
 
 ## 2.3. Ambiente de Desarrollo
 <p align="justify"> En esta sección, se define el Tech Stack diseñado para la solución que se presenta en este escrito. Como se observa a continuación, dese el IDE de desarrollo de software hasta los navegadores utilizados para acceder al sitio, cada herramienta se ha seleccionado cuidadosamente en función de sus características y compatibilidad con el sistema global.
-Posteriormente, se describen las ventajas particulares de cada una de estas tecnologías que justifican su elección para la implementación de la solución. De manera específica, se examinan las ventajas de utilizar Visual Studio Code como IDE, MySQL Community Edition para el almacenamiento de cuentas y MongoDB para el almacenamiento de catálogos e información de compra. Además, se exploran las ventajas de utilizar NodeJS para la capa de aplicación, Express para el desarrollo backend, React para el desarrollo front-end y Bootstrap para las bibliotecas de estilo en cascada. Finalmente, se propone el uso de AWS para los servicios en la nube, Stripe para la integración de la pasarela de pago y GitHub para el control de código fuente. 
+Posteriormente, se describen las ventajas particulares de cada una de estas tecnologías que justifican su elección para la implementación de la solución. De manera específica, se examinan las ventajas de utilizar MySQL Community Edition para el almacenamiento de cuentas y MongoDB para el almacenamiento de catálogos e información de compra. Además, se exploran las ventajas de utilizar NodeJS para la capa de aplicación, Express para el desarrollo backend, React para el desarrollo front-end y Bootstrap para las bibliotecas de estilo en cascada. Finalmente, se propone el uso de AWS para los servicios en la nube y Stripe para la integración de la funcionalidad de pago. 
   
-<b>1. Software Development IDE</b>
 
-_Visual Studio Code:_
-* Gratuito - Open Source.
-* Los programadores cuentan con conocimiento y experiencia previa.
-* Compatible con diversos OS.
-* Gran compatibilidad con extensiones/plugins de herramientas externas.
-* Intuitivo de utilizar.
-
-<b>2. Database</b>
+<b>1. Database</b>
 
 _MySQL Community Edition (Almacenamiento de Cuentas):_
 * Gratuito - GPL Licence.
@@ -235,7 +227,7 @@ _MongoDB (Almacenamiento de catálogo e información de la compra):_
 * Estructura no relacional - bueno para manejar muchas read-write operations como lo son búsquedas, filtrado e información referente a la compra del auto.
 * Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
 
-<b>3. Dev. Environments</b>
+<b>2. Dev. Environments</b>
 
 _NodeJS (Application Layer):_
 * Gratuito - Open Source.
@@ -245,7 +237,7 @@ _NodeJS (Application Layer):_
 * Particularmente rápido y escalable al estar construido sobre Chrome V8 Engine.
 * Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
 
-<b>4. Frameworks</b>
+<b>3. Frameworks</b>
 
 _Express:_
 * Gratuito - Open Source.
@@ -254,7 +246,7 @@ _Express:_
 * Provee un conjunto de herramientas que facilitan la creación del backend/API con NodeJS.
 * Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
 
-<b>5. Front-end Development Libraries</b>
+<b>4. Front-end Development Libraries</b>
 
 _React (JavaScript):_
 * Gratuito - Open Source
@@ -263,7 +255,7 @@ _React (JavaScript):_
 * Utiliza virtual DOM lo cual aumenta su rendimiento al permitir que cierta información se maneje y esté disponible “client-side”.
 * Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
 
-<b>6. Cascading Style Libraries</b>
+<b>5. Cascading Style Libraries</b>
 
 _Bootstrap:_
 * Gratuito.
@@ -272,7 +264,7 @@ _Bootstrap:_
 * A comparación de otras opciones que dan más libertad, con Bootstrap es sumamente rápido el desarrollo del UI.
 * Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
 
-<b>7. Cloud Service</b>
+<b>6. Cloud Service</b>
 
 _AWS - Academy Trial:_
 * Se cuenta con 100 USD de crédito por cada integrante (2,000 USD).
@@ -281,7 +273,7 @@ _AWS - Academy Trial:_
 * Ofrece un amplio rango de herramientas y servicios.
 * Proporciona un alto nivel de seguridad necesaria para la documentación legal y otra información confidencial manejada en la compra de un auto.
 
-<b>8. Payment Gateway Integration</b>
+<b>7. Payment Gateway Integration</b>
 
 _Stripe:_
 * Comisión de 2.9% + 30 centavos por cada transacción.
@@ -291,16 +283,7 @@ _Stripe:_
 * Cuenta con servicio al cliente 24/7 ya sea vía teléfono, email o live chat.
 * Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
 
-<b>9. Source Control</b>
-
-_GitHub:_
-* Gratuito.
-* Todos los programadores han utilizado y conocen extensamente la herramienta.
-* Permite repositorios ilimitados - lo cual da versatilidad a la organización que se tome para la realización del proyecto.
-* Permite administrar de forma sencilla y organizada controlar la colaboración, actualizaciones y cambios que se realicen al proyecto por parte de todos los miembros del equipo.
-* Cuenta con una buena comunidad, documentación y material de consulta para su utilización.
-
-<b>10. Browsers</b>
+<b>8. Browsers</b>
 * Firefox
 * Chrome
 * Safari
@@ -310,7 +293,7 @@ A continuación se encuentra la visualización gráfica del Tech Stack de la sol
 <b>Link al diagrama:</b>
 https://www.figma.com/file/yLADWuGigqfuYnZxik1LG7/Tech-Stack-Diagram-(Copy)?node-id=0%3A1&t=aLeCQBq4z7graTVD-1
 <p align="center">
-  <img src="../assets/Diagrams/TechStack/TechStackChart.png" width="600" title="hover text">
+  <img src="../assets/Diagrams/TechStack/techStackDiagram.png" width="600" title="hover text">
 </p>
 
 ## 2.4. Restricciones de Implementación y Diseño
