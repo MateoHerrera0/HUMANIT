@@ -770,6 +770,136 @@ La lista de hitos es tentativa y puede cambiar por las siguientes razones:
     </tr>
   </table>
 
+## 2.10 Estimación de esfuerzo de las pruebas
+
+### Pruebas Estáticas
+<table>
+  <thead>
+    <tr>
+      <th>
+        Tipo de Prueba
+      </th>
+      <th>
+        Horas
+      </th>
+      <th>
+        D&iacute;as
+      </th>
+      <th>
+        Porcentaje del Proyecto
+      </th>
+    </tr>
+  </thead>
+    <tr>
+      <td>
+        SRS
+      </td>
+      <td>
+        56 
+      </td>
+      <td>
+        7
+      </td>
+      <td>
+        7.72%
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Plan de Pruebas
+      </td>
+      <td>
+        56
+      </td>
+      <td>
+        7 
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Recorrido Est&aacute;tico
+      </td>
+      <td>
+        24
+      </td>
+      <td>
+        3
+      </td>
+    </tr>
+  </table>
+
+### Pruebas Funcionales
+
+<table>
+  <thead>
+    <tr>
+      <th>
+        Tipo de Prueba
+      </th>
+      <th>
+        Horas
+      </th>
+      <th>
+        D&iacute;as
+      </th>
+      <th>
+        Porcentaje del Proyecto
+      </th>
+    </tr>
+  </thead>
+    <tr>
+      <td>
+        Pruebas Informales
+      </td>
+      <td>
+        N/A
+      </td>
+      <td>
+        N/A
+      </td>
+      <td>
+        10.61%
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Pruebas de Integraci&oacute;n
+      </td>
+      <td>
+        28
+      </td>
+      <td>
+        3.5
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Pruebas de Caja Negra
+      </td>
+      <td>
+        56
+      </td>
+      <td>
+        7
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Pruebas de Caja Blanca
+        *porcentaje variable dependiendo de qu&eacute; componentes lo necesiten</span>
+        </p>
+      </td>
+      <td>
+        98
+      </td>
+      <td>
+        12.25
+      </td>
+    </tr>
+  </table>
+
+La estimación de esfuerzos anterior representa un 18.33% del total del proyecto.
+
 
 # 3. Proceso de gestión de pruebas
 ## 3.1 Proceso de ejecución de pruebas
