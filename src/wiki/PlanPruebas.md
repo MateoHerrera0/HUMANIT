@@ -503,6 +503,274 @@ El propósito de este tipo de pruebas es asegurar que el servicio, en términos 
 </tbody>
 </table>
 
+### 2.9 
+La lista de hitos es tentativa y puede cambiar por las siguientes razones:
+1. Cualquier problema con la preparación del entorno del Sistema
+2. Cualquier cambio en el alcance o cosas agregadas al alcance del proyecto
+3. Cualquier otra dependencia que afecte el esfuerzo y el tiempo
+
+<table>
+  <thead>
+    <tr>
+      <th>
+        No.
+      </th>
+      <th>
+        Tipo de prueba
+      </th>
+      <th>
+        Ejemplo de Prueba (SUT)
+      </th>
+      <th>
+        Dependencia (DOC)
+      </th>
+    </tr>
+  </thead>
+    <tr>
+      <td>
+        1
+      </td>
+      <td>
+        Pruebas Unitarias
+      </td>
+      <td>
+        Registro de la Plataforma: Probar que el proceso de registro funciona correctamente para cada tipo de usuario.
+      </td>
+      <td>
+        - Base de Datos Completada y conectada. <br> 
+        - API Completado y Funcional.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        2
+      </td>
+      <td>
+        Pruebas Unitarias
+      </td>
+      <td>
+        Login de la Plataforma: Probar que el proceso de Login funciona correctamente para cada tipo de usuario.
+      </td>
+      <td>
+        - Base de Datos Completada y conectada. <br>
+        - API Completado y Funcional. <br>
+        - Configuraci&oacute;n de Autenticaci&oacute;n y Autorizaci&oacute;n <br>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        3
+      </td>
+      <td>
+        Pruebas Unitarias
+      </td>
+      <td>
+        Modificaci&oacute;n del Cat&aacute;logo:&nbsp;Probar que los usuarios autorizados pueden subir, modificar y eliminar elementos del cat&aacute;logo correctamente.
+      </td>
+      <td>
+        - Base de Datos Completada y conectada. <br>
+        - API Completado y Funcional. <br>
+        - Configuraci&oacute;n de privilegios completada.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        4
+      </td>
+      <td>
+        Pruebas Unitarias
+      </td>
+      <td>
+        Funcionalidad de B&uacute;squeda:&nbsp;Probar que los diferentes tipos de usuarios pueden buscar correctamente la informaci&oacute;n que desean mediante la barra de navegaci&oacute;n 
+      </td>
+      <td>
+        - Base de Datos Completada y conectada. <br>
+        - API Completado y Funcional.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        5
+      </td>
+      <td>
+        Pruebas Unitarias
+      </td>
+      <td>
+        Funcionalidad de Filtrado: Probar que los diferentes tipos de usuarios pueden filtrar correctamente la informaci&oacute;n que desean.
+      </td>
+      <td>
+        - Base de Datos Completada y conectada. <br>
+        - API Completado y Funcional.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        6
+      </td>
+      <td>
+        Pruebas Unitarias
+      </td>
+      <td>
+        Funcionalidad de Pago: Probar el proceso de pagos asegurando que los usuarios pueden completar el pago de un auto de manera f&aacute;cil y segura.
+      </td>
+      <td>
+        - Integraci&oacute;n de la herramienta externa de Pago/Transacciones (Stripe)
+      </td>
+    </tr>
+    <tr>
+      <td>
+        7
+      </td>
+      <td>
+        Pruebas Unitarias
+      </td>
+      <td>
+        Funcionalidad de Chat: Probar que los diferentes tipos de usuario pueden comunicarse exitosamente entre s&iacute; mediante el Chat interno de la plataforma.</span>
+        </p>
+      </td>
+      <td>
+        - Base de Datos completada y conectada. <br>
+        - Integraci&oacute;n de librer&iacute;a externa para desarrollo del Chat (Socket IO).
+      </td>
+    </tr>
+    <tr>
+      <td>
+        8
+      </td>
+      <td>
+        Pruebas Unitarias
+      </td>
+      <td>
+        Funcionalidad de Favoritos: Probar que los usuarios puedan seleccionar y guardar sus autos favoritos.
+      </td>
+      <td>
+        - Base de Datos Completada y conectada. <br>
+        - API Completado y Funcional.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        9
+      </td>
+      <td>
+        Pruebas Unitarias 
+      </td>
+      <td>
+        Funcionalidad de An&aacute;lisis de Documentos: Probar que autom&aacute;ticamente se analiza correctamente la validez de un documento.
+      </td>
+      <td>
+        - Integraci&oacute;n de servicio de AWS Textract
+      </td>
+    </tr>
+    <tr>
+      <td>
+        10
+      </td>
+      <td>
+        Pruebas Unitarias
+      </td>
+      <td>
+        Funcionalidad Anal&iacute;tica: Probar que el dashboard muestre la informaci&oacute;n estad&iacute;stica correcta y adecuada para cada tipo de usuario.
+      </td>
+      <td>
+        - Base de Datos Completada y conectada. 
+      </td>
+    </tr>
+    <tr>
+      <td>
+        11
+      </td>
+      <td>
+        Pruebas Integrales
+      </td>
+      <td>
+        Manejo de Solicitudes: Probar que la plataforma maneja correctamente y actualiza la informaci&oacute;n referente a el estado de las solicitudes tanto de compra como de prueba de manejo.
+      </td>
+      <td>
+        - Base de Datos Completada y Conectada. <br>
+        - Interfaz de modificaci&oacute;n de solicitudes completada. 
+      </td>
+    </tr>
+    <tr>
+      <td>
+        12
+      </td>
+      <td>
+        Pruebas Integrales
+      </td>
+      <td>
+        Compra de un auto: Probar que el proceso de compra funciona en todos sus casos (tanto de aprobaci&oacute;n como negaci&oacute;n de la solicitud).
+      </td>
+      <td>
+        - Conexi&oacute;n funcional entre estado de solicitud y cliente. <br>
+        - An&aacute;lisis de documentos completamente funcional. <br>
+        - Sistema de Chat completamente funcional. <br>
+        - Funcional completa del sistema de pagos. <br>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        13
+      </td>
+      <td>
+        Pruebas Integrales
+      </td>
+      <td>
+        Agendado de una prueba de manejo: Probar que el proceso de agendado de un prueba de manejo funciona en todos sus casos (aprobaci&oacute;n y negaci&oacute;n de la solicitud).
+      </td>
+      <td>
+        - Conexi&oacute;n funcional entre estado de solicitud y cliente. <br>
+        - An&aacute;lisis de documentos completamente funcional. <br>
+        - Sistema de Chat completamente funcional. <br>
+        - Conexi&oacute;n funcional entre agenda del vendedor y el cliente. <br>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        14
+      </td>
+      <td>
+        Pruebas de Validaci&oacute;n/Aceptaci&oacute;n
+      </td>
+      <td>
+        El dise&ntilde;o (UI/UX) cumple con los est&aacute;ndares del cliente.
+      </td>
+      <td>
+        Interfaz de dise&ntilde;o completada.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        15
+      </td>
+      <td>
+        Pruebas Est&aacute;ticas de Recorrido
+      </td>
+      <td>
+        Cada uno de los flujos para cada tipo de usuario se relacionan correctamente entre s&iacute;, y cumplen con los est&aacute;ndares y funcionalidad solicitada por el cliente.
+      </td>
+      <td>
+        - Conexi&oacute;n e integraci&oacute;n completa entre el front-end y back-end. <br>
+        - Configuraciones de seguridad completas. 
+      </td>
+    </tr>
+    <tr>
+      <td>
+        16
+      </td>
+      <td>
+        Manual de Usuario
+      </td>
+      <td>
+        Se documenta el instructivo de uso para cada uno de los flujos de la plataforma.
+      </td>
+      <td>
+        - Software completado y flujo completamente funcional
+      </td>
+    </tr>
+  </table>
+
+
 ## 3. Proceso de gestión de pruebas
 ### 3.1 Proceso de ejecución de pruebas
 
