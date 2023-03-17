@@ -885,7 +885,7 @@ La lista de hitos es tentativa y puede cambiar por las siguientes razones:
         Al ser Github la plataforma en la que compartimos y organizamos nuestros avances, si existe alg&uacute;n error en la plataforma o si nosotros cometemos alg&uacute;n error, nuestro repositorio puede perder informaci&oacute;n o perderse por completo
       </td>
       <td>
-        - Regresar a la versi&oacute;n m&aacute;s estable dentro del historial de versiones
+        - Regresar a la versi&oacute;n m&aacute;s estable dentro del historial de versiones <br>
         - Utilizar la versi&oacute;n del dispositivo de alguien
       </td>
       <td>
@@ -917,7 +917,7 @@ La lista de hitos es tentativa y puede cambiar por las siguientes razones:
         Debido a la naturaleza del proyecto, de 4 equipos se formar&aacute; solo un equipo, por lo que la integraci&oacute;n de las ideas y los integrantes puede resultr retadora
       </td>
       <td>
-        - Trabajar en c&eacute;lulas de trabajo compuestas de todos los aspectos del proyecto
+        - Trabajar en c&eacute;lulas de trabajo compuestas de todos los aspectos del proyecto <br>
         - Utilizar las mejores ideas de cada equipo
       </td>
       <td>
@@ -949,7 +949,7 @@ La lista de hitos es tentativa y puede cambiar por las siguientes razones:
         Ya que se utilizan diferentes librer&iacute;as y dependencias, si el sistema operativo del dispositivo de alg&uacute;n integrante no es compatible con dichos componentes, el desarrollo de la aplicaci&oacute;n puede retrasarse y la productividad y participaci&oacute;n del integrante puede verse afectada
       </td>
       <td>
-        - Estandarizar un ambiente de desarrollo
+        - Estandarizar un ambiente de desarrollo <br>
         - Creaci&oacute;n de un ambiente virtual (anaconda)
       </td>
       <td>
