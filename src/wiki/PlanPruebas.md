@@ -49,9 +49,9 @@
 6. Conclusiones<br>
 
 
-## 1. Introducción
+# 1. Introducción
 
-### 1.1 Propósito
+## 1.1 Propósito
 <p align="justify"> El documento presente tiene el objetivo de describir el programa de pruebas que se realizará durante el desarrollo del proyecto con NDS; una plataforma para la venta de automóviles en línea. En particular, este documento contendrá:<br>
 
 * La estrategia y objetivos de las pruebas a realizarse en cada uno de los componentes de la aplicación.
@@ -73,8 +73,8 @@
 * El equipo de desarrollo es responsable de resolver cualquier prueba fallida señalada en el documento.
 * Otros miembros del equipo y las partes interesadas también pueden utilizar el documento como punto de referencia en todo momento para diversos asuntos relacionados con el proyecto.
 
-## 2. Estrategia de Pruebas 
-### 2.1 Descripción de Pruebas
+# 2. Estrategia de Pruebas 
+## 2.1 Descripción de Pruebas
 En el presente apartado se describe a profundidad la estrategia de pruebas que se seguirá durante el proceso de desarrollo de la plataforma web para el cliente NDS.
 
 <p align="justify"><b>Etapa 1 – Comprensión de los Requerimientos, Especificaciones del Proyecto y Pruebas Estáticas:</b><br> Antes de crear una estrategia de pruebas, primero se comprenden y establecen de manera detallada los requerimientos del proyecto. Para ello se tiene una serie de interacciones semanales con el cliente NDS en el cual se documentan de forma clara las características de la solución que cumplen con sus necesidades y objetivos. Al finalizar esta etapa se espera que haya pocos o nulos cambios, ya que el resto del proyecto se desarrollará en base a lo establecido en esta etapa, por lo cuál queda fuera de las etapas de iteración. 
@@ -96,7 +96,7 @@ Para hacer más eficaz nuestro proceso de pruebas de caja blanca, usaremos la t�
 
 <p align="justify">Es relevante mencionar, que en esta estrategia se mantiene un flujo iterativo, donde de ser necesario se actualizará el documento de pruebas o se podrá regresar a etapas de pruebas anteriores para así solucionar cualquier fallo o error en cualquier nivel de la plataforma.
 
-### 2.2 Objetivo de las Pruebas
+## 2.2 Objetivo de las Pruebas
 <p align="justify"> El objetivo de las pruebas que se realizarán durante el transcurso del proyecto es la validación de las funcionalidades fundamentales de la aplicación, al igual que comprobar la correcta implementación de los requerimientos establecidos en el documento SRS. En consideración de este objetivo, las pruebas a realizarse comprenderán:<br>
 
 * Pruebas que aseguren la correcta autorización de usuarios, al igual que la asignación de los premios asociados.
@@ -108,7 +108,7 @@ Pruebas con el objetivo de comprobar el correcto funcionamiento del proceso de c
 * Pruebas asociadas a la creación de usuarios con diferentes permisos. 
 * Pruebas asociadas al funcionamiento de un software estable y listo para producción.
 
-### 2.3 Suposiciones de las Pruebas
+## 2.3 Suposiciones de las Pruebas
 <b>Suposiciones Clave</b><br>
 1. Se dará prioridad a las pruebas funcionales debido a limitantes de tiempo y presupuesto. 
 Todas las pruebas se harán en el mismo ambiente.
@@ -129,7 +129,7 @@ Todas las pruebas se harán en el mismo ambiente.
 12. El equipo de pruebas manejará todo el esfuerzo de ejecución de prueba de forma coordinada con el PM.
 13. El recorrido y manual de usuario se realizará en los últimos sprints.
 
-### 2.4 Objetivos de las Pruebas
+## 2.4 Objetivos de las Pruebas
 <i>Flujo del Cliente:</i><br>
 * Probar la funcionalidad de Login.
 * Probar la funcionalidad de búsqueda de catálogo.
@@ -201,7 +201,7 @@ Todas las pruebas se harán en el mismo ambiente.
 * Probar funcionalidad del sistema de chat.
 * Probar funcionalidad del dashboard estadístico.
 
-### 2.5 Alcance
+## 2.5 Alcance
 <b>Flujo del Cliente:</b><br>
 <i>1. Probar la funcionalidad de Login.</i><br>
 * Acceso válido con Credenciales correctas de super-administrador.
@@ -353,17 +353,17 @@ Todas las pruebas se harán en el mismo ambiente.
 * Las estadísticas son válidas y representativas de los datos dentro del sistema* Las opciones y parámetros presentes dentro de la vista permiten ver estadísticas particulares de acuerdo a la selección de las mismas.
 			
 
-### 2.6 Niveles de Pruebas
+## 2.6 Niveles de Pruebas
 <p align="justify">A continuación se muestran el nivel de las pruebas que se realizarán durante el desarrollo del proyecto, además de detallar algunas de los métodos que se utilizaran al igual que los responsables de dichas pruebas.
 
-#### <b>Pruebas Informales (Prueba Funcional)</b>
+### <b>Pruebas Informales (Prueba Funcional)</b>
 El propósito de este tipo de pruebas es verificar rápidamente el funcionamiento de los componentes del software. Las pruebas de este estilo no tienen ningún tipo de entrega.
 - <i>Alcance:</i> Todas las secciones desarrolladas serán probadas mediante pruebas unitarias informales.
 - <i>Responsables:</i> Los desarrolladores de software.
 - <i>Metodología:</i> Los desarrolladores responsables del componentes se encargaran de realizar pruebas de Input-Output para comprobar su correcto funcionamiento.
 - <i>Cada cuando:</i> En cuanto se finalice, o se modifique algún componente.
 
-#### <b>Prueba de Caja Negra (Prueba Funcional)</b>
+### <b>Prueba de Caja Negra (Prueba Funcional)</b>
 El propósito de las pruebas unitarias es probar cada uno de los componentes y funcionalidades  que comprenden la aplicación que se desarrollará.
 
 - <i>Alcance:</i> Todas las secciones desarrolladas serán probadas mediante pruebas de caja negra.
@@ -371,28 +371,28 @@ El propósito de las pruebas unitarias es probar cada uno de los componentes y f
 - <i>Metodología:</i> Los desarrolladores probarán componentes de la aplicación sin tener conocimiento del código detrás de los mismos componentes, reportando errores en caso de encontrarlos. Específicamente, el tipo de pruebas de caja negra que se realizarán serán pruebas de tipo de casos de uso. Dentro de estas pruebas se realizarán tres baterías negativas y tres baterías positivas que se deberán cumplir cuando se realicen este tipo de pruebas.
 - <i>Cada cuándo:</i> Al finalizar cada componente.
 
-#### <b>Prueba de Caja Blanca (Prueba Funcional)</b>
+### <b>Prueba de Caja Blanca (Prueba Funcional)</b>
 El propósito de este tipo de pruebas es encontrar la causa de algún tipo de falla que se haya encontrado en otro tipo de pruebas. En específico, las pruebas de caja blanca que se realizan son pruebas de cobertura, es decir, se probarán los tres caminos más utilizados por los usuarios. Más aún, se considerará que los caminos seleccionados son apropiados si estos cubren un mínimo de 80%  de los caminos posibles. Este 80% debe regresar resultados de prueba positivos para así justificar que el componente funciona de manera correcta. 
 - <i>Alcance:</i> Cualquier componente de software que presente alguna falla dentro de algún otro tipo de prueba.
 - <i>Responsables:</i> Los desarrolladores de software y los testers.
 - <i>Metodología:</i> Los desarrolladores que se encargaron de crear los componentes en donde se encontraron los errores serán los encargados de realizar pruebas de caja blanca con el objetivo de encontrar que pedazo de código es el que está causando dicho error.
 - <i>Cada cuándo:</i> Al finalizar cada sprint.
 
-#### <b>Prueba de Integración (Prueba Funcional)</b>
+### <b>Prueba de Integración (Prueba Funcional)</b>
 El propósito de las pruebas de integración es comprobar el correcto funcionamiento de la aplicación cuando todos los componentes son utilizados en conjunto. Para efectos de este proyecto, debido a las restricciones de tiempo, este tipo de pruebas sólo serán realizadas en los componentes críticos de la aplicación. 
 - <i>Alcance:</i> Componentes críticos para el funcionamiento de la aplicación
 - <i>Responsables:</i> Los responsables de cada célula de trabajo.
 - <i>Metodología:</i> Los desarrolladores responsables de cada célula, al terminar más de un componente relacionado, empezaran a realizar pruebas e integración. De la misma manera, al terminar el proyecto, se realizarán  nuevas pruebas de este estilo.
 - <i>Cada cuándo:</i> Al terminarse pedazos de software relacionados y al acabar todos los componentes de la aplicación.
 
-#### <b>Prueba de Aceptación (Prueba Funcional)</b>
+### <b>Prueba de Aceptación (Prueba Funcional)</b>
 El propósito de este tipo de pruebas es validar con el equipo de desarrollo y NDS si el sistema está a la par con sus expectativas y cumple las funcionalidades que fueron discutidas en el documento SRS.
 - <i>Alcance:</i> Todos los aspectos del pedazo de software serán probados pruebas de validación. Esto con el objetivo de revisar si aspectos de diseño y funcionalidad de la aplicación están a la par de las expectativas de NDS.
 - <i>Responsables:</i> Rubén Raya (NDS), los desarrolladores, los testers y el SCRUM master..
 - <i>Metodología:</i> Los desarrolladores se reunirán con Rubén Raya y bajo su supervisión se encargará de validar los aspectos importantes de la aplicación desarrollada.
 - <i>Cada cuándo:</i>En cuanto se cumplan las pruebas de integración.
 
-#### <b>Prueba de Recorrido Estático (Validación)</b>
+### <b>Prueba de Recorrido Estático (Validación)</b>
 El propósito de este tipo de pruebas es asegurar que el servicio, en términos de funcionalidad y desempeño, actúe de manera satisfactoria.
 - <i>Alcance:</i> Dado que se trata de una prueba de sistema, el software será probado en completud.
 - <i>Responsables:</i> Desarrolladores no pertenecientes al proyecto, los testers, el SCRUM master y Rubén Raya (NDS). Un recorrido se considera aceptado una vez que sea aprobado por el equipo de desarrolladores y Rubén Raya. Los responsables del proceso de validación son los desarrolladores no pertenecientes al proyecto, Esteban Castillo y Ruben Raya.  
@@ -401,10 +401,10 @@ El propósito de este tipo de pruebas es asegurar que el servicio, en términos 
 
 ## 2.7 Criterios de aceptación de pruebas
 
-#### <b>Pruebas Informales</b>
+### <b>Pruebas Informales</b>
 <p align="justify"> Cada desarrollador tiene como responsabilidad realizar una prueba informal a cada componente que finalice. Ya que esta prueba no sigue una metodología específica, el desarrollador sabrá que el componente pasó la prueba si realiza de manera correcta su funcionalidad y trabaja de manera adecuada con otros componentes. 
  
-#### <b>Pruebas Unitarias</b>
+### <b>Pruebas Unitarias</b>
 - <i>Funcionalidad de Login:</i> Esta funcionalidad nunca debe fallar. Todas las pruebas deben proporcionar el usuario y la página de inicio correctos, o bien enviar un mensaje de error indicando que el usuario no existe. Esto para cada tipo de usuario que permite la plataforma.
 
 - <i>Funcionalidad de Registro:</i> Todas las pruebas deben de crear las credenciales ingresadas de forma correcta en la base de datos o bien enviar un mensaje de error indicando la razón por la cual las credenciales no son permitidas. Igualmente, el registro debe agregar la cuenta con los privilegios y permisos correspondientes a cada tipo de usuario.
@@ -427,20 +427,20 @@ El propósito de este tipo de pruebas es asegurar que el servicio, en términos 
 
 - <i>Funcionalidad Analítica:</i> Todas las pruebas deben permitir que cada tipo de usuario pueda visualizar correctamente las estadísticas e información adecuada para los permisos que le corresponden a dicha cuenta. Esta funcionalidad siempre deberá estar activa, y de haber un error en el lado del servidor, se deberá indicar con un mensaje respectivamente.
 
-#### <b>Pruebas de Integración</b>
+### <b>Pruebas de Integración</b>
 - <i>Manejo de Solicitudes:</i> Todas las pruebas deberán permitir que el usuario en cuestión (Super-Admin y Vendedor) pueda modificar el estado/etapa de cualquier solicitud a su cargo. Asimismo, debe ser posible comentar acerca del estado de una solicitud así informando al aplicante las acciones que debe realizar, o razones que justifican el estado de su solicitud. Finalmente, el usuario que maneja las solicitudes debe de poder negar o aceptar cualquier solicitud. Todo lo descrito anteriormente, debe siempre verse reflejado en la cuenta del usuario aplicante.
 
 - <i>Compra de un Auto:</i> Todas las pruebas deberán permitir que el cliente tenga la capacidad de comprar un auto exitosamente, y que este pase por las dos posibilidades principales en el proceso de compra, siendo la aceptación o negación de la solicitud. Para ello, el cliente debe ser capaz de seleccionar un auto junto con sus especificaciones, aplicar para la compra del mismo, subir la información y documentos necesarios, darle seguimiento a su solicitud, esperar la aceptación/negación de la misma, efectuar la compra por uno de los métodos de pago disponible, continuar la comunicación con el vendedor el tiempo que sea necesario para finalmente recibir su adquisición. 
 
 - <i>Agendado de la prueba de manejo:</i> Todas las pruebas deberán permitir que el cliente tenga la capacidad de agendar una prueba de manejo exitosamente, y que este pase por las dos posibilidades principales en el proceso de agendado, siendo la aceptación o negación de la solicitud. Para ello, el cliente debe ser capaz de seleccionar un auto, solicitar una prueba de manejo para el mismo, subir la información y documentación necesaria, darle seguimiento a la solicitud, y de ser aceptada seleccionar una fecha, lugar y hora disponible en el horario del vendedor. Asimismo, la comunicación entre el cliente y el vendedor debe de ser posible en todo momento como parte del seguimiento de la prueba de manejo. 
 
-#### <b>Pruebas de Validación/Aceptación</b>
+### <b>Pruebas de Validación/Aceptación</b>
 <p align="justify">Los clientes y representantes de los mismos están satisfechos con la funcionalidad revisada así como la experiencia del usuario (UI/UX)  de la plataforma.
 
-#### <b>Pruebas Estáticas de Recorrido</b>
+### <b>Pruebas Estáticas de Recorrido</b>
 <p align="justify">Es posible completar el flujo básico de la plataforma para cada uno de los tipos de usuario, desde el registro, login hasta cada una de sus acciones principales. 
 
-### 2.8 Entregables de Pruebas
+## 2.8 Entregables de Pruebas
 
 <table>
 <thead>
@@ -503,7 +503,7 @@ El propósito de este tipo de pruebas es asegurar que el servicio, en términos 
 </tbody>
 </table>
 
-### 2.9 
+## 2.9 Lista de Hitos
 La lista de hitos es tentativa y puede cambiar por las siguientes razones:
 1. Cualquier problema con la preparación del entorno del Sistema
 2. Cualquier cambio en el alcance o cosas agregadas al alcance del proyecto
@@ -771,8 +771,8 @@ La lista de hitos es tentativa y puede cambiar por las siguientes razones:
   </table>
 
 
-## 3. Proceso de gestión de pruebas
-### 3.1 Proceso de ejecución de pruebas
+# 3. Proceso de gestión de pruebas
+## 3.1 Proceso de ejecución de pruebas
 
 1. Aprobación del plan de pruebas y funcionamiento del ambiente de pruebas en todos los dispositivos que serán utilizados.
   
@@ -800,7 +800,7 @@ La lista de hitos es tentativa y puede cambiar por las siguientes razones:
 
     - Durante el ciclo siguiente, se probarán las pruebas falladas corregidas y los resultados se actualizarán en el documento durante el ciclo hasta que todas las pruebas pasen. El proceso continúa hasta que se llegue a un estándar comercial, promoviendo fiabilidad, fácil acceso y alta estabilidad.
 
-### 3.2 Riesgos de prueba y factores de mitigación
+## 3.2 Riesgos de prueba y factores de mitigación
 
 <table>
   <thead>
@@ -966,7 +966,7 @@ La lista de hitos es tentativa y puede cambiar por las siguientes razones:
     </tr>
   </table>
 
-  ### 3.3 Plan de comunicaciones y lista de equipos
+  ## 3.3 Plan de comunicaciones y lista de equipos
 
   <table>
     <thead>
@@ -1037,40 +1037,40 @@ La lista de hitos es tentativa y puede cambiar por las siguientes razones:
     </tr>
   </table>
 
-### Expectativas del Rol 
+## Expectativas del Rol 
 Es importante aclarar que dentro del proyecto presente, todos los involucrados en el desarrollo de la aplicación cumpliran un rol como tester a pesar de las responsabilidades que tengan en otro rol. Por lo antes mencionado, por cada componente que sea finalizado por cualquier persona en el equipo de desarrollo se realizará una prueba informal. De la misma manera, todo el equipo de desarrollo tiene como responsabilidad validar con el cliente los componentes de la aplicación y el entregable final.
 
 La siguiente lista define en términos generales las expectativas relacionadas a los roles que están involucrados con el manejo, planeación o ejecución de la prueba para el proyecto.
 
-### Project Manager 
+## Project Manager 
 Revisa el contenido del plan de pruebas, la estrategia de las pueblas, los estimados, criterios de validación con los equipos de trabajo, líderes y los stakeholders. Recopila la retroalimentación e informa a los demás. Tiene la responsabilidad de darle acompañamiento a las pruebas de caja blanca.
 
-### Líder de Pruebas 
+## Líder de Pruebas 
 Junto con el project manager, crea y revisa el contenido del plan de pruebas, la estrategia de las pueblas, los estimados y criterios de validación coordinando la ejecución con las actividades programadas en el cronograma del proyecto. Recibe retroalimentación de los equipos de trabajo, líderes y los stakeholders, se asegura que las pruebas se ejecuten en tiempo y forma y documenta el proceso y los resultados.
 
-### Líder de Back-End 
+## Líder de Back-End 
 Junto con el líder de pruebas y el project manager, suma al contenido del plan de pruebas considerando las actividades programadas para el desarrollo del back-end, el avance del mismo y se asegura de la ejecución de las pruebas de sus componentes y que la integración con los otros equipos sea probada y documentada. Se le asignan pruebas, es parte y delega dichas pruebas y se asegura que las funcionalidades críticas de su desarrollo sean consideradas como parte del plan de pruebas. Tiene un seguimiento de las pruebas informales que sus desarrolladores han ejecutado. 
 
-### Líder de Front-End 
+## Líder de Front-End 
 Junto con el líder de pruebas y el project manager, suma al contenido del plan de pruebas considerando las actividades programadas para el desarrollo del front-end, el avance del mismo y se asegura de la ejecución de las pruebas de sus componentes y que la integración con los otros equipos sea probada y documentada. Se le asignan pruebas, es parte y delega dichas pruebas y se asegura que las funcionalidades críticas de su desarrollo sean consideradas como parte del plan de pruebas. Tiene un seguimiento de las pruebas informales que sus desarrolladores han ejecutado. 
 
-### Líder de Base de Datos 
+## Líder de Base de Datos 
 Junto con el líder de pruebas y el project manager, suma al contenido del plan de pruebas considerando las actividades programadas para el desarrollo de la base de datos, el avance de la misma y se asegura de la ejecución de las pruebas de sus componentes y que la integración con los otros equipos sea probada y documentada. Se le asignan pruebas, es parte y delega dichas pruebas y se asegura que las funcionalidades críticas de su desarrollo sean consideradas como parte del plan de pruebas. Tiene un seguimiento de las pruebas informales que sus desarrolladores han ejecutado. 
 
-### Líder de Seguridad 
+## Líder de Seguridad 
 Junto con el líder de pruebas y el project manager, suma al contenido del plan de pruebas considerando las actividades programadas para la protección de los diferentes aspectos del proyecto y la autenticación de los usuarios, y se asegura de la ejecución de las pruebas de sus componentes y que la integración con los otros equipos sea probada y documentada. Se le asignan pruebas, es parte y delega dichas pruebas y se asegura que las funcionalidades críticas de su desarrollo sean consideradas como parte del plan de pruebas. Tiene un seguimiento de las pruebas informales que sus desarrolladores han ejecutado.
 
-### Equipo de Desarrollo / Testers
+## Equipo de Desarrollo / Testers
 Junto con sus respectivos líderes ejecutan las diferentes pruebas establecidas en el plan y se aseguran de que estas sean ejecutadas en el mismo ambiente siguiendo la metodología. Proveen y dan seguimiento a la retroalimentación y documentan el proceso y los resultados, así garantizando un proceso de QA transparente. Informan a los líderes si existe algún problema o si algún componente necesita ser corregido, se encargan de hacer las pruebas en tiempo y forma (de acuerdo al cronograma), llevan un seguimiento de sus pruebas informales y corrigen sus funcionalidades. Cada integrante del desarrollo tiene la responsabilidad de realizar sus pruebas asignadas de caja negra y junto con el SCRUM Master y el Project Manager realizar las pruebas de caja blanca. 
 
-### Cronograma de Actividades
+## Cronograma de Actividades
 [Gantt](https://tec95061.monday.com/boards/4072044099/)
 
-## 4. Ambiente de Pruebas
+# 4. Ambiente de Pruebas
 
-## 5. Pruebas
+# 5. Pruebas
 
-## 6. Conclusiones
+# 6. Conclusiones
 En conclusión, la aplicación de un plan de pruebas exhaustivo es esencial para el éxito del proyecto, sobre todo al tratarse de desarrollo de software. Esto ya que las pruebas continuas y sistematizadas  permiten identificar así como abordar posibles problemas emergentes antes de que se conviertan en riesgos  mayores. Con acceso al documento del plan de pruebas, los miembros del equipo tendrán una comprensión clara de los requisitos y expectativas del proyecto, que puede servir de guía para la toma de decisiones y la resolución de problemas.
 
 El compromiso tanto del equipo de pruebas como de los desarrolladores, es crucial para la aplicación eficaz de este plan de pruebas. La adhesión a los contenidos acordados del documento garantiza que todos estén en la misma página y trabajen por el mismo objetivo, así facilitando un desarrollo fluido y el cumplimiento de los planes elaborados antes de la implantación.
