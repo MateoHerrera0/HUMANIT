@@ -315,6 +315,142 @@ Todas las pruebas se harán en el mismo ambiente.
 * Las estadísticas son válidas y representativas de los datos dentro del sistema
 * Las opciones y parámetros presentes dentro de la vista permiten ver estadísticas particulares de acuerdo a la selección de las mismas.
 
+	
+<b>Flujo del Grupo Automotriz:</b><br>
+
+<b>Etapa 1:</b><br>
+<i>Probar funcionalidad del Login.</i>
+* Acceso válido con Credenciales correctas de super-administrador
+* Acceso no autorizado con correo invalido/cuenta inexistente
+* Acceso no autorizado con contraseña incorrecta
+
+<i>Probar funcionalidad para realizar una aplicación.</i>
+* Publicación válida de documentos.
+* Publicación válida de datos.
+* Subida de la creación de la aplicación en la plataforma.
+
+<i>Probar funcionalidad del panel de seguimiento a una aplicación</i>
+* Es posible eliminar los archivos subidos.
+* Es posible volver a subir archivos después de haber eliminado los mismos.
+* Es posible modificar la información subida.
+* los cambios realizados a la aplicación se guardan correctamente.
+
+<i>Probar funcionalidad de la modificación de los datos del perfil.</i>
+* Es posible eliminar y reescribir cada rubro en la información del perfil.
+* Los cambios se guardan correctamente.
+
+<i>Probar funcionalidad de la eliminación de una cuenta.</i>
+* El sistema muestra una opción para borrar la cuenta.
+* El sistema verifica que el usuario desea eliminar su cuenta.
+
+<b>Etapa 2:</b><br>
+<i>Probar funcionalidad de Login.</i>
+* Acceso válido con Credenciales correctas de super-administrador
+* Acceso no autorizado con correo invalido/cuenta inexistente
+* Acceso no autorizado con contraseña incorrecta
+
+<i>Probar funcionalidad del registro de una agencia.</i>
+* Se accede al landing-page de creación de una agencia
+* Creación exitosa de una agencia
+* Acceso exitoso a la cuenta de la agencia
+
+<i>Probar funcionalidad de la búsqueda de usuarios.</i>
+* Se hace una búsqueda de un usuario dentro del buscador.
+* El sistema muestra los resultados de los usuarios encontrados según la búsqueda.
+
+<i>Probar funcionalidad del filtrado de usuarios.</i>
+* Dentro de la búsqueda se muestran los filtros disponibles para la búsqueda.
+* Se seleccionan los filtros deseados.
+* El sistema muestra los resultados de los usuarios según los filtros aplicados.
+
+<i>Probar funcionalidad para la modificación de datos de una agencia.</i>
+* Se accede a la página de la cuenta de la agencia.
+* Se efectúa un cambio de la información de la agencia desde la página de la cuenta.
+* Se guardan los cambios de la cuenta de la agencia.
+
+<i>Probar funcionalidad del dashboard estadístico.</i>
+* Acceso al dashboard con una cuenta de nivel valido muestra las estadísticas y métricas de la plataforma
+* Las estadísticas son válidas y representativas de los datos dentro del sistema.
+* Las opciones y parámetros presentes dentro de la vista permiten ver estadísticas particulares de acuerdo a la selección de las mismas.
+
+<b>Flujo de la Agencia:</b><br>
+
+<i>Probar funcionalidad de Login.</i>
+* Acceso válido con Credenciales correctas de super-administrador.
+* Acceso no autorizado con correo invalido/cuenta inexistente.
+* Acceso no autorizado con contraseña incorrecta.
+
+<i>Probar funcionalidad de la búsqueda de usuarios.</i>
+* Se hace una búsqueda de un usuario dentro del buscador.
+* El sistema muestra los resultados de los usuarios encontrados según la búsqueda.
+
+<i>Probar funcionalidad del filtrado de usuarios.</i>
+* Dentro de la búsqueda se muestran los filtros disponibles para la búsqueda.
+* Se seleccionan los filtros deseados.
+* El sistema muestra los resultados de los usuarios según los filtros aplicados.
+
+<i>Probar funcionalidad del registro de un gerente.</i>
+* Se accede al landing-page de creación de un gerente.
+* Creación exitosa de un gerente
+* Acceso exitoso a la cuenta del gerente.
+
+<i>Probar funcionalidad para la modificación de datos de un gerente.</i>
+* Se accede a la página de la cuenta del gerente.
+* Se efectúa un cambio de la información del gerente desde la página de la cuenta.
+* Se guardan los cambios de la cuenta del gerente.
+
+<i>Probar funcionalidad para la actualización/modificación del catálogo de autos.</i>
+* Se presenta la opción de agregar un auto.
+* Se suben correctamente las imágenes.
+* Se suben correctamente los datos ingresados.
+* Se presenta la opción de editar un auto.
+* Se reemplazan correctamente las imágenes previamente subidas por las nuevas.
+* Es posible cambiar cada rubro de la información de un auto.
+* Se guarda correctamente la publicación del auto o la modificación según sea el caso.
+
+<i>Probar funcionalidad del dashboard estadístico.</i>
+* Acceso al dashboard con una cuenta de nivel valido muestra las estadísticas y métricas de la plataforma
+* Las estadísticas son válidas y representativas de los datos dentro del sistema.
+* Las opciones y parámetros presentes dentro de la vista permiten ver estadísticas * particulares de acuerdo a la selección de las mismas.
+
+<b>Flujo del Gerente:</b><br>
+<i>Probar funcionalidad de Login.</i>
+* Acceso válido con Credenciales correctas de super-administrador.
+* Acceso no autorizado con correo invalido/cuenta inexistente.
+* Acceso no autorizado con contraseña incorrecta.
+<i>Probar funcionalidad de la búsqueda de usuarios.</i>
+* Se hace una búsqueda de un usuario dentro del buscador.
+* El sistema muestra los resultados de los usuarios encontrados según la búsqueda.
+
+<i>Probar funcionalidad del filtrado de usuarios.</i>
+* Dentro de la búsqueda se muestran los filtros disponibles para la búsqueda.
+* Se seleccionan los filtros deseados.
+* El sistema muestra los resultados de los usuarios según los filtros aplicados.
+
+<i>Probar funcionalidad del registro de un vendedor.</i>
+* Se accede al landing-page de creación de un vendedor.
+* Creación exitosa de un vendedor.
+* Acceso exitoso a la cuenta del vendedor.
+
+<i>Probar funcionalidad para la modificación de datos de un vendedor.</i>
+* Se accede a la página de la cuenta del vendedor.
+* Se efectúa un cambio de la información del vendedor desde la página de la cuenta.
+* Se guardan los cambios de la cuenta del vendedor.
+
+<i>Probar funcionalidad para la actualización/modificación del catálogo de autos.</i>
+* Se presenta la opción de agregar un auto.
+* Se suben correctamente las imágenes.
+* Se suben correctamente los datos ingresados.
+* Se presenta la opción de editar un auto.
+* Se reemplazan correctamente las imágenes previamente subidas por las nuevas.
+* Es posible cambiar cada rubro de la información de un auto.
+* Se guarda correctamente la publicación del auto o la modificación según sea el caso.
+
+<i>Probar funcionalidad del dashboard estadístico.</i>
+* Acceso al dashboard con una cuenta de nivel valido muestra las estadísticas y métricas de la plataforma
+* Las estadísticas son válidas y representativas de los datos dentro del sistema.
+* Las opciones y parámetros presentes dentro de la vista permiten ver estadísticas particulares de acuerdo a la selección de las mismas.
+	
 <b>Flujo del Vendedor:</b><br>
 <i>1. Probar funcionalidad del Login.</i><br>
 * Acceso válido con Credenciales correctas de vendedor
