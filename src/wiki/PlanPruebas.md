@@ -797,3 +797,14 @@ Junto con sus respectivos líderes ejecutan las diferentes pruebas establecidas 
 
 ### Cronograma de Actividades
 [Gantt](https://tec95061.monday.com/boards/4072044099/)
+
+## 4. Ambiente de Pruebas
+
+## 5. Pruebas
+
+## 6. Conclusiones
+En conclusión, la aplicación de un plan de pruebas exhaustivo es esencial para el éxito del proyecto, sobre todo al tratarse de desarrollo de software. Esto ya que las pruebas continuas y sistematizadas  permiten identificar así como abordar posibles problemas emergentes antes de que se conviertan en riesgos  mayores. Con acceso al documento del plan de pruebas, los miembros del equipo tendrán una comprensión clara de los requisitos y expectativas del proyecto, que puede servir de guía para la toma de decisiones y la resolución de problemas.
+
+El compromiso tanto del equipo de pruebas como de los desarrolladores, es crucial para la aplicación eficaz de este plan de pruebas. La adhesión a los contenidos acordados del documento garantiza que todos estén en la misma página y trabajen por el mismo objetivo, así facilitando un desarrollo fluido y el cumplimiento de los planes elaborados antes de la implantación.
+
+Asimismo, el plan de pruebas puede ayudar al equipo a evaluar y mejorar el rendimiento general del proyecto. Mediante el seguimiento del progreso y la identificación de áreas de mejora, el equipo puede perfeccionar el plan del proyecto, optimizar los recursos y mejorar la eficiencia general del proyecto. En términos generales, la aplicación de un plan de pruebas exhaustivo es esencial para el éxito de cualquier proyecto. Con pruebas continuas, directrices claras y el compromiso de los miembros del equipo, el proyecto puede entregarse a tiempo, dentro del presupuesto y con la calidad esperada.
