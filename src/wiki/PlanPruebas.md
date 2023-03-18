@@ -9,7 +9,8 @@
 | Date       | Version | Description  |  
 |------------|:-------:| :----------- |
 | 12/03/2023 | 0.1     | Creación del Doc SRS|                          
-| 13/03/2023 | 0.2     | Doc en Markdown|      
+| 13/03/2023 | 0.2     | Doc en Markdown| 
+| 13/03/2023 | 1       | Entregable     |      
 
 # Índice
 1. [Introducción](#1-introducción)
@@ -31,17 +32,17 @@
     2.5. [Alcance](#25-alcance)
 
     2.6. [Niveles de pruebas](#26-niveles-de-pruebas)<br>	
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prueba de Caja Blanca (Prueba Funcional)<br>	
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prueba de Integración (Prueba Funcional)<br>	
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prueba de Aceptación (Prueba Funcional)<br>	
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prueba de Recorrido Estático (Validación)<br>	
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Prueba de Caja Blanca (Prueba Funcional)](#prueba-de-caja-negra-prueba-funcional)<br>	
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Prueba de Integración (Prueba Funcional)](#prueba-de-integración-prueba-funcional)<br>	
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Prueba de Aceptación (Prueba Funcional)](#prueba-de-aceptación-prueba-funcional)<br>	
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Prueba de Recorrido Estático (Validación)](#prueba-de-recorrido-estático-validación)<br>	
 
     2.7. [Criterios de aceptación de pruebas](#27-criterios-de-aceptación-de-pruebas)<br>	
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pruebas Informales<br>	
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pruebas Unitarias<br>	
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prueba de Integración<br>	
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prueba de Validación/Aceptación<br>	
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pruebas Estáticas de Recorrido<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pruebas Informales](#pruebas-informales)<br>	
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pruebas Unitarias](#pruebas-unitarias)<br>	
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Prueba de Integración](#pruebas-de-integración)<br>	
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Prueba de Validación/Aceptación](#pruebas-de-validaciónaceptación)<br>	
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pruebas Estáticas de Recorrido](#pruebas-estáticas-de-recorrido)<br>
 
     2.8. [Entregables de pruebas](#28-entregables-de-pruebas)
 
@@ -56,11 +57,11 @@
     3.2. [Riesgos de prueba y factores de mitigación](#32-riesgos-de-prueba-y-factores-de-mitigación)
 
     3.3. [Plan de comunicaciones y lista de equipos](#33-plan-de-comunicaciones-y-lista-de-equipos) <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Expectativas del Rol<br>	
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Project Manager<br>	
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Líder de Pruebas<br>	
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Líder de Back-End<br>	
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cronograma de Actividades
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Expectativas del Rol](#expectativas-del-rol)<br>	
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Project Manager](#project-manager)<br>	
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Líder de Pruebas](#líder-de-pruebas)<br>	
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Líder de Back-End](#líder-de-back-end)<br>	
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Cronograma de Actividades](#cronograma-de-actividades)
 
 4. [Ambiente de pruebas](#4-ambiente-de-pruebas)	
 
