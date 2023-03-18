@@ -120,7 +120,7 @@ Para hacer más eficaz nuestro proceso de pruebas de caja blanca, usaremos la t�
 <p align="justify">Es relevante mencionar, que en esta estrategia se mantiene un flujo iterativo, donde de ser necesario se actualizará el documento de pruebas o se podrá regresar a etapas de pruebas anteriores para así solucionar cualquier fallo o error en cualquier nivel de la plataforma.
 
 ## 2.2 Objetivo de las Pruebas
-<p align="justify"> El objetivo de las pruebas que se realizarán durante el transcurso del proyecto es la validación de las funcionalidades fundamentales de la aplicación, al igual que comprobar la correcta implementación de los requerimientos establecidos en el documento [SRS](SRS.md). En consideración de este objetivo, las pruebas a realizarse comprenderán:<br>
+<p align="justify"> El objetivo de las pruebas que se realizarán durante el transcurso del proyecto es la validación de las funcionalidades fundamentales de la aplicación, al igual que comprobar la correcta implementación de los requerimientos establecidos en el documento <a href="https://github.com/MateoHerrera0/HUMANIT/blob/main/src/wiki/SRS.md">SRS</a>. En consideración de este objetivo, las pruebas a realizarse comprenderán:<br>
 
 * Pruebas que aseguren la correcta autorización de usuarios, al igual que la asignación de los premios asociados.
 * Pruebas que comprueben el correcto funcionamiento en la búsqueda y filtrado del catálogo de autos.
