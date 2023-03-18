@@ -27,7 +27,7 @@
 
     2.3. [Suposiciones de las pruebas](#23-suposiciones-de-las-pruebas)
 
-    2.4. [Objetivos de las pruebas]
+    2.4. [Objetos de las pruebas](#24-objetos-de-las-pruebas)
 
     2.5. [Alcance](#25-alcance)
 
@@ -152,7 +152,7 @@ Todas las pruebas se harán en el mismo ambiente.
 12. El equipo de pruebas manejará todo el esfuerzo de ejecución de prueba de forma coordinada con el PM.
 13. El recorrido y manual de usuario se realizará en los últimos sprints.
 
-## 2.4 Objetivos de las Pruebas
+## 2.4 Objetos de las Pruebas
 <i>Flujo del Cliente:</i><br>
 * Probar la funcionalidad de Login.
 * Probar la funcionalidad de búsqueda de catálogo.
