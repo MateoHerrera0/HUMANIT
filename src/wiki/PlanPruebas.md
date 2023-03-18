@@ -1339,8 +1339,49 @@ Junto con sus respectivos líderes ejecutan las diferentes pruebas establecidas 
 - Todos los testers trabajaran en la misma versión de la aplicación y base de datos y tendrán las mismas versiones del software utilizado (incluyendo las librerías y dependencias).
 - En caso de ser necesario se usará docker para poder ejecutar las pruebas y estandarizar el ambiente de trabajo.
 
-
 # 5. Pruebas
+Esto se llenará con la fase de despliegue de la unidad de formación “TC30005B”. A continuación, la propuesta de templates que se utilizarán para las diferentes pruebas mencionadas.
+
+<br>
+**Template Recorrido**
+
+Nombre del Tester: <br>
+Nombre del Moderador: <br>
+
+| ID | Paso    | Descripción | Resultado Esperado | Resultado Actual | Observaciones | Pasa o No Pasa |  
+|----|:-------:| :---------- | :----------------- | :--------------- | :------------ | :---------: |
+| x  | Ejemplo | Ejemplo     | Ejemplo            | Ejemplo          | Ejemplo       | Sí/No   |                      
+<br>
+
+**Template Caja Negra**
+
+Nombre del Tester: <br>
+Nombre de la Función/Componente: <br>
+
+| ID | Descripción | Resultado Esperado | Parámtero n | Parámtero n+1 |Resultado Actual | Observaciones | Pasa o No Pasa |  
+|----|:-------:| :---------- | :----------------- | :--------------- | :------------ | :------------ | :---------: |
+| x  | Ejemplo | Ejemplo     | Ejemplo            | Ejemplo          | Ejemplo       | Ejemplo       | Sí/No   |  
+<br>
+
+**Template Caja Blanca**
+
+Nombre del Tester: <br>
+Nombre del Moderador: <br>
+
+| ID | Descripción | Línea de Código | Resultado Esperado | Resultado Actual | Observaciones | Pasa o No Pasa |  
+|----|:-------:| :---------- | :----------------- | :--------------- | :------------ | :---------: |
+| x  | Ejemplo | Ejemplo     | Ejemplo            | Ejemplo          | Ejemplo       | Sí/No   |      
+<br>
+
+**Template Prueba de Integración**
+
+Nombre del Tester: <br>
+Nombre de la Función/Componente: <br>
+
+| ID | Descripción de la Relación | Resultado Esperado | Parámtero n | Parámtero n+1 |Resultado Actual | Observaciones | Pasa o No Pasa |  
+|----|:-------:| :---------- | :----------------- | :--------------- | :------------ | :------------ | :---------: |
+| x  | Ejemplo | Ejemplo     | Ejemplo            | Ejemplo          | Ejemplo       | Ejemplo       | Sí/No   |  
+<br>
 
 # 6. Conclusiones
 En conclusión, la aplicación de un plan de pruebas exhaustivo es esencial para el éxito del proyecto, sobre todo al tratarse de desarrollo de software. Esto ya que las pruebas continuas y sistematizadas  permiten identificar así como abordar posibles problemas emergentes antes de que se conviertan en riesgos  mayores. Con acceso al documento del plan de pruebas, los miembros del equipo tendrán una comprensión clara de los requisitos y expectativas del proyecto, que puede servir de guía para la toma de decisiones y la resolución de problemas.
