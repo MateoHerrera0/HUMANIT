@@ -49,24 +49,25 @@
 
     2.10. [Estimación de esfuerzo de las pruebas](#210-estimación-de-esfuerzo-de-las-pruebas)
 
-3. Proceso de gestión de pruebas
+3. [Proceso de gestión de pruebas](#3-proceso-de-gestión-de-pruebas)
 
-    3.1. Proceso de ejecución de pruebas
+    3.1. [Proceso de ejecución de pruebas](#31-proceso-de-ejecución-de-pruebas)
 
-    3.2. Riesgos de prueba y factores de mitigación
+    3.2. [Riesgos de prueba y factores de mitigación](#32-riesgos-de-prueba-y-factores-de-mitigación)
 
-    3.3. Plan de comunicaciones y lista de equipos <br>
+    3.3. [Plan de comunicaciones y lista de equipos](#33-plan-de-comunicaciones-y-lista-de-equipos) <br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Expectativas del Rol<br>	
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Project Manager<br>	
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Líder de Pruebas<br>	
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Líder de Back-End<br>	
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cronograma de Actividades
 
-4. Ambiente de pruebas	
+4. [Ambiente de pruebas](#4-ambiente-de-pruebas)	
 
-5. Pruebas
+5. [Pruebas](#5-pruebas)
 
-6. Conclusiones
+6. [Conclusiones](#6-conclusiones)
+
 <br>
 
 
