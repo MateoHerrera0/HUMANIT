@@ -12,41 +12,62 @@
 | 13/03/2023 | 0.2     | Doc en Markdown|      
 
 # Índice
-1. Introducción<br>
-    1.1. Propósito<br>
-    1.2. Audiencia<br>	
-2. Estrategia de pruebas<br>	
-    2.1. Descripción de pruebas<br>	
-    2.2. Objetivo de las pruebas<br>	
-    2.3. Suposiciones de las pruebas<br>	
-    2.4. Objetivos de las pruebas<br>	
-    2.5. Alcance<br>	
-    2.6. Niveles de pruebas<br>	
+1. [Introducción](#1-introducción)
+
+    1.1. [Propósito](#11-propósito)
+
+    1.2. [Audiencia](#12-audiencia)
+
+2. [Estrategia de pruebas](#2-estrategia-de-pruebas)
+
+    2.1. [Descripción de pruebas](#21-descripción-de-pruebas)
+
+    2.2. [Objetivo de las pruebas](#22-objetivo-de-las-pruebas)
+
+    2.3. [Suposiciones de las pruebas](#23-suposiciones-de-las-pruebas)
+
+    2.4. [Objetivos de las pruebas]
+
+    2.5. [Alcance](#25-alcance)
+
+    2.6. [Niveles de pruebas](#26-niveles-de-pruebas)<br>	
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prueba de Caja Blanca (Prueba Funcional)<br>	
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prueba de Integración (Prueba Funcional)<br>	
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prueba de Aceptación (Prueba Funcional)<br>	
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prueba de Recorrido Estático (Validación)<br>	
-    2.7. Criterios de aceptación de pruebas<br>	
+
+    2.7. [Criterios de aceptación de pruebas](#27-criterios-de-aceptación-de-pruebas)<br>	
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pruebas Informales<br>	
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pruebas Unitarias<br>	
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prueba de Integración<br>	
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prueba de Validación/Aceptación<br>	
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pruebas Estáticas de Recorrido<br>	
-    2.8. Entregables de pruebas<br>	
-    2.9. Lista de hitos<br>	
-    2.10. Estimación de esfuerzo de las pruebas<br>
-3. Proceso de gestión de pruebas<br>
-    3.1. Proceso de ejecución de pruebas<br>	
-    3.2. Riesgos de prueba y factores de mitigación<br>
-    3.3. Plan de comunicaciones y lista de equipos<br>	
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pruebas Estáticas de Recorrido<br>
+
+    2.8. [Entregables de pruebas](#28-entregables-de-pruebas)
+
+    2.9. [Lista de hitos](#29-lista-de-hitos)
+
+    2.10. [Estimación de esfuerzo de las pruebas](#210-estimación-de-esfuerzo-de-las-pruebas)
+
+3. Proceso de gestión de pruebas
+
+    3.1. Proceso de ejecución de pruebas
+
+    3.2. Riesgos de prueba y factores de mitigación
+
+    3.3. Plan de comunicaciones y lista de equipos <br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Expectativas del Rol<br>	
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Project Manager<br>	
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Líder de Pruebas<br>	
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Líder de Back-End<br>	
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cronograma de Actividades<br>	
-4. Ambiente de pruebas<br>	
-5. Pruebas<br>	
-6. Conclusiones<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cronograma de Actividades
+
+4. Ambiente de pruebas	
+
+5. Pruebas
+
+6. Conclusiones
+<br>
 
 
 # 1. Introducción
